@@ -1,4 +1,10 @@
-egogarcia.github.io
-===================
+WebYo
+=====
+Senior Software Developer
 
-Eric Garcia Ordoñez - Senior Software Developer - Lead Programmer -Freelance Developer
+Lead Programmer
+
+Freelance Developer
+
+
+Eric Garcia Ordoñez Personal Website
