@@ -186,10 +186,10 @@ jQuery(document).ready(function() {
 	/*	Works
 	/*-----------------------------------------------------------------------------------*/
 	
-	var curWork,nextWork,previousWork,offsetWork;
+	/*var curWork,nextWork,previousWork,offsetWork;
 
 	/* Function to load project */
-	jQuery('.work').click(function(){
+	/*jQuery('.work').click(function(){
 		curWork = jQuery(this).attr("id");
 		offsetWork = jQuery("#"+curWork).offset().top;
 		var cur = curWork.split('-');
@@ -213,7 +213,7 @@ jQuery(document).ready(function() {
 	});
 	
 	/* Function to close project */
-	jQuery('#close-project').click(function(){
+	/*jQuery('#close-project').click(function(){
 		jQuery('iframe').attr('src', jQuery('iframe').attr('src')); // required to stop video's on exit project
 		jQuery("#project-page").fadeOut(500, function(){
 			jQuery("#page").fadeIn(500);
@@ -223,7 +223,7 @@ jQuery(document).ready(function() {
 	});
 	
 	/* Function to load next project */
-	jQuery('#next-project').click(function(){
+	/*jQuery('#next-project').click(function(){
 		var cur = nextWork;
 		jQuery("#next-project-name").animate({"right":"8em","opacity":"0"}, 500, function(){
 			jQuery("#project").fadeOut(500,function(){
@@ -244,7 +244,7 @@ jQuery(document).ready(function() {
 	});
 	
 	/* Function to load previous project */
-	jQuery('#previous-project').click(function(){
+	/*jQuery('#previous-project').click(function(){
 		var cur = previousWork;
 		jQuery("#previous-project-name").animate({"left":"8em","opacity":"0"}, 500, function(){
 			jQuery("#project").fadeOut(500,function(){
@@ -262,7 +262,7 @@ jQuery(document).ready(function() {
 				jQuery("#project").fadeIn(500);
 			});
 		});
-	});
+	});*/
 	
 	/* Works Top Bar */
 	jQuery(window).bind('scroll', function () {

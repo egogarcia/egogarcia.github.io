@@ -156,7 +156,7 @@ ul.social li a:hover i{color:white;}
    Studio Styles
    ========================================================================== */
 section#studio{padding-bottom: 0;overflow:hidden;}
-#studio, #contacts{background:#f2f2f2;}	
+#studio{background:#f2f2f2;}	
 .swiper-slide:not(.swiper-slide-active) img{-webkit-filter: grayscale(100%);filter: url("data:image/svg+xml;filter: gray;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");}
 
 /* Swiper - Mobile Touch Slider CSS 
@@ -294,7 +294,7 @@ span.valid{background-image:url("../images/notifications/valid.svg");}
 
 /* Social Footer */
 
-footer{padding-bottom: 3.75em; background-color:#f2f2f2;}
+footer{padding-bottom: 3.75em;}
 footer hr{margin:0; margin-bottom:2em;border-bottom:1px solid #cccccc;}
 
 #social-profiles ul.centerUl li a i {text-decoration:none; color: black;opacity: 0.5;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}
@@ -304,7 +304,7 @@ footer hr{margin:0; margin-bottom:2em;border-bottom:1px solid #cccccc;}
 
 /* ==========================================================================
    Project Styles
-   ========================================================================== */
+   ========================================================================== 
    
 #project-page{display:none;}
 #project-page .button{border:none;box-shadow:inherit;}
@@ -337,7 +337,7 @@ footer hr{margin:0; margin-bottom:2em;border-bottom:1px solid #cccccc;}
 #project-details img{width:100%; height:auto;margin-bottom: 2em;}
 
 #project-client{ font-weight: bold;font-style: italic;margin-bottom: 0;}
-#project-tags{font-size: 0.9em;}
+#project-tags{font-size: 0.9em;}*/
 
 
 
