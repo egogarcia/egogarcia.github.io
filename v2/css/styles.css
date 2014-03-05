@@ -74,7 +74,7 @@ height: 100%;
 .no-touch #header{-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;background-attachment: fixed;}
 
 #logo{display:none;}
-#logo img{width:100px;}
+#logo img{width:200px;}
    
 /* Intro Styles */
    
@@ -99,9 +99,9 @@ height: 100%;
 #top-navigation li:not(active) a{color:#fff;}
 #top-navigation li.active a, #top-navigation li:hover a{color:#f4594e;}
 
-#logo-lettering img{height: 3.125em;}
+#logo-lettering img{margin:0.51em; height: 2.425em;}
 
-#menu-mobile i{position:absolute;top:0.3em;right:0.6em; color: white; cursor:pointer;}
+#menu-mobile i{position:absolute;top:0.45em;right:0.6em; color: white; cursor:pointer;}
 #menu-mobile:hover i,#menu-mobile.active i{color:#f4594e;}
 
 /* ==========================================================================
@@ -356,7 +356,7 @@ footer hr{margin:0; margin-bottom:2em;border-bottom:1px solid #cccccc;}
 	
 	/* Header */
 	
-	#logo img{width:150px;}
+	#logo img{width:425px;}
 
 	#intro h1{margin-top: 1.25em;font-size: 3em;}
 	#intro h2{font-size: 2.5em;}
@@ -408,20 +408,5 @@ footer hr{margin:0; margin-bottom:2em;border-bottom:1px solid #cccccc;}
 	#project-sidebar{text-align: right;}
 	
 	#project-top-bar{height:auto;}
-	
-	#next-project,#previous-project,#close-project,#next-project-name, #previous-project-name{position:fixed; z-index: 999;}
-	#close-project{top:0.4125em; right:1.25em;width:1.5em;height:1.5em;background-size: 1.5em;}
-	#next-project{top:18.2em; right:1.25em;}
-	#previous-project{top:18.2em; left:1.25em;}
-		
-	#next-project-name, #previous-project-name{background-color:rgb(244,89,78);background-color:rgba(244,89,78,0.7);padding:0.5em 1em;opacity:0; display: inherit;color:white;}
-	#next-project-name{top:18.8em; right:8em;}
-	#previous-project-name{top:18.8em; left:8em;}
-	
-	#next-project-name h2,#previous-project-name h2{color:white;font-size: 0.8em; padding:0;margin: 0;}
-	
-	#next-project, #previous-project, #close-project{opacity:0.6;-webkit-transition: opacity 0.3s ease-in-out;-moz-transition: opacity 0.3s ease-in-out;-o-transition: opacity 0.3s ease-in-out;transition: opacity 0.3s ease-in-out;}
-	#next-project:hover,#previous-project:hover,#close-project:hover{opacity:1;}
-	
 
 }
