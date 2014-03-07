@@ -1,626 +1,512 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-		<meta http-equiv="Content-Language" content="en-EN"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="We are passionate in software development focused in business growth using lean methodologies. Our mission is to help startups and entrepreneurship through the best IT governance.">
-        <meta name="keywords" content="lean methodologies, IT governance, Project management, Corporate data systems planning, Requirements engineering, IT Enterprise Architecture, Security Management, Sofware Development">
-        <meta name="author" content="Eric Garcia Ordoñez 2013">
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"  />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"  />
+	<meta name="description" content="Programamos, diseñamos y creamos para llevar a buen término tu idea o proyecto"  />
+	<meta name="keywords" content="Programación, Diseño, Ideas, Emprendedor, startup"  />
+	<meta name="apple-mobile-web-app-title" content="WebYo.es"  />
+  <meta name="apple-mobile-web-app-capable" content="yes"  />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="HandheldFriendly" content="True">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta property="og:title" content="WebYo.es | Análisis, Diseño y Desarrollo de Aplicaciones" />
+  <meta property="og:description" content="WebYo.es | Programamos, diseñamos y creamos para llevar a buen término tu idea o proyecto">
+  <meta property="og:url" content="http://webyo.es" />
+  <meta property="og:site_name" content="WebYo">
+  <meta property="og:image" content="" />
+  <meta property="og:locale" content="es_ES">
+  <meta itemprop="name" content="Programador Freelance para emprenededores y Startups">
+  <meta itemprop="description" content="Hola, soy Eric, ubicado en Barcelona ofrezco programación freelance para emprendedores y Startups aplicando metodologías Lean y Agile">
+  <meta itemprop="image" content="http://freelancedeveloper.es/assets/img/profile-picture.jpg">
+  <link rel="author" href="https://plus.google.com/107839398563835088830">
+  <link rel="publisher" href="https://plus.google.com/107839398563835088830">
 
+	<title>WebYo | Análisis, Diseño y Desarrollo de Aplicaciones</title>
 
-<meta property="og:title" content="Eric Garcia Ordoñez - Freelance - Senior Software Developer">
+	<link rel="shortcut icon" sizes="196x196" href="images/icons/AndroidIcon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon-57-precomposed.png">
+  
+  <!-- iPad, retina, portrait -->
+	<link href="apple-touch-startup-image-1536x2008.png"
+	      media="(device-width: 768px) and (device-height: 1024px)
+	         and (orientation: portrait)
+	         and (-webkit-device-pixel-ratio: 2)"
+	      rel="apple-touch-startup-image">
+	<!-- iPad, retina, landscape -->
+	<link href="apple-touch-startup-image-1496x2048.png"
+	      media="(device-width: 768px) and (device-height: 1024px)
+	         and (orientation: landscape)
+	         and (-webkit-device-pixel-ratio: 2)"
+	      rel="apple-touch-startup-image">
+	<!-- iPad, portrait -->
+	<link href="apple-touch-startup-image-768x1004.png"
+	      media="(device-width: 768px) and (device-height: 1024px)
+	         and (orientation: portrait)
+	         and (-webkit-device-pixel-ratio: 1)"
+	      rel="apple-touch-startup-image">
+	<!-- iPad, landscape -->
+	<link href="apple-touch-startup-image-748x1024.png"
+	      media="(device-width: 768px) and (device-height: 1024px)
+	         and (orientation: landscape)
+	         and (-webkit-device-pixel-ratio: 1)"
+	      rel="apple-touch-startup-image">
+	<!-- iPhone 5 -->
+	<link href="images/touch-startup-image/apple-touch-startup-image-640x1096.png"
+	      media="(device-width: 320px) and (device-height: 568px)
+	         and (-webkit-device-pixel-ratio: 2)"
+	      rel="apple-touch-startup-image">
+	<!-- iPhone, retina -->
+	<link href="apple-touch-startup-image-640x920.png"
+	      media="(device-width: 320px) and (device-height: 480px)
+	         and (-webkit-device-pixel-ratio: 2)"
+	      rel="apple-touch-startup-image">
+	<!-- iPhone -->
+	<link href="apple-touch-startup-image-320x460.png"
+	      media="(device-width: 320px) and (device-height: 480px)
+	         and (-webkit-device-pixel-ratio: 1)"
+	      rel="apple-touch-startup-image">
 
-        <meta property="og:url" content="http://webyo.es">    
-        <meta property="og:site_name" content="Eric Garcia Ordoñez - Freelance - Senior Software Developer">
-        <meta property="og:type" content="website">
-        <meta property="og:locale" content="en">
-        <meta property="og:image" content="img/profile-picture.png" />
-
-        <meta itemprop="name" content="Eric Garcia Ordoñez - Freelance - Senior Software Developer">
-        
-		<title>Eric Garcia Ordoñez - Freelance - Senior Software Developer</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="css/carousel.css" rel="stylesheet">
-		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-		  <script src="js/html5shiv.js"></script>
-		  <script src="js/respond.min.js"></script>
-		<![endif]-->
-	  </head>
-	  <body data-spy="scroll" data-target="#navbar">
-		<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-		  <div class="container">
-		  <!-- Brand and toggle get grouped for better mobile display -->
-		  <div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-			  <span class="sr-only">Toggle navigation</span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"></span> Eric Garcia Ordoñez</a>
-		  </div>
-
-		  <!-- Collect the nav links, forms, and other content for toggling -->
-		  <div class="collapse navbar-collapse navbar-ex1-collapse">
-			<ul class="nav navbar-nav navbar-right">
-			  <li><a href="http://freelancedeveloper.es/" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'Castellano']);"><img height="25" src="img/es.png" alt="Castellano">CASTELLANO</a></li>
-			  <li><a href="http://programadorfreelance.cat" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'Català']);"><img height="25" src="img/cat.png" alt="Castellano">CATALÀ</a></li>
-			  <li ><a href="#Experience"><span class="glyphicon glyphicon-road"></span> Experience</a></li>
-			  <li><a href="#Education"><span class="glyphicon glyphicon-book"></span> Education</a></li>
-			  <li><a href="#Projects"><span class="glyphicon glyphicon-briefcase"></span> Projects</a></li>
-			  <li><a href="#Skills"><span class="glyphicon glyphicon-check"></span> Skills & Expertise</a></li>
-			  <li><a href="#Contact"><span class="glyphicon glyphicon-comment"></span> Contact Info</a></li>
-			</ul>
-			
-		  </div><!-- /.navbar-collapse -->
-		  </div>
-		</nav>
-		<div class="container marketing" style="margin-top: 100px;">
-		
-		<div class="row">
-        <div class="col-lg-3 text-center">
-          <a href="#Experience"><img class="img-circle" src="img/profile-picture.jpg"></a>
-          <p></p></a>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-9 text-center">
-				<h1><i class="fa fa-quote-left"></i> My goal is create success using Lean & Agile <i class="fa fa-quote-right"></i></h1>
-				<h3>I'm a Software Developer focused in projects for entrepreneurs and startups, my best skills are in IT governance and application development.</h3>
-				
-				<!--<a href="#Contact" class="btn btn-success"><span class="glyphicon glyphicon-comment"></span> Let's talk</a>-->
-        </div><!-- /.col-lg-4 -->
-		</div>
-		
-		<legend ><span class="glyphicon glyphicon-road"></span> Experience</legend>
-		<div  class="panel-group" id="accordion">
-		  <div class="panel panel-info">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-				  <span>CIO - Senior software developer</span>
-				  <strong class="pull-right hidden-xs">Yourcoded.com  (2013)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseOne" class="panel-collapse collapse in">
-			  <div class="panel-body">
-			   <img class="pull-right" src="img/yourcoded.png">
-				<p>As CIO partner my main activities are:</p>
-				<ul>
-					<li>Enterprise Architecture</li>
-					<li>Project Management</li>
-					<li>Security Management</li>
-					<li>Requirement Engineering</li>
-					<li>Strategic Planning</li>
-				</ul>
-
-				<p>As Senior Software Developer, I’m part of team developing the main web application:</p>
-				<ul>
-					<li>QR code generator application for consumer products (php, symfony2, twitter bootstrap, mongodb, postgresSQL, sysadmin on centOS server ...)</li>
-				</ul>
-				<div style="text-align:center;" ><a class="btn btn-default" href="https://www.yourcoded.com" target="_blank"><span class="glyphicon glyphicon-qrcode"></span> Take me to Web application</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-info">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-				  <span>Lead programmer</span>
-				  <strong class="pull-right hidden-xs">Grupo LuErMo   (2011 -2013)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseTwo" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<img class="pull-right" src="img/luermo.png">
-				<p>My main tasks are the analysis, management and implementation of computer development projects.</p>
-				<p>We develop under PHP (Symfony 2, Doctrine, Twig, CakePHP) and J2EE (Spring MVC, Spring roo, JSF, PrimeFaces ..)</p>
-
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-info">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-				  <span>Sofware developer</span>
-				  <strong class="pull-right hidden-xs">Indra BMB  (2011 -2013)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseThree" class="panel-collapse collapse">
-			  <div class="panel-body">
-			  
-			  <img class="pull-right" src="img/indra.gif">
-				<p>Design, development and implementation of a document management system. </p>
-				<p>Brief technology description:</p>
-				<ul>
-					<li>J2EE (Spring. Hibernate. JSF RichFaces and Primefaces )</li>
-					<li>Oracle, MySql, sqlLite</li>
-					<li>Mysql</li>
-					<li>Webservices</li>
-				</ul>
-				<div style="text-align:center;" ><a class="btn btn-default" href="http://www.indracompany.com/en" target="_blank"><span class="glyphicon glyphicon-eye-open"></span> Take me to company Website</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-info">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFor">
-				  <span>Research and Application Development</span>
-				  <strong class="pull-right hidden-xs">Bit4id (2010 -2012)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseFor" class="panel-collapse collapse">
-			  <div class="panel-body">
-			   <img class="pull-right" src="img/bit4id.png">
-				<p>Research and development of applications to improve and advance with digital identity world. </p>
-				<p>Brief technology description:</p>
-				<ul>
-					<li>CMS with PHP and MySQL,Applications </li>
-					<li>Java (J2EE, Applet, Webstart..)</li>
-					<li>Applications in C# and . NET</li>
-					<li>Libraries in C and C + +</li>
-					<li>PKI Electronic Signature, SmartCards and Digital Certificates (Openssl, EJBCA, OpenCA, CryptoAPI, BouncyCastle, ...)</li>
-				</ul>
-				<div style="text-align:center;" ><a class="btn btn-default" href="http://www.bit4id.com/" target="_blank"><span class="glyphicon glyphicon-eye-open"></span> Take me to Company Website</a>
-				<a class="btn btn-default" href="http://bit4services.com/" target="_blank"><span class="glyphicon glyphicon-tower"></span> Play with demos at glance</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div id="Education" ></div>
-		  <div class="panel panel-default">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-				  <span>Few more..</span>
-				  <strong class="pull-right">...</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseFive" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<ul>
-					<li>Logistics management <strong> Sony BCN-TECH (2007 - 2009)</strong></li>
-					<li>Head of Logistics <strong> Linak A/S (2006 - 2007)</strong></li>
-					<li>Logistics management <strong> Sony BCN-TECH (2004 - 2006)</strong></li>
-				</ul>
-				
-			  </div>
-			</div>
-		  </div>
-		  
-		</div>
-		
-		<legend style="margin-top: 50px;"><span class="glyphicon glyphicon-book"></span> Education</legend>
-		<div class="panel-group" id="accordionEducation">
-		  <div class="panel panel-success">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionEducation" href="#collapseEducationOne">
-				  <span>IT Governance</span>
-				  <strong class="pull-right hidden-xs">UPC School  (2013)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseEducationOne" class="panel-collapse collapse in">
-			  <div class="panel-body">
-			    <img class="pull-right" src="img/upc.gif">
-				<p>AIMS:</p>
-				<ul>
-					<li>Learn about the concepts, methods and relevant technologies used in IT project management.</li>
-					<li>Efficiently manage a project portfolio in an organization while, unlike the management of a single project, taking into account the multiple issues involved.</li>
-					<li>Study the activities that IT governance involves, a key factor for organizations that face the challenge of managing a high volume of projects</li>
-					<li>Show students aspects of IT management that are specific to service oriented businesses.</li>
-				</ul>
-
-				
-				<div style="text-align:center;" ><a class="btn btn-default" href="http://www.talent.upc.edu/professionals/presentacio/idioma/ing/codi/300500/" target="_blank"><span class="glyphicon glyphicon-info-sign"></span> Show me more info</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-success">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionEducation" href="#collapseEducationTwo">
-				  <span>Software Engineering</span>
-				  <strong class="pull-right hidden-xs">Universitat Politècnica de Catalunya   (2011 -2013)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseEducationTwo" class="panel-collapse collapse">
-			  <div class="panel-body">
-			    <img class="pull-right" src="img/upc.gif">
-				<p>This specialisation provides students with the skills to participate in projects for the design, maintenance and evaluation of different software systems and services and to carry out the tasks corresponding to different professional roles, including project director, analyst, domain expert, requirements engineer, software architect and database administrator. Students will learn to carry out projects of arbitrary complexity (for example, involving teams from different countries), of critical importance (for example, involving potential risk to human life in the event of faulty operation) and of different technical characteristics (for example, involving service-based systems, web systems, real-time systems, embedded systems or business systems). As a differentiating feature, students will also learn to ensure that these projects comply with the main quality standards applied in the software industry and to integrate social considerations such as sustainability, resource optimisation and confidentiality.</p>
-				<div style="text-align:center;" ><a class="btn btn-default" href="http://www.fib.upc.edu/en/estudiar-enginyeria-informatica/especialitats-grau/enginyeria-del-software.html" target="_blank"><span class="glyphicon glyphicon-info-sign"></span> Show me more info</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-success">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionEducation" href="#collapseEducationThree">
-				  <span>Software Applications Development </span>
-				  <strong class="pull-right hidden-xs">Joan Brossa  (2009 -2011)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseEducationThree" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<p>Enables them to develop applications, participating in designing and conducting the test programming and documentation thereof in accordance with functional requirements and specifications approved in accordance with current regulations. His work is located primarily on the functions / sub functions of research and development (R & D), in analysis, design, production and product testing "software" in computer service companies in large and medium enterprises in the processing department Data and Public Administration (Central, Regional, Local).</p>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-success">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionEducation" href="#collapseEducationFor">
-				  <span>Management and Marketing </span>
-				  <strong class="pull-right hidden-xs">Agustí Serra and Fontanet (2006 -2008)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseEducationFor" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<p>Enables to obtain, process and organize information relating to market: products, services, pricing, distribution and communication management action plans for procurement, logistics and sales of products and / or services. You can also plan and direct the performances of "merchandising" in the shop and perform field work, obtaining, processing and organizing information in the fields of market research and advertising campaign.</p>
-				<p>Brief technology description:</p>
-				
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-success">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionEducation" href="#collapseEducationFive">
-				  <span>Electrical/Electronic Automated Systems</span>
-				  <strong class="pull-right hidden-xs">Col•legi Montserrat (2002 -2004)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseEducationFive" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<p>Install and maintain telecommunications infrastructure in buildings, low voltage electrical installations, electrical machines and automated systems, applying existing rules and regulations, protocols, quality, safety and occupational hazards, ensuring its performance and environmental friendliness. Operates in small and medium enterprises, mostly private, devoted to assembly and maintenance of communications infrastructures in buildings, electrical machines, automated systems, low voltage electrical installations and home automation systems, either on own account or for others.</p>
-				
-			  </div>
-			</div>
-		  </div>
-		  <div id="Projects" ></div>
-		  <div class="panel panel-default">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionEducation" href="#collapseEducationSix">
-				  <span>Few more..</span>
-				  <strong class="pull-right">...</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseEducationSix" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<ul>
-					<li>English lessons</li>
-					<li>Lean Startup</li>
-				</ul>
-
-			  </div>
-			</div>			
-		  </div>
-		  
-		<legend style="margin-top: 50px;"><span class="glyphicon glyphicon-briefcase"></span> Projects</legend>
-		<div class="panel-group" id="accordionProjects">
-			<div class="panel panel-primary">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProjectsPayPost">
-				  <span>COD payment with mobile</span>
-				  <strong class="pull-right">PayPost  (2014)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseProjectsPayPost" class="panel-collapse collapse in">			
-			  <div class="panel-body">
-			  <img class="pull-right" width="97" src="paypost/img/lockHeader.png">
-				<ul class="list-inline">
-					<li>PHP</li>
-					<li>Symfony2</li>
-					<li>Twitter bootstrap</li>
-					<li>Mongodb</li>
-					<li>MySQL</li>
-					<li>Doctrine</li>
-					<li>Twig</li>
-					<li>AWS</li>
-				</ul>
-
-				
-				<div style="text-align:center;"><a class="btn btn-default" href="/paypost" target="_blank"><span class="glyphicon glyphicon-saved"></span> More info</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-primary">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProjectsOne">
-				  <span>QR Marketing web application</span>
-				  <strong class="pull-right hidden-xs">Yourcoded  (2013)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseProjectsOne" class="panel-collapse collapse in">			
-			  <div class="panel-body">
-			  <img class="pull-right " src="img/qr.png">
-				<ul class="list-inline">
-					<li>PHP 5.4</li>
-					<li>Symfony2</li>
-					<li>Twitter bootstrap</li>
-					<li>Mongodb</li>
-					<li>MySQL</li>
-					<li>Doctrine</li>
-					<li>PHP GD library</li>
-					<li>Twig</li>
-					<li>Bundels</li>
-					<li>centOS</li>
-				</ul>
-
-				
-				<div style="text-align:center;" ><a class="btn btn-default" href="https://www.yourcoded.com/register" target="_blank"><span class="glyphicon glyphicon-saved"></span> Test this app for free</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-primary">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProjectsTwo">
-				  <span>Business Management System</span>
-				  <strong class="pull-right hidden-xs">Grupo LuErMo   (2012 -2013)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseProjectsTwo" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<ul class="list-inline">
-					<li>J2EE</li>
-					<li>Spring MVC</li>
-					<li>Hibernate</li>
-					<li>JSF</li>
-					<li>Primefaces</li>
-					<li>PostgreSQL</li>
-					<li>Webservices</li>
-					<li>JExcelApi</li>
-					<li>Tomcat</li>
-				</ul>
-				
-				<div style="text-align:center;" ><a class="btn btn-default" href="http://smartfunders.com" target="_blank"><span class="glyphicon glyphicon-saved"></span> Take a look</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-primary">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProjectsThree">
-				  <span>Document Management service system</span>
-				  <strong class="pull-right hidden-xs">Grupo LuErMo  (2011)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseProjectsThree" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<ul class="list-inline">
-					<li>J2EE</li>
-					<li>MySQL</li>
-					<li>JSF</li>
-					<li>RichFaces</li>
-					<li>Webservices</li>
-					<li>JExcelApi</li>
-					<li>Tomcat</li>
-				</ul>
-				<div style="text-align:center;" ><a class="btn btn-default" href="http://www.indracompany.com/en/soluciones-y-servicios/solucion/document-management/1620/summary" target="_blank"><span class="glyphicon glyphicon-info-sign"></span> Get more info</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-primary">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProjectsFour">
-				  <span>Online Certification  service system</span>
-				  <strong class="pull-right hidden-xs">Grupo LuErMo  (2011)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseProjectsFour" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<ul class="list-inline">
-					<li>Symfony 1.4</li>
-					<li>MySQL</li>
-					<li>Webservices</li>
-					<li>XML</li>
-					<li>PKI</li>
-					<li>Bouncy Castle</li>
-					<li>Python</li>
-					<li>Django</li>
-					<li>Digital signature</li>
-				</ul>
-				<div style="text-align:center;" ><a class="btn btn-default" href="https://publifirma.firmaprofesional.com/" target="_blank"><span class="glyphicon glyphicon-search"></span> Show me this</a></div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="panel panel-primary">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProjectsFive">
-				  <span>Remote signature system </span>
-				  <strong class="pull-right hidden-xs">Bit4Id  (2010)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseProjectsFive" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<ul class="list-inline">
-					<li>PHP</li>
-					<li>UserCake</li>
-					<li>MySQL</li>
-					<li>Webservices</li>
-					<li>XML</li>
-					<li>PKI</li>
-					<li>Bouncy Castle</li>
-					<li>Python</li>
-					<li>Django</li>
-					<li>Digital signature</li>
-				</ul>
-				<div style="text-align:center;" ><a class="btn btn-default" href="http://bit4services.com/FirmaRemota.html" target="_blank"><span class="glyphicon glyphicon-search"></span> Show me the demo</a></div>
-			  </div>
-			</div>
-		  </div>
-		  
-		  <div class="panel panel-primary">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProjectsSix">
-				  <span>Digital signature Applet</span>
-				  <strong class="pull-right hidden-xs">Bit4Id  (2010)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseProjectsSix" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<ul class="list-inline">
-					<li>Java</li>
-					<li>Applet</li>
-				</ul>
-				<div style="text-align:center;" ><a class="btn btn-default" href="http://bit4services.com/smartAPPLET/#!" target="_blank"><span class="glyphicon glyphicon-search"></span> Show me the demo</a></div>
-			  </div>
-			</div>
-			</div>
-			<div class="panel panel-primary">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProjectsSeven">
-				  <span>bit4Id E-comerce</span>
-				  <strong class="pull-right hidden-xs">Bit4Id  (2010)</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseProjectsSeven" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<ul class="list-inline">
-					<li>PHP</li>
-					<li>UserCake</li>
-					<li>MySQL</li>
-				</ul>
-				<div style="text-align:center;" ><a class="btn btn-default" href="http://www.bit4id.com/online_store_es_pt/Bit4id_Tienda_es/index.php?gen=10" target="_blank"><span class="glyphicon glyphicon-shopping-cart"></span> Let's buy something</a></div>
-			  </div>
-			</div>
-			</div>
-			<div id="Skills"> </div>
-			<div class="panel panel-default">
-			<div class="panel-heading">
-			  <h4 class="panel-title">
-				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProjectsEighth">
-				  <span>Few more..</span>
-				  <strong class="pull-right">...</strong>
-				</a>
-			  </h4>
-			</div>
-			<div id="collapseProjectsEighth" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<ul>
-					<li>Convert Website to PDF</li>
-					<li>WebYo - Take the control on your privacy</li>
-				</ul>
-
-			  </div>
-			</div>
-			
-		  </div>
-		</div>
-		
-		<legend style="margin-top: 50px;"><span class="glyphicon glyphicon-check"></span>  Skills & Expertise</legend>
-		<div class="row">
-        <div class="col-lg-6">
-		<h4>As a senior software developer:</h4>
-		<ul>		
-			<li>PHP</li>
-			<li>Symfony2  Framework</li>
-			<li>Doctrine ORM	</li>
-			<li>Twitter Bootstrap 		</li>
-			<li>HTML,CSS,XML		</li>
-			<li>Java / J2EE			</li>
-			<li>JSF & Primefaces || RichFaces	</li>
-			<li>APPFUSE			</li>
-			<li>Spring Framework / MVC				</li>
-			<li>Hibernate	</li>
-			<li>JavaScript	</li>
-			<li>Sencha ExtJS	</li>
-			<li>Python		</li>
-			<li>SQL y PLSQL			</li>
-			<li>Visual Basic .NET, VBA		</li>
-			<li>C, C++, C#	</li>
-			<li>Grails - Groovy		</li>
-			<li>Django			</li>
-			<li>Others (analysis and design UML) </li>
-
-		</ul>
-		<div id="Contact"></div>
-		</div>
-		<div class="col-lg-6">
-		
-		<h4>As a Lead Programmer:</h4>
-		<ul>		
-			<li>Project management</li>
-			<li>Corporate data systems planning</li>
-			<li>Requirements engineering</li>
-			<li>IT Enterprise Architecture</li>
-			<li>Security Management</li>
-			
-		</ul>
-		</div>
-		</div>
-		
-		
-		<legend style="margin-top: 50px;"><span class="glyphicon glyphicon-comment"></span>   Contact Info</legend>
-		<div class="well well-lg">
-		
-		<h3><span class="glyphicon glyphicon-user"></span> Eric Garcia Ordoñez</h3>
-		<h4>Senior Software Developer - Lead Programmer - Freelance Developer</h4>
-		<p>Palau Firal de Manresa BOX4.</p>
-					<p>C/ Castelladral, 5-7. 08243 Manresa, <strong>Barcelona</strong></p>
-					<a class="btn btn-primary  "  href="tel:+34656828020" target="_blank"  ><span class="glyphicon glyphicon-earphone"></span> +34 93 535 70 08</a>
-		<a class="btn btn-success "  href="tel:+34 656 828 020" target="_blank" rel="tooltip" title="Necesitas VoIp"><span class="glyphicon glyphicon-earphone"></span> +34 656 828 020</a>
-				
-				<a class="btn btn-success "  href="mailto:eric@webyo.es"><span class="glyphicon glyphicon-envelope"></span>  eric@webyo.es</a>
-
-				<a class="btn btn-success "  href="Eric_Garcia_Ordoñez.vcf"><span class="glyphicon glyphicon-download"></span> vCard</a>
-				
-				<a class="btn btn-success "  href="http://es.linkedin.com/pub/eric-garcia-ordo%C3%B1ez/35/6a2/b93/en" title="View public profile" name="webProfileURL"><span class="glyphicon glyphicon-user"></span> Linkedin profile</a>
-
-			
-		</div>
-		
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.min.css" />
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Cabin:400,700,400italic|Merriweather:900' rel='stylesheet' type='text/css'>
+	<script src="js/custom.modernizr.js"></script>
+	<!--ADD 2 HOMESCREEN-->
+	<link rel="stylesheet" href="css/add2home.min.css">
+	<script type="text/javascript" src="js/add2home.js" charset="utf-8"></script>
+</head>
+<body>
 	
-				
-				
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="//code.jquery.com/jquery.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
+	<!-- START PAGE -->
+	<div id="page">	
+	
+		<!-- START HEADER -->
+		<header id="header" class="smooth">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="intro" class="text-container">
+						<div id="logo">
+							<img src="images/logo.png" alt="logo">
+						</div>
+						
+						<h1>Programamos, diseñamos y creamos</h1>
+						<h2>para llevar a buen término tu idea o proyecto</h2>
+						<div id="explore"><a class="scroll" href="#services"><i class="fa fa-angle-down fa fa-4x"></i></a></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- END HEADER -->
 		
-		<script type="text/javascript">
+		<!-- START TOP-BAR -->
+		<div id="top-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div id="logo-lettering" >
+							<a class="scroll" href="#header"><img src="images/logo.png" alt="Logo"/></a>
+						</div>
+						<!-- the hidden classes of the official release are no accumlative. that's why we used the @TurchenkoAlex ones.  
+						https://github.com/TurchenkoAlex/bootstrap/tree/3.0.0-wip/dist/css -->
+						<div id="menu-mobile" class="hidden-md hidden-lg">
+							<i class="fa fa-align-justify fa fa-2x"></i>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<nav id="top-navigation">
+							<ul class="list-inline">
+								<li><a href="#services">servicios</a></li>
+								<li><a href="#works">trabajos</a></li>
+								<li><a href="#team">equipo</a></li>
+								<li><a href="#studio">oficina</a></li>
+								<li><a href="#contacts">contacto</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END TOP-BAR -->	
+		
+		<!-- START SERVICES SECTION -->
+		<section id="services">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3 intro">
+					<h1>Servicios</h1>
+					<p>Queremos ofrecerle soluciones adaptadas a tus necesidades</p>
+				</div>
+			</div>
+			<div id="services-list" class="row">
+				<div class="container">
+					<div class="col-xs-6 col-sm-6 col-md-3">
+						<div id="branding">
+							<i class="fa fa-suitcase fa-5x"></i>
+							<h5>Consultoría</h5>
+							<p class="hidden-xs">Conocemos cómo usar las tecnologías de la información para conseguir sus objetivos.</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-3">
+						<div id="web" >
+							<i class="fa fa-pencil fa-5x"></i>
+							<h5>Diseño y Usabilidad</h5>
+							<p class="hidden-xs">Aplicando diseño visual centrado en el usuario obtenemos los mejores resultados.</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-3">
+						<div id="illustration" >
+							<i class="fa fa-desktop fa-5x"></i>
+							<h5>Programación y desarrollo de software</h5>
+							<p class="hidden-xs">Gracias a metodologías agile y lean nos focalizamos en aportar valor al usuario final y el cliente minimizando riesgos.</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-3">
+						<div id="video" >
+							<i class="fa fa-comments-o fa-5x"></i>	
+							<h5>Comunicación y medios sociales</h5>
+							<p class="hidden-xs">Creamos y cuidamos las comunidades en torno a las empresas generando contenido de valor, creando conversación, animando a las personas a participar.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				    <ul id="branding-skills" class="skills-bar">
+					    <li><span class="expand" data-width="50%"></span><em>Illustrator</em></li>
+					    <li><span class="expand" data-width="80%"></span><em>Photoshop</em></li>
+				    </ul>
+				    <ul id="web-skills" class="skills-bar">
+					    <li><span class="expand" data-width="10%"></span><em>HTML 5</em></li>
+					    <li><span class="expand" data-width="20%"></span><em>CSS 3</em></li>
+					    <li><span class="expand" data-width="90%"></span><em>jQuery</em></li>
+				    </ul>
+				    <ul id="illustration-skills" class="skills-bar">
+					    <li><span class="expand" data-width="50%"></span><em>Illustrator</em></li>
+				    </ul>
+				    <ul id="video-skills" class="skills-bar">
+					    <li><span class="expand" data-width="50%"></span><em>After Effects</em></li>
+					    <li><span class="expand" data-width="60%"></span><em>Premiere</em></li>
+					    <li><span class="expand" data-width="30%"></span><em>Final Cut</em></li>
+				    </ul>
+				</div>
+			</div>
+		</div>-->
+		</section>
+		<!-- END SERVICES SECTION -->
+		
+		<!-- START WORKS SECTION -->
+		<section id="works">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3 intro">
+					<h1>Trabajos</h1>
+					<p>Estos son algunos de los trabajos realizados y creemos que nuestra mejor garantía</p>
+				</div>
+			</div>	
+			<!--<div id="w-filter" class="row">
+				<div class="col-xs-12">
+					<div id="work-filter" class="center-list">
+					    <ul class="list-inline hidden-xs">
+					        <li class="filter active" data-filter="all">all</li>
+					        <li class="filter" data-filter="branding">branding</li>
+					        <li class="filter" data-filter="photography">photography</li>
+					        <li class="filter" data-filter="illustration">illustration</li>
+					        <li class="filter" data-filter="video">video</li>
+					    </ul>
+					</div>
+				</div>
+			</div>-->
+			<div id="work-container" class="row">
+				<div class="container">
+				<div class="col-xs-12 col-sm-4 mix all branding">
+					<div id="work-1" class="work">
+						<a href="https://www.yourcoded.com/" target="_Blank"><img src="images/works/yourcoded.jpg" alt="work" /></a>
+						<div class="work-info">
+							<h6><a href="https://www.yourcoded.com/" target="_Blank">Yourcoded</a></h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 mix all branding">
+					<div id="work-2" class="work">
+						<a href="http://oibarcelona.com/" target="_Blank"><img src="images/works/oibarcelona.jpg" alt="work" /></a>
+						<div class="work-info">
+							<h6><a href="http://oibarcelona.com/" target="_Blank">Oi Real Estate Barcelona</a></h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 end mix all branding">
+					<div id="work-3" class="work">
+						<a href="http://webyo.es/getmeadvice/" target="_Blank"><img src="images/works/getmeadvice.jpg" alt="work" /></a>
+						<div class="work-info">
+							<h6><a href="http://webyo.es/getmeadvice/" target="_Blank">Get Me Advice</a></h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 mix all branding">
+					<div id="work-4" class="work">
+						<a href="http://www.indracompany.com/en/soluciones-y-servicios/solucion/document-management/1620/summary" target="_Blank"><img src="images/works/indra.jpg" alt="work" /></a>
+						<div class="work-info">
+							<h6><a href="http://www.indracompany.com/en/soluciones-y-servicios/solucion/document-management/1620/summary" target="_Blank">Indra bmb - Gestió documental</a></h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 mix all illustration">
+					<div id="work-5" class="work">
+						<a href="http://webyo.es/paypost/" target="_Blank"><img src="images/works/paypost.jpg" alt="work" /></a>
+						<div class="work-info">
+							<h6><a href="http://webyo.es/paypost/" target="_Blank">PayPost</a></h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 mix all photography">
+					<div id="work-6" class="work">
+						<a href="http://bit4services.com/" target="_Blank"><img src="images/works/bit4services.jpg" alt="work" /></a>
+						<div class="work-info">
+							<h6><a href="http://bit4services.com/" target="_Blank">bit4services</a></h6>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+		<!-- END WORKS SECTION -->
+		
+		<!-- START TEAM SECTION -->
+		<section id="team">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3 intro">
+					<h1>Conoce nuestro equipo</h1>
+					<p>Somos jóvenes, estamos preparados, tenemos cierta experiencia, mucha ilusión y ganas de colaborar.</p>
+				</div>
+			</div>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-40669300-1']);
-  _gaq.push(['_setDomainName', 'webyo.es']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+			<div class="row">
+			<div class="container">
+			<!--<div class="col-md-3"></div>-->
+				<div class="col-xs-6 col-sm-6 col-md-3 member">
+					<div class="member-photo">
+						<div class="image">
+							<img src="images/team/member1.jpg" alt="Team Member 1">
+						</div>
+						<div class="image-hover">
+							<img src="images/team/member1-hover.jpg" alt="Team Member 1">
+						</div>
+						<div class="member-hover hidden-xs hidden-sm">
+							<div class="list-container">
+								<ul class="list-inline social">
+									<li><a  href="http://freelancedeveloper.es/" target="_blank"><i class="fa fa-link fa fa-3x"></i></a></li>
+									 <li><a href="http://es.linkedin.com/in/ericgarciaordonez/" target="_blank"><i class="fa fa-linkedin fa fa-3x"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h5>Eric Garcia</h5>
+					<p class>CTO - Analista Pogramador</p>
+
+					<div class="list-container visible-xs visible-sm">
+						<ul class="list-inline">
+							<li><a href="http://freelancedeveloper.es/" target="_blank"><i class="fa fa-link fa fa-2x"></i></a></li>
+									<li><a href="http://es.linkedin.com/in/ericgarciaordonez/" target="_blank"><i class="fa fa-linkedin fa fa-2x"></i></a></li>
+						</ul>
+					</div>	
+				</div>
+
+				<div class="col-xs-6 col-sm-6 col-md-3 member">
+					<div class="member-photo">
+						<div class="image">
+							<img src="images/team/member3.jpg" alt="Team Member 2">
+						</div>
+						<div class="image-hover">
+							<img src="images/team/member3-hover.jpg" alt="Team Member 2">
+						</div>
+						<div class="member-hover hidden-xs hidden-sm">
+							<div class="list-container">
+								<ul class="list-inline social">
+									<li><a href="http://www.tottoristudio.com/" target="_blank"><i class="fa fa-link fa fa-3x"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h5>Marina Ordoñez (tottoristudio)</h5>
+					<p>Diseño multimedia</p>
+					<div class="list-container visible-xs visible-sm">
+						<ul class="list-inline">
+							<li><a href="http://www.tottoristudio.com/" target="_blank"><i class="fa fa-link fa fa-2x"></i></a></li>
+							
+						</ul>
+					</div>			
+				</div>
+				<!--<div class="col-xs-6 col-sm-6 col-md-3 member">
+					<div class="member-photo">
+						<div class="image">
+							<img src="images/team/member2.jpg" alt="Team Member 3">
+						</div>
+						<div class="image-hover">
+							<img src="images/team/member2-hover.jpg" alt="Team Member 3">
+						</div>
+						<div class="member-hover hidden-xs hidden-sm">
+							<div class="list-container">
+								<ul class="list-inline social">
+									<li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-3x"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h5>Didac Chaves</h5>
+					<p>FrontEnd Developer</p>
+					<div class="list-container visible-xs visible-sm">
+						<ul class="list-inline">
+							<li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-2x"></i></a></li>
+						</ul>
+					</div>				
+				</div>-->
+				<div class="col-xs-6 col-sm-6 col-md-3 member">
+					<div class="member-photo">
+						<img src="images/team/you.jpg" alt="Team Member 4">
+						<div class="member-hover hidden-xs hidden-sm">
+							<div class="list-container">
+								<ul class="list-inline social">
+									<li><a href="#contacts" class="mail scroll"><i class="fa fa-envelope fa fa-3x"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h5>Buscamos talento</h5>
+					<p>Podrías ser tu</p>
+					<div class="list-container visible-xs visible-sm">
+						<ul class="list-inline">
+							<li><a href="#contacts" class="mail scroll"><i class="fa fa-envelope fa fa-2x"></i></a></li>
+						</ul>
+					</div>	
+				</div>
+				</div>
+			</div>
+		</section>
+		<!-- END TEAM SECTION -->
+		
+		<!-- START STUDIO SECTION -->
+		<section id="studio">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3 intro">
+					<h1>Nuestro espacio de trabajo</h1>
+					<p>Es un lugar tranquilo y adecuado ya que también consideramos importante el entorno en el que realizamos nuestro trabajo.</p>
+				</div>
+			</div>
+			<div class="studio">
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="swiper" class="swiper-container">
+							<div class="swiper-wrapper">
+								
+								<div class="swiper-slide"><img src="images/studio/studio2.jpg" alt="slider image 2"/></div>
+								<div class="swiper-slide"><img src="images/studio/studio3.jpg" alt="slider image 3"/></div>
+								<div class="swiper-slide"><img src="images/studio/studio4.jpg" alt="slider image 4"/></div>
+								<div class="swiper-slide"><img src="images/studio/studio5.jpg" alt="slider image 5"/></div>
+								<div class="swiper-slide"><img src="images/studio/studio6.jpg" alt="slider image 6"/></div>
+								<div class="swiper-slide"><img src="images/studio/studio1.jpg" alt="slider image 1"/></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END STUDIO SECTION -->
+		
+		<!-- START CONTACTS SECTION -->
+		<section id="contacts">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+					<h1>Contacta con nosotros</h1>
+					<p>Estamos encantados de que nos hables sobre tu propuesta de proyecto</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+					<div class="contact-info">
+						<div class="row">
+							<div class="col-xs-6 col-sm-4 contact">
+								<div class="icon">
+									<a href="mailto:eric@webyo.es"><i class="fa fa-envelope fa fa-4x"></i></a>	
+								</div>
+								<h6>Email</h6>
+								<p>eric@webyo.es</p>
+							</div>
+							<div class="col-xs-6 col-sm-4 contact">
+								<div class="icon">
+									<a href="tel:+34656828020"><i class="fa fa-phone fa fa-4x"></i></a>	
+								</div>
+								<h6>Teléfono</h6>
+								<p>+34 656 828 020</p>
+								<p>+34 935 357 008</p>
+							</div>
+							<div class="col-xs-3"></div>
+							<div class="col-xs-6 col-sm-4 contact">
+								<div class="icon">
+									<a href="http://maps.apple.com/?q=41.738737,1.847137" target="_blank"><i class="fa fa-map-marker fa fa-4x"></i></a>	
+								</div>
+                <h6>Palau Firal de Manresa</h6>
+								<p>Carrer Castelladral 5-7<br/>08243<br/>Manresa, Barcelona</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END CONTACTS SECTION -->
+		
+		<!-- START FOOTER -->
+		<footer>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+					<hr/>
+					 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+				<p id="copyrights">Designed by Webyo.es®. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+	</div>
+	<!-- END PAGE -->
+
+	<!-- Bootstrap Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Jquery Scripts-->
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/jquery.slimbox2.js"></script>
+	
+	<!-- Swiper Plugin -->
+	<script  src="js/idangerous.swiper-1.9.3.js"></script>
+	
+	<!-- Cotton Specific Scripts -->
+	<script src="js/scripts.js"></script>
+	<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+  <script src="js/respond.min.js"></script>
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46615978-1', 'programadorfreelance.cat');
+  ga('send', 'pageview');
 
 </script>
 <!--Start of Zopim Live Chat Script-->
@@ -632,5 +518,5 @@ $.src='//v2.zopim.com/?1oL9DJmerk5FTeUqmRsjUS0RvIvHrEgh';z.t=+new Date;$.
 type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 </script>
 <!--End of Zopim Live Chat Script-->
-	  </body>
+</body>
 </html>
