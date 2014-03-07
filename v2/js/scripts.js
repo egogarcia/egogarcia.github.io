@@ -311,5 +311,5 @@ jQuery(document).ready(function() {
 	$('select').on('change',function(){
 		jQuery('#work-container').mixitup('filter',jQuery(this).find('option:selected').attr('class'));
 	});
-	
-	
+
+});
