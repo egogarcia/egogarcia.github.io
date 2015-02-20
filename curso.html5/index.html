@@ -1,0 +1,1156 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Introducció a HTML5</title>
+
+		<meta name="description" content="Introducció a HTML5">
+		<meta name="author" content="Eric Gracia">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Introducció a HTML5</h1>
+					<h3>Formació presencial</h3>
+					<p>
+						<small>Creat per <a href="http://programadorfreelance.cat">Eric Garcia</a></small>
+					</p>
+				</section>
+				
+				<section>
+					<!--<h2>Presentació</h2>-->
+					
+					<p>
+						HTML5 és la cinquena revisió important del llenguatge bàsic de la World Wide Web.
+					</p>
+					<img width="320" height="299" src="http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML5">
+					<p>
+						Encara es troba en mode experimental, la qual cosa indica la mateixa W3C, encara que ja és usat per múltiples desenvolupadors web pels seus avenços, millores i avantatges.
+					</p>
+
+					<aside class="notes">
+						<p>w3c es la comunitat internacional que treballen conjuntament per desenvolupar estàndards</p>
+						<p>w3c es la comunitat internacional que treballen conjuntament per desenvolupar estàndards</p>
+					</aside>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section data-background="#007777">
+					<section>
+						<h2>Millora l'estructura</h2>
+						<img src="img/html5_estructura.png" alt="HTML estructura">
+						<p> HTML5 ofereix nous elements per millorar l'estructura.
+						</p>
+						<a href="#" class="image navigate-down">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+						<aside class="notes">
+						<p>Millorar l'estructura del nostre documents millorarà la nostre indexació als motors de búsqueda com Google</p>
+						<p>Alt + click anywhere to zoom back out.</p>
+					</aside>
+					</section>
+					<section>
+						<h2>&lt;header&gt;</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+						<!-- Un encapçalat per un <article>: -->
+<article>
+  <header>
+    <h1>Internet Explorer 9</h1>
+    <p><time pubdate datetime="2011-03-15"></time></p>
+  </header>
+  <p>Windows Internet Explorer 9 (abbreviated as IE9) was released to
+  the  public on March 14, 2011 at 21:00 PDT.....</p>
+</article>
+					</code></pre>
+						<ul>
+						<li>Especifica una capçalera d'un document o secció.</li>
+
+						
+
+						<li>Vostè pot tenir diversos elements &lt;header&gt; en un sol document. </li>
+						
+						</ul>
+						<aside class="notes">
+						<p>S'ha d'utilitzar com a contenidor de continguts introductoris.</p>
+					</aside>
+					</section>
+				<section>
+						<h2>&lt;nav&gt;</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+						<!-- Un conjunt de vincles de navegació: -->
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+					</code></pre>
+						<ul>
+						<li>Defineix un conjunt d'enllaços de navegació.</li>
+						
+						</ul>
+						<aside class="notes">
+						<p>Els navegadors, com ara lectors de pantalla per a usuaris amb discapacitat, puguin utilitzar aquest element per determinar si s'ha de ometre la prestació inicial d'aquest contingut</p>
+						<p>Tingueu en compte que no tots els enllaços d'un document ha d'estar dins d'un element <nav>. L'element <nav> està dirigit només a gran bloc de enllaços de navegació .</p>
+					</aside>
+					</section>
+					<section>
+						<h2>&lt;section&gt;</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+						<!-- Una secció d'un document, explicant el que WWF és: -->
+<section>
+  <h1>WWF</h1>
+  <p>The World Wide Fund for Nature (WWF) is....</p>
+</section>
+					</code></pre>
+						<ul>
+						<li>Defineix les seccions d'un document, com capítols, encapçalats, peus de pàgina o qualsevol altra secció del document.</li>
+						
+						</ul>
+						<aside class="notes">
+						<p>Un bloc de text al qual perfectament li podríem posar un títol o encapçalament. A més, tot el contingut que engloba ha de guardar certa relació entre si.</p>
+					</aside>
+					</section>
+					<section>
+						<h2>&lt;article&gt;</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+						<!-- Un artucle d'un document, explicant els serveis de WWF és: -->
+<section> 
+<header><h1>WWF services</h1></header> 
+<article><header><h2>Service 1</h2></header>...</article> 
+<article><header><h2>Service 2</h2></header>...</article> 
+<article><header><h2>Service 3</h2></header>...</article> 
+</section>
+					</code></pre>
+						<ul>
+						<li>Especifica el contingut independent, autònom...</li>
+						
+						</ul>
+						<aside class="notes">
+						<p>La documentació oficial es una mica ambigua envers article i secció, per tant si busqueu informació veure-ho que hi ha opinions de tot tipus</p>
+						<p>Jo soc dels que entenen que una secció es subdivideix en articles</p>
+					</aside>
+					</section>
+					<section>
+						<h2>&lt;aside&gt;</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+<p>My family and I visited The Epcot center* this summer.</p>
+
+<aside>
+<h4>*Epcot Center</h4>
+<p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+					</code></pre>
+						<ul>
+						<li>Relaciona un contingut amb un altre.</li>
+						
+						</ul>
+						<aside class="notes">
+						<p>Un exemple sería afegir notes o definicions d'una o un grup de paraules</p>
+					</aside>
+					</section>
+					<section>
+						<h2>&lt;footer&gt;</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+						<!-- Una secció de peu de pàgina en un document: -->
+<footer>
+  <p>Posted by: Hege Refsnes</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+					</code></pre>
+						<ul>
+						<li>Defineix un peu de pàgina d'un document o secció.</li>
+						
+						</ul>
+						<aside class="notes">
+						<p>Un peu de pàgina sol contenir l'autor del document, informació de drets d'autor, enllaços a termes d'ús, informació de contacte, etc</p>
+						<p>Vostè pot tenir diversos elements &lt;footer&gt; en un sol document.</p>
+					</aside>
+					</section>
+					<section>
+						<h2>&lt;mark&gt;</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+						<!-- Ressaltar parts d'un text: -->
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+					</code></pre>
+						<ul>
+						<li>Resalta una part del text.</li>
+						<li><a target="_blank" href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_mark" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>Com si for amb un marcador o edding groc</p>
+					</aside>
+					</section>
+					<section>
+						<h2>&lt;progress &gt;</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+						<!-- Ressaltar parts d'un text: -->
+<progress value="22" max="100"></progress>
+					</code></pre>
+						<ul>
+						<li>Representa el progrés d'una tasca..</li>
+						<li><a target="_blank" href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_progress" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>valor actual value="22" número max="100", es tracta d'interactuar amb JS</p>
+					</aside>
+					</section>
+				</section>
+
+				<section data-background="#4d7e65">
+					<section>
+						<h2>Millora als formularis 1/2</h2>
+						<a href="img/HTML5InputTypes.png" target="_blank" ><img src="img/HTML5InputTypes.png" alt="Input types Status"></a>
+						<p>
+							HTML5 Posa a la nostre disposició nous tipus d'entrada de dades.
+						</p>
+						<a href="#" class="image navigate-down">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+						<aside class="notes">
+							<p>Només explicaré els nous tipus compatibles amb les últimes versions dels navegadors més importants (firefox, safari chrome opera e IE)</p>
+							<p>Alt + click anywhere to zoom back out.</p>
+						</aside>
+					</section>
+					<section>
+						<h2>&lt;input type="range" </h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+						<input type="range" name="points" step="2" min="1" max="10" value="4">
+					</code></pre>
+						<ul>
+						<li>El tipus de rang s'utilitza per a camps d'entrada que ha de contenir un valor d'un rang de nombres.</li>
+						<li><a target="_blank" href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_range" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>valor actual value="22" número max="100"</p>
+					</aside>
+					</section>
+					
+					<section>
+						<h2>&lt;input type="email" </h2> <h2>&lt;input type="url" </h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/safariCross.png" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+<input type="email" name="email">
+<input type="url" name="homepage">
+						
+					</code></pre>
+						<ul>
+						<li>Afegeix la validació per part del navegador el tipus de dada introduïda</li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>Es tracta d'un camp d'introducció de text normal, només afegeix la funcionalitat de validació per part del navegador</p>
+						<p>Encara que no es acceptat per Safari, personalment crec que aporta claritat a l'usuari, encara que no ens evita haver de validar la dada introduïda des del backend</p> 
+					</aside>
+					</section>
+				</section>
+				<section data-background="#8c4738">
+					<section>
+						<h2>Millora als formularis 2/2</h2>
+						<a href="img/HTML5InputTypes.png" target="_blank" ><img src="img/HTML5InputAttributes.png" height="400" alt="Input types Status"></a>
+						<p>
+							HTML5 Posa a la nostre disposició nous atributs als tipus d'entrada de dades.
+						</p>
+						<a href="#" class="image navigate-down">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+						<aside class="notes">
+							<p>Només explicaré els nous tipus compatibles amb les últimes versions dels navegadors més importants (firefox, safari chrome opera e IE)</p>
+						</aside>
+					</section>
+					<section>
+						<h2>autofocus</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+						<input type="text" name="fname" autofocus>
+					</code></pre>
+						<ul>
+						<li>Especifica que un element &lt;input&gt; automàticament ha d'obtenir el focus quan es carrega la pàgina.</li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>Es molt útil afegir-ho vía JS o des del backend a l'hora de fer la validació del formulari i detectar un camp incorrecte</p>
+					</aside>
+					</section>
+					
+					<section>
+						<h2>formAction</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+<form action="demo_form.asp">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit"><br>
+  <input type="submit" formaction="demo_admin.asp"
+  value="Submit as admin">
+</form>
+						
+					</code></pre>
+						<ul>
+						<li>L'atribut formAction especifica la URL d'un fitxer que va a processar el control d'entrada quan s'envia el formulari.</li>
+						<li><a target="_blank" href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_formaction" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>Et permet en un mateix formulari afegir dos botons d'enviament per tan d'enviar el formulari a dos destins diferents</p> 
+					</aside>
+					</section>
+					<section>
+						<h2>formmethod </h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+<form action="demo_form.asp" method="get">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formmethod="post" formaction="demo_post.asp"
+  value="Submit using POST">
+</form>
+						
+					</code></pre>
+						<ul>
+						<li>Defineix el mètode HTTP per enviar les dades del formulari.</li>
+						<li><a target="_blank" href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formmethod" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>El mateix cas que l'anterior però especificant el métode d'enviament de dades Get o Post segons el botó que hem clickat</p> 
+					</aside>
+					</section>
+					<section>
+						<h2>formtarget </h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+<form action="demo_form.asp">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit as normal">
+  <input type="submit" formtarget="_blank"
+  value="Submit to a new window">
+</form>
+						
+					</code></pre>
+						<ul>
+						<li>Especifica el lloc per mostrar la resposta que es rep després d'enviar el formulari.</li>
+						<li><a target="_blank" href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formtarget" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>De la mateixa manera que fins ara podíem obrir un link en una nova pàgina o pestanya; ara podem fer el mateix amb els formularis</p> 
+					</aside>
+					</section>
+					<section>
+						<h2>multiple </h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+Select images: <input type="file" name="img" multiple>
+						
+					</code></pre>
+						<ul>
+						<li>Especifica que permet que l'usuari introdueixi més d'un valor en l'element</li>
+						<li><a target="_blank" href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_multiple" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>Ja podem enviar múltiples arxius en un formulari sense haver d'utilitzar JS</p> 
+					</aside>
+					</section>
+					<section>
+						<h2>placeholder </h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+<input type="text" name="fname" placeholder="First name">
+						
+					</code></pre>
+						<ul>
+						<li>Especifica una pista curta que descriu el valor esperat d'un camp d'entrada (per exemple, un valor de mostra o una breu descripció del format esperat)</li>
+						<li><a target="_blank" href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_placeholder" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>Ja podem afegir un placeholder en un formulari sense haver d'utilitzar JS</p> 
+					</aside>
+					</section>
+					<section>
+						<h2>required </h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/safariCross.png" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<pre><code data-trim contenteditable>
+Username: <input type="text" name="usrname" required>
+						
+					</code></pre>
+						<ul>
+						<li>Especifica que un camp d'entrada ha de ser completat abans d'enviar el formulari.</li>
+						<li><a target="_blank" href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_required" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>Encara que safari no ho accepta crec que és de molta utilitat poder indicar fàcilment que un camp es obligatori delegant al navegador aquesta tasca i el mateix que abans, no hem d'utilitzar JS</p> 
+					</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>&lt;Canvas&gt;</h2>
+						<img src="img/canvas.jpg" alt="HTML estructura">
+						<p>
+							 S'utilitza per dibuixar gràfics, sobre la marxa, a través de JavaScript.
+						</p>
+						<a href="#" class="image navigate-down">
+								<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+							</a>
+						<aside class="notes">
+							<p>Wow personalment hem sembla increïble, si això va avançant ens hi portarà molt lluny</p> 
+							<p>S'ha introduït aquest nou element per tal de prescindir de complements com poden ser el Flash player i similars </p>
+							<p>Alt + click anywhere to zoom back out.</p>
+						</aside>
+					</section>
+					<section>
+						<h2>Compatible amb tots els navegadors</h2>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+					</section>
+					<section>
+						<h2>1. Crear un llenç</h2>
+						<pre><code data-trim contenteditable>
+<canvas id="myCanvas" width="200" height="100">
+</canvas>
+						
+					</code></pre>
+						<ul>
+						<li>Especifiqueu sempre un atribut id (que es fa referència en un script), i una amplada i una alçada d'atributs per definir la mida del llenç.</li>
+						<li><a target="_blank" href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_empty" class="tryitbtn">Exemple</a></li>
+						</ul>
+						
+						
+						<aside class="notes">
+						<p>Consell: Podeu tenir diversos elements <canvas> en una pàgina HTML.</p>
+					</aside>
+					</section>
+					<section>
+						<h2>2. Dibuixeu al llenç amb javascript</h2>
+						<pre><code data-trim contenteditable>
+<script>
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillRect(0,0,150,75);
+</script>
+						
+					</code></pre>
+						<ol>
+							<li class="fragment">trobar l'element <pre><code>var c=document.getElementById("myCanvas");</code></pre></li>
+							<li class="fragment">Obtenir el context indicant que treballarem amb 2D <pre><code>var ctx=c.getContext("2d");</code></pre></li>
+							<li class="fragment">Dibuixem un rectangle <pre><code>ctx.fillRect(0,0,150,75);</code></pre></li>
+						</ol>
+						<canvas class="fragment" id="myCanvas1" width="200" height="100" style="border:1px solid #d3d3d3;background:#ffffff;"><font><font>
+						El seu navegador no suporta l'etiqueta canvas HTML5.
+						</font></font>
+						</canvas>
+						<script>
+						var c=document.getElementById("myCanvas1");
+var ctx=c.getContext("2d");
+ctx.fillRect(0,0,150,75);
+						</script>
+						
+						
+						<aside class="notes">
+						<p>L'objecte getContext ("2D") és un objecte incorporat HTML5, amb moltes propietats i mètodes per dibuixar traçats, quadres, cercles, text, imatges i més.</p>
+						
+						<p>El fillRect ( x, i, ample, alt mètode) dibuixa un rectangle farcit amb l'estil de farciment actual.</p>
+						<p>Així, el mètode fillRect () anterior tenia els paràmetres (0,0,150,75).</p>
+						<p>	Això significa: Comença a la cantonada superior esquerra (0,0) i dibuixeu un rectangle 150x75 píxels.</p>
+					</aside>
+					</section>
+				</section>
+				<section>	
+					<section>
+						<h2>Veiem aquest component canvas amb més profunditat</h2>
+					</aside>
+					</section>
+										<section>
+						<h2>Llenç Coordenades</h2>
+						<p>
+							<div style="width:230px;height:20px;text-align:center;clear:both;"><font><font>X</font></font></div>
+							<div style="width:20px;padding-top:40px;float:left;"><font><font>I</font></font></div>
+							<div style="width:402px;float:left"><iframe src="tryhtml5_canvas_coordinates.htm" frameborder="0" style="border:0;overflow:hidden;width:400px;height:120px;"></iframe></div>
+							</p>
+						<br/>
+						<ul>
+							<li>La cantonada esquerra son les coordenades 0,0</li>
+							<li>La cantonada dreta inferior son les coordenades del ample i alçada total del canvas</li>
+						</ul>
+						
+						
+						<aside class="notes">
+					</aside>
+					</section>
+					<section>
+						<h2>Dibuixar una línia</h2>						
+						<pre><code data-trim contenteditable>
+
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();
+
+						
+					</code></pre>
+						
+						<ol>
+							<li class="fragment">Ens posicionem a les coordenades X 0, I 0 <pre><code>ctx.moveTo(0,0);</code></pre></li>
+							<li class="fragment">Indiquem que volem una línia fins les coordenades x 200, I 100 <pre><code>ctx.lineTo(200,100);</code></pre></li>
+							<li class="fragment">Finalment dibuixem <pre><code>ctx.stroke();</code></pre></li>
+						</ol>
+						
+						<canvas class="fragment" id="myCanvas2" width="200" height="100" style="border:1px solid #d3d3d3;background:#ffffff;"><font><font>
+						El seu navegador no suporta l'etiqueta canvas HTML5.
+						</font></font>
+						</canvas>
+						<script>
+						var c=document.getElementById("myCanvas2");
+						var ctx=c.getContext("2d");
+						ctx.moveTo(0,0);
+						ctx.lineTo(200,100);
+						ctx.stroke();
+						</script>
+						
+						
+						<aside class="notes">
+						<p></p>
+					</aside>
+					</section>
+					<section>
+						<h2>Dibuixar un cercle</h2>						
+						<pre><code data-trim contenteditable>
+
+ctx.beginPath();
+ctx.strokeStyle="#FF0000";
+ctx.arc(95,50,0,0,2*Math.PI);
+ctx.stroke();
+
+						
+					</code></pre>
+	
+						<ol>
+							<li class="fragment">Inicia un camí, o restableix la ruta actual <pre><code>ctx.beginPath();</code></pre></li>
+							<li class="fragment">La propietat strokeStyle es el color<pre><code>ctx.strokeStyle="#FF0000";</code></pre></li>
+							<li class="fragment">El métode arc(x,y,r,start,stop) fa un cercle <pre><code>ctx.arc(95,50,0,0,2*Math.PI);</code></pre></li>
+						</ol>
+						<br>
+						<canvas class="fragment" id="myCanvas3" width="200" height="100" style="border:1px solid #d3d3d3;background:#ffffff;"><font><font>
+						El seu navegador no suporta l'etiqueta canvas HTML5.
+						</font></font>
+						</canvas>
+						<br>
+						<script>
+						var c=document.getElementById("myCanvas3");
+var ctx=c.getContext("2d");
+ctx.beginPath();
+ctx.strokeStyle="#FF0000";
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+						</script>
+						<aside class="notes">
+						<p>ctx.lineWidth = 8;</p>
+						</aside>
+						</section>
+						<section>
+						<h2>Afegir text</h2>						
+						<pre><code data-trim contenteditable>
+
+ctx.font="30px Arial";
+ctx.fillText("Hello World",10,50);
+
+						
+					</code></pre>
+						<ol>
+							<li class="fragment">Propietats de font per al text <pre><code>ctx.font="30px Arial";</code></pre></li>
+							<li class="fragment" style="width: 500px">Dibuixa el contorn del text <pre><code>ctx.strokeText("Hello World",10,50);</code></pre></li>
+						</ol>
+						<br>
+						<canvas class="fragment" id="myCanvas4" width="200" height="100" style="border:1px solid #d3d3d3;background:#ffffff;"><font><font>
+						El seu navegador no suporta l'etiqueta canvas HTML5.
+						</font></font>
+						</canvas>
+						<script>
+						var c=document.getElementById("myCanvas4");
+var ctx=c.getContext("2d");
+ctx.font="30px Arial";
+ctx.fillText("Hello World",10,50);
+ctx.stroke();
+						</script>
+						
+						
+						<aside class="notes">
+							<p>ctx.stroke(); dibuixa el contorn i fill omple tot l'espai</p>
+					</aside>
+					</section>
+					<section>
+						<h2>Afegir imatges</h2>						
+						<pre><code data-trim contenteditable>
+
+var img=document.getElementById("flashImg");
+ctx.drawImage(img,5,5);
+
+ctx.lineWidth = 8;
+ctx.strokeStyle="#FF0000";
+ctx.moveTo(0,0);
+ctx.lineTo(200,200);
+ctx.stroke();
+ctx.moveTo(200,0);
+ctx.lineTo(0,200);
+ctx.stroke();
+						
+					</code></pre>
+						<ol>
+							<li class="fragment">Obtenim la imatge del document HTML <pre><code>var img=document.getElementById("scream");</code></pre></li>
+							<li class="fragment" style="width: 500px">Afegim la imatge dins del canvas <pre><code>ctx.drawImage(img,10,10);</code></pre></li>
+						</ol>
+						<br>
+						<img class="fragment"  id="flashImg" src="img/flash.png">
+						<canvas class="fragment" id="myCanvas5" width="200" height="200" ><font><font>
+						El seu navegador no suporta l'etiqueta canvas HTML5.
+						</font></font>
+						</canvas>
+						
+						<script>
+						var c=document.getElementById("myCanvas5");
+						var ctx=c.getContext("2d");
+var img=document.getElementById("flashImg");
+ctx.drawImage(img,5,5);
+ctx.lineWidth = 8;
+ctx.strokeStyle="#FF0000";
+ctx.moveTo(0,0);
+ctx.lineTo(200,200);
+ctx.stroke();
+
+ctx.moveTo(200,0);
+ctx.lineTo(0,200);
+ctx.stroke();
+
+						</script>
+						
+						
+						<aside class="notes">
+							<p></p>
+					</aside>
+					</section>
+					<section>
+						<h2>Alguns exemples espectaculars</h2>						
+						<p>L'element canvas obre la porta a un univers de possibilitats, veiem alguns exemples:</p>
+						<ol > 
+							<li><a href="http://jsfiddle.net/egogarcia/9sBNA/" target="_blank">Animació amb text</a></li>
+							<li><a href="http://jsfiddle.net/codepo8/mTaug/" target="_blank">Dibuixa amb el ratolí</a></li>
+							<li>... Molts més al señor Google</li>
+						</ol>
+						
+						<aside class="notes">
+							<p>http://techslides.com/learning-html5-canvas-through-jsfiddle-examples/</p>
+					</aside>
+					</section>
+				</section>
+				<section data-background="#007777">
+					<section>
+						<h2>&lt;Video&gt;</h2>
+						<p>
+							 Ja podem incrustar vídeos sense necessitat de flash player
+						</p>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<a href="#" class="image navigate-down">
+								<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+							</a>
+						<aside class="notes">
+							<p>Wow personalment hem sembla increïble, si això va avançant ens hi portarà molt lluny</p> 
+							<p>S'ha introduït aquest nou element per tal de prescindir de complements com poden ser el Flash player i similars </p>
+							<p>Alt + click anywhere to zoom back out.</p>
+						</aside>
+					</section>
+					<section>
+						<h2>Com utilitzar-ho?</h2>
+						<pre><code data-trim contenteditable>
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+						
+					</code></pre>
+						<p class="fragment">L'atribut de control afegeix controls de vídeo, com reproducció, pausa i volum.</p>
+						<br>
+						<video class="fragment" width="320" height="240" controls>
+						  <source src="movie.mp4" type="video/mp4">
+						  <source src="movie.ogg" type="video/ogg">
+						Your browser does not support the video tag.
+						</video>
+					</section>
+					<section>
+						<h2>Formats de vídeo i Suport del navegador</h2>
+						
+						<p>
+							 Actualment, hi ha 3 formats de vídeo compatibles amb l'element; MP4, WebM i Ogg :
+						</p>
+						<img src="img/video.png" />
+						
+						<aside class="notes">
+							<p>Per tal de assegurar la compatibilitat amb tots els navegadors afegim tants tipus de source com faci falta</p>
+						</aside>
+					</section>
+				</section>
+				<section data-background="#4d7e65">
+					<section>
+						<h2>&lt;Audio&gt;</h2>
+						<p>
+							 Ja podem incrustar audio sense necessitat de flash player
+						</p>
+						<p>
+							<img src="http://upload.wikimedia.org/wikipedia/commons/2/2f/Internet_Explorer_10_logo.svg" width="41" height="40" alt="Internet Explorer" title="Internet Explorer">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/e/e7/Mozilla_Firefox_3.5_logo_256.png" width="41" height="40" alt="Firefox" title="Firefox">
+							<img src="http://upload.wikimedia.org/wikipedia/commons/d/d4/Opera_browser_logo_2013.png" width="38" height="40" alt="Òpera" title="Òpera">
+							<img src="http://static1.wikia.nocookie.net/__cb20111125001835/inciclopedia/images/4/45/Google_Chrome_Logo.png" width="41" height="40" alt="Google Chrome" title="Google Chrome">
+							<img src="img/Compass_icon_matte.svg" width="42" height="40" alt="Safari" title="Safari">
+						</p>
+						<a href="#" class="image navigate-down">
+								<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+							</a>
+						<aside class="notes">
+							<p>Wow personalment hem sembla increïble, si això va avançant ens hi portarà molt lluny</p> 
+							<p>S'ha introduït aquest nou element per tal de prescindir de complements com poden ser el Flash player i similars </p>
+							<p>Alt + click anywhere to zoom back out.</p>
+						</aside>
+					</section>
+					<section>
+						<h2>Com utilitzar-ho?</h2>
+						<pre><code data-trim contenteditable>
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+						
+					</code></pre>
+						<p class="fragment">L'atribut de control afegeix controls de vídeo, com reproducció, pausa i volum.</p>
+						<br>
+						<audio lass="fragment" controls>
+						  <source src="horse.ogg" type="audio/ogg">
+						  <source src="horse.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+						</audio>
+					</section>
+					<section>
+						<h2>Formats de àudio i Suport del navegador</h2>
+						
+						<p>
+							 Actualment, hi ha 3 formats de àudio compatibles amb l'element; MP3, WAV i OGG :
+						</p>
+						<img src="img/audio.png" />
+						
+						<aside class="notes">
+							<p>Per tal de assegurar la compatibilitat amb tots els navegadors afegim tants tipus de source com faci falta</p>
+						</aside>
+					</section>
+				</section>
+				<section>
+					<h2>Gràcies</h2>
+					<p>
+						<a href="http://www.w3schools.com/html"> W3Schools.com</a>
+					</p>
+					<aside class="notes">
+							<p>W3Schools guia oficial de consorci w3c</p>
+
+						</aside>
+				</section>
+
+				<section>
+					<h2>Exercicis</h2>
+					<p><a href="http://jsfiddle.net/">Juguem tots junts tot això amb l'editor online jsfiddle.net</a></p>
+				</section>
+				
+				<section>
+					<h2>Exercici 1 (estructura)</h2>
+					<p>Fem un exemple molt simple utilitzant tots els elements d'estructura:</p>
+					<ul>
+						<li>nav</li>
+						<li>section</li>
+						<li>article</li>
+						<li>header</li>
+						<li>aside</li>
+						<li>footer</li>
+					</ul>
+					<aside class="notes">
+					<p><a href="http://jsfiddle.net/egogarcia/Szmt3/">Resultat</a></p>
+					</aside>
+				</section>
+				
+				<section>
+					<h2>Exercici 2 (formularis)</h2>
+					<p>Crear un únic formulari per fer una cerca a Google i Bing</p>
+					<p>El paràmetre de cerca s'ha d'enviar via GET es diu "q" i les URL de destí son:</p>
+					<ul>
+						<li>http://www.bing.com/search?q=textDeCerca</li>
+						<li>https://www.google.es/search?q=textDeCerca</li>
+					</ul>
+					<aside class="notes">
+					<p>Una bona pràctica és utilitzar dos elements input del tipus submit i un d'ells amb un formaction, recordeu mostrar els resultats en una nova pestanya.</p>
+					<p><a href="http://jsfiddle.net/egogarcia/bQ2FX/">Resultat</a></p>
+					</aside>
+				</section>
+				
+				<section>
+					<h2>Exercici 3 (video i audio)</h2>
+					<p>Proveu l'element vídeo i audio</p>
+					<p>Podeu trobar un vídeo en diferents formats d'exemple a </p>
+					<ul>
+						<li>http://www.w3schools.com/html/mov_bbb.mp4</li>
+						<li>http://www.w3schools.com/html/mov_bbb.ogg</li>
+						<li>http://www.w3schools.com/html/horse.ogg</li>
+						<li>http://www.w3schools.com/html/horse.mp3</li>
+					</ul>
+					<aside class="notes">
+					<p>Una bona pràctica és utilitzar dos elements input del tipus submit i un d'ells amb un formaction, recordeu mostrar els resultats en una nova pestanya.</p>
+					<p><a href="http://jsfiddle.net/egogarcia/jTu7a/">Resultat</a></p>
+					</aside>
+				</section>
+				
+				<section>
+					<h2>Exercici 4 (canvas) part 1</h2>
+					<p>Dibuixar un text personalitzat amb l'element canvas</p>
+					<p>Exemple:</p>
+					<canvas id="text" width="300" height="130"></canvas>
+					<script>
+					var canvas = document.getElementById("text"),
+					ctx = canvas.getContext('2d');
+
+					ctx.font = "40px 'Helvetica'";
+					ctx.scale(1,1);
+					ctx.fillStyle = "red";
+					ctx.fillText("Hola canvas", 50, 100);
+					</script>
+					<aside class="notes">
+					<p>??</p>
+					<p><a href="http://jsfiddle.net/DirkWeber/nnqc8/1/">Resultat</a></p>
+					</aside>
+				</section>
+				
+				<section>
+					<h2>Exercici 4 (canvas) part 2</h2>
+					<p>L'hi afegirem una ombra</p>
+					<pre><code data-trim contenteditable>
+
+ctx.shadowColor = "black"; //Color de l'hombra
+ctx.shadowOffsetX = 5; //Posició
+ctx.shadowOffsetY = 5; //Posició
+ctx.shadowBlur = 7; //Difuminat
+						
+					</code></pre>
+					<p>Exemple:</p>
+					<canvas id="text2" width="300" height="130"></canvas>
+					<script>
+					var canvas = document.getElementById("text2"),
+					ctx = canvas.getContext('2d');
+
+					ctx.shadowColor = "black"; //Color de l'hombra
+					ctx.shadowOffsetX = 5; //Posició
+					ctx.shadowOffsetY = 5; //Posició
+					ctx.shadowBlur = 7; //Difuminat
+					ctx.font = "40px 'Helvetica'";
+					ctx.scale(1,1);
+					ctx.fillStyle = "red";
+					ctx.fillText("Hola canvas", 50, 100);
+					</script>
+					<aside class="notes">
+					<p>??</p>
+					<p><a href="http://jsfiddle.net/DirkWeber/nnqc8/1/">Resultat</a></p>
+					</aside>
+				</section>
+				
+				<section>
+					<h2>Exercici 5 (canvas) avançat</h2>
+					<p>Crear un comptador amb l'element canvas</p>
+					<br>
+					<ul>
+					<li>Amb la següent instrucció podem cridar a la funció draw cada 25 mili-segons <pre><code>myTimer = setInterval(draw,25);</code></pre></li>
+					<li>Amb la següent instrucció podem netejar el contingut: <pre><code>context.clearRect( x, i, ample, alt );</code></pre></li>
+					</ul>
+					<p>Exemple:</p>
+					<canvas id="timmer" width="300" height="300"></canvas>
+					<script>
+					var canvas = document.getElementById("timmer");
+						var ctx = canvas.getContext("2d");
+						var cw = canvas.width,
+							ch = canvas.height;
+						var flg = 0;
+
+						init();
+						canvas.addEventListener("click", init, false);
+
+						function init(){
+						  if(flg == 0){
+							flg = 1;
+							myTimer = setInterval(draw,25);
+						  } else {
+							flg = 0;
+							clearInterval(myTimer);
+						  }
+						}
+
+						function draw() {
+							var d = new Date,
+								msec = d.getMilliseconds(),
+								sec = d.getSeconds(),
+								rectW = cw*msec/1000,
+								rectH = 100;
+							ctx.clearRect(0,0,cw,ch);
+							ctx.globalCompositeOperation = "source-over";
+							ctx.fillStyle = "#c06";
+							ctx.font = "bold 50px 'Times New Roman', Times, Serif";
+							ctx.fillText(sec,50,180);
+							ctx.globalCompositeOperation = "xor";
+							ctx.fillStyle ="#c06";
+							ctx.fillRect(0,ch/2-rectH/2,rectW, rectH);
+						}
+					</script>
+					<aside class="notes">
+					<p>??</p>
+					<p><a href="http://jsfiddle.net/wyw7R/4/">Resultat</a></p>
+					</aside>
+				</section>
+				
+				<!--section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
+					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
+					<script>
+						document.getElementById('slideshare').attributeName = 'allowfullscreen';
+					</script>
+				</section>-->				
+			</div>
+
+		</div>
+		<div class="share-reveal" style="display: block; position: absolute; bottom: 14px; left: 50%; margin-left: -230px; z-index: 20;">
+			<a href="https://github.com/hakimel/reveal.js" style="color: #fff; font-family: Helvetica; padding: 4px 8px; border: 2px solid #fff; text-decoration: none; font-size: 12px; margin-right: 15px; position: relative; top: -6px;">Powered by reveal.js</a>
+			
+					<script src="//platform.linkedin.com/in.js" type="text/javascript">
+ lang: es_ES
+</script>
+<script type="IN/Share" data-url="http://webyo.es/curso.html5" data-counter="right"></script>
+
+
+			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwebyo.es%2Fcurso.html5&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=1385376218359766" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			
+		</div>
+		<a class="fork-reveal" style="display: block;" href="https://github.com/egogarcia/curso.html5"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/camo.github.com/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork reveal.js on GitHub"></a>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+		
+				<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40669300-1']);
+  _gaq.push(['_setDomainName', 'webyo.es']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	</body>
+</html>

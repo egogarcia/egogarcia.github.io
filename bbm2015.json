@@ -1,0 +1,696 @@
+{
+	"title": "In search of breast surgery excellence. Sharing experience and building knowledge",
+	"days": [
+		{
+			"date":     "Wednesday 5th March 2014",
+			"daytitle": "3rd International Symposium on lymphedema surgical treatment",
+			"subtitle": "(Chairmen: D. Chang / M.H. Cheng / J. Masia)",
+			"items": [
+				{
+					"hour":        "08:00 - 08:30",
+					"desc": [
+						"Registration for BBM2014 and 3rd International Symposium on Lymphedema Surgical Treatment"
+					],
+					"Keynotes": [
+					]
+				},
+				{
+					"hour":        "08.30 - 08:45",
+					"desc": [
+						"Welcome (D. Chang / M.H. Cheng / J. Masia)"
+					],
+					"Keynotes": [
+					]
+				},
+				{
+					"hour":        "08:45 - 9:00",
+					"desc": [
+						"Morning lecture:"
+					],
+					"Keynotes": [
+						{
+							"Program":     "Which are our results after 3 years of lymphedema surgery?",
+							"faculty":     "Y. Demirtas"
+						}
+					]
+				},
+				{
+					"hour":        "09:00 - 10:30",
+					"desc": [
+						"Pathophysiology of lymphedema: current evidences"
+					],
+					"Coordinator": "M. H. Cheng",
+					"Summarizer":  "K. Van Landuyt",
+					"Keynotes": [
+						{
+							"Program":     "Lymphatic surgical anatomy.",
+							"faculty":     "M Amore"
+						},
+						{
+							"Program":     "Lessons to learn from the lymphatic basic research. ",
+							"faculty":     "A. Saarikko"
+						},
+						{
+							"Program":     "Lipedema and Lymphoedema: similarities and differences.",
+							"faculty":     "H. Brorson"
+						},
+						{
+							"Program":     "Breast cancer related lymphedema: pathophysiology.",
+							"faculty":     "S. Suominen"
+						},
+						{
+							"Program":     "Filaria related lymphedema: pathophysiology.",
+							"faculty":     "G. Manokaran"
+						}
+					]
+				},
+				{
+					"hour":        "10:30 - 11:00",
+					"desc": [
+						"Coffee break"
+					],
+					"Keynotes": [
+					]
+				},
+				{
+					"hour":        "11:00 - 13:00",
+					"desc": [
+						"Pre-operative planning in lymphedema surgery"
+					],
+					"Coordinator": "C. Becker",
+					"Summarizer":  "G. Felmerer",
+					"Keynotes": [
+						{
+							"Program":     "Functional assessment using lymphoscintigraphy.",
+							"faculty":     "J. Dayan"
+						},
+						{
+							"Program":     "MR lymphangiography: what is the value in diagnosis of lymphedema.",
+							"faculty":     "J.A. Clavero / X. Alomar"
+						},
+						{
+							"Program":     "The role of indocyanine green lymphography.",
+							"faculty":     "T. Yamamoto"
+						},
+						{
+							"Program":     "How to interpret ICG Lymphography?",
+                            "faculty":     "H. Suami"
+						},
+						{
+							"Program":     "Value and limits of preoperative planning in lymphatic surgery.",
+							"faculty":     "P. Neligan"
+						},
+						{
+							"Program":     "Measurements and follow-up: searching the objective method to assess our outcomes.",
+							"faculty":     "H Brorson"
+						},
+						{
+							"Program":     "Secondary versus primary lymphedema: assessment and making surgical indications.",
+							"faculty":     "D. Chang"
+						}
+					]
+				},
+				{
+					"hour":        "13:00 - 14:30",
+					"desc": [
+						"Lunch break"
+					],
+					"Keynotes": [
+					]
+				},
+				{
+					"hour":        "14:30 - 16:30",
+					"desc": [
+						"Surgical treatment of lymphedema update:",
+						"How I do now and when in 10'"
+					],
+					"Coordinator": "S. Suominen",
+					"Summarizer":  "K. Van Landuyt",
+					"Keynotes": [
+						{
+							"Program":     "LVA.",
+							"faculty":     "I. Koshima"
+						},
+						{
+							"Program":     "Minimal invasive lymphatic supermicrosurgery (MILS) for early-stage lymphedema.",
+							"faculty":     "T. Yamamoto"
+						},
+						{
+							"Program":     "Free lymph node transfer",
+							"faculty":     "C. Becker"
+						},
+						{
+							"Program":     "Vascularized lymph nodes flaps for lymphedema– Taiwan style.",
+							"faculty":     "M.H. Cheng"
+						},
+						{
+							"Program":     "Autologous lymph vessel transplantation.",
+							"faculty":     "R. Baumeister"
+						},
+						{
+							"Program":     "Lymph collector transplantation.",
+							"faculty":     "G. Felmerer"
+						},
+						{
+							"Program":     "Liposuction for lymphedema.",
+							"faculty":     "H. Brorson"
+						},
+						{
+							"Program":     "Fibro-Lipo-Lympho-Aspiration  (FLLA): a lymph vessel sparing procedure for advanced stages of lymphedema.",
+							"faculty":     "C. Campisi"
+						},
+						{
+							"Program":     "LYMPHA technique in the prevention of secondary lymphedema.",
+							"faculty":     "F. Boccardo"
+						},
+						{
+							"Program":     "Multimodalities in treatment of upper and lower extremities lymphedema: 25 years experience.",
+							"faculty":     "S. Moshref"
+						},
+						{
+							"Program":     "Filarial lymphedema treatment, a newer technique.",
+							"faculty":     "G. Manokaran"
+						}
+					]
+				},
+				{
+					"hour":        "16:30 - 17:00",
+					"desc": [
+						"Coffee break"
+					],
+					"Keynotes": [
+					]
+				},
+				{
+					"hour":        "17:00 - 17:45",
+					"desc": [
+						"Research in lymphedema treatment"
+					],
+					"Coordinator": "R. Baumeister",
+					"Summarizer":  "H. Brorson",
+					"Keynotes": [
+						{
+							"Program":     "Lymphosome Concept: Anatomical Studies for Translational Lymphatic Research.",
+							"faculty":     "H. Suami "
+						},
+						{
+							"Program":     "Lymphatic vascular regrowth after lymph node transfer.",
+							"faculty":     "A. Saarikko"
+						},
+						{
+							"Program":     "Limits on anatomical descriptions in the lymphatic system : the technique to study the morphological lymphatic disorders.",
+							"faculty":     "M. Amore"
+						}
+					]
+				},
+				{
+					"hour":        "17:45 - 18:30 ",
+					"desc": [
+						"Lymphedema surgery free papers (Please, deliver the presentation to the organization in advance)"
+					],
+					"Coordinator": "G.Pons and F. Boccardo",
+					"Keynotes": [
+					]
+				},
+				{
+					"hour":        "18:30 - 19:00 ",
+					"desc": [
+						"International Framework in Lymphedema Surgical Treatment (IFLST): 4-year working for a surgical consensus"
+					],
+					"Keynotes": [
+					]
+				}
+			]
+		},
+		{
+			"date":     "Thursday 6th March 2014",
+			"daytitle": "Secondary Optimizing Reconstructive Breast Surgery Update",
+			"subtitle": "",
+			"items": [
+				{
+					"hour":        "07:30 - 08:15",
+					"desc": [
+						"Optional Instructional Course:",
+						"ICG – technology: present and future"
+					],
+					"Keynotes": [
+						{
+							"Program":     "Preoperative Assessment on Lymphedema Surgery (real patient assessment)",
+							"faculty":     "T. Yamamoto"
+						},
+						{
+							"Program":     "ICG- angiography in immediate breast reconstruction.",
+							"faculty":     "G. Pons"
+						},
+						{
+							"Program":     "ICG- defining perforator vascular boundaries",
+							"faculty":     "P. Neligan"
+						}
+					]
+				},
+				{
+					"hour":" 07:30 - 08:15",
+					"desc": [
+						"Optional Instructional Course:"
+					],
+					"Keynotes": [
+						{
+							"Program":     "Oncoplastic surgery workshop: how to achieve natural symmetry after breast conservative surgery",
+							"faculty":     "N. Leymarie / B. Sarfati (Institut de Cancérologie Gustave Roussy‎)"
+						}
+					]
+				},
+				{
+					"hour": "08:00 - 08:15",
+					"desc": [
+						"Registration for BBM2014"
+					],
+					"Keynotes": [
+					]
+				},
+				{
+					"hour":" 08:30 - 09:00",
+					"desc": [
+						"Opening keynote lecture:"
+					],
+					"Keynotes": [
+						{
+							"Program": "Future and controversies in breast reconstruction.",
+							"faculty":"M. Hamdi"
+						}
+					]
+				},
+				{
+					"hour": "09:00 - 09:10",
+					"desc": [
+						"Welcome"
+					],
+					"Keynotes": [
+						{
+							"faculty": "A. Salazar, F. Bori and J. Masià"
+						}
+					]
+				},
+				{
+					"hour": "09:00 - 10:00",
+					"desc": [
+						"Immediate breast reconstruction:"
+					],
+					"Coordinator": "D. Chang",
+					"Summarizer": "E. Santamaria",
+					"Keynotes": [
+						{
+							"Program": "Mastectomy incision options: best planning for optimal outcome.",
+							"faculty": "M. Nava"
+						},
+						{
+							"Program": "Crying for help: when mastectomy flaps develop necrosis.",
+							"faculty": "J. Farhadi"
+						},
+						{
+							"Program": "One stage breast reconstruction: when and what to do for avoiding poor outcomes.",
+							"faculty": "C. Andree"
+						}
+					]
+				},
+				{
+					"hour": "10:00 - 12:00",
+					"desc": [
+						"Continuing coffee service in exhibit hall"
+					],
+					"Keynotes": [
+					]
+				},
+				{
+					"hour": "10:00 - 13:00",
+					"desc": [
+						"LIVE SURGERY SESSION:"
+					],
+					"Moderators": "S. Suominen / K. Van Landuyt / J. Farhadi / S. Hofer /  S. Mc Culley",
+					"Keynotes": [
+						{
+							"Program": "Power assisted liposuction for advanced lymphedema.",
+							"faculty": "H. Brorson"
+						},
+						{
+							"Program": "RAFT (Reverse Abdominoplasty with Fat Transfer) for breast reconstruction.",
+							"faculty": "R. Khouri"
+						},
+						{
+							"desc":    "5' of surgical tricks for avoiding problems in VIDEO session",
+							"Program": "SIEA 5'",
+							"faculty": "J. Park"
+						},
+						{
+							"Program": "SGAP / IGAP 5' ",
+							"faculty": "S. Hofer"
+						},
+						{
+							"Program": "TMG 5'",
+							"faculty": "S. Suominen"
+						},
+						{
+							"Program": "Lumbar Perforator Flap 5'",
+							"faculty": "K. Landuyt"
+						},
+						{
+							"Program": "How to use ADM properly",
+							"faculty": "J. Farhadi"
+						},
+						{
+							"Program": "Restoration of the IMF in breast reconstructive surgery",
+							"faculty": "S. Pompei"
+						}
+					]
+				},
+				{
+					"hour": "13:00 - 14:30",
+					"desc": [
+						"Lunch break"
+					]
+				},
+				{
+					"hour": "14:30 - 16:00",
+					"desc": [
+						"AUTOLOGOUS BREAST RECONSTRUCTION"
+					],
+					"Coordinator": "S. Suominen",
+					"Summarizer": "K. Van Landuyt",
+					"Keynotes": [
+						{
+							"Program": "Management of partial flap necrosis in autologous tissue breast reconstruction.",
+							"faculty":" S. Hofer"
+						},
+						{
+							"Program": "Morbidity of microsurgical breast reconstruction in patients with co-morbid conditions.",
+							"faculty": "C. Andree"
+						},
+						{
+							"Program": "Autologous tissue breast reconstruction with insufficient tissue: Algorithms for bipedicled abdominal flaps and implant enhancement.",
+							"faculty": "S. Hofer"
+						},
+						{
+							"Program": "Suffering DIEP flap: tertiary revision surgery or planning a new flap?",
+							"faculty": "D. Chang"
+						},
+						{
+							"Program": "Autologous fat grafting: sole means of breast reconstruction or useful adjunct to vascularized tissue transfer? ",
+							"faculty": "R. Khouri"
+						},
+						{
+							"Program": "Breast Reshaping Options? Quadrant by quadrant approach. ",
+							"faculty": "A. Rancati"
+						},
+						{
+							"Program": "Cancer recurrence after microsurgical breast reconstruction: what can I do? ",
+							"faculty": "M. Noah"
+						},
+						{
+							"Program": "Human Adipose Stromal Cells for Cell Therapy: Preliminary findings in the Lab. ",
+							"faculty": "N. Papadopulos"
+						}
+					]
+				},
+				{
+					"hour": "16:00 - 16:30",
+					"desc": [
+						"Coffee break"
+					]
+				},
+				{
+					"hour":" 16:30   18:00",
+					"desc": [
+						"IMPLANT BREAST RECONSTRUCTION"
+					],
+					"Coordinator": "C. Garusi",
+					"Summarizer":  "N. Papadopulos",
+					"Keynotes": [
+						{
+							"Program":"Patient's evaluation and techniques' indication in secondary breast reconstruction. ",
+							"faculty":"A. Rancati"
+						},
+						{
+							"Program":"Limiting complications in implant based breast reconstruction: What do we need to know? ",
+							"faculty":"S. Hofer"
+						},
+						{
+							"Program":"Evaluation of a novel technique in breast reconstruction with a new shaped ADM (Braxon®). ",
+							"faculty":"S. Cawthorn"
+						},
+						{
+							"Program":" The use of implants and fat in revisionary autologous breast reconstruction ",
+							"faculty":"J. Farhadi"
+						},
+						{
+							"Program":"The role of polyurethane implants in revisional breast reconstruction. ",
+							"faculty":"S. Pompei"
+						},
+						{
+							"Program":"How to maintain long term result after unilateral breast reconstruction with implants ",
+							"faculty":"M. Nava"
+						},
+						{
+							"Program":"Advantages and Disadvantages of Preoperative Breast Expansion prior to Fat Grafting. ",
+							"faculty":"R. Khouri"
+						},
+						{
+							"Program":"Can synthetic meshes have a role in revisional breast recontouring ? ",
+							"faculty":"S. Pompei"
+						}
+					]
+				},
+				{
+					"hour": "18:00 - 18:50",
+					"desc": [
+						"KEYNOTE Lectures:"
+					],
+					"Keynotes": [
+						{
+							"Program": "Maximizing Aesthetics in Reconstructive Breast Surgery ",
+							"faculty": "M. Nava"
+						},
+						{
+							"Program": "Identical twin breast transplantation ",
+							"faculty": "J.Park"
+						}
+					]
+				},
+				{
+					"hour": "21:00",
+					"desc": [
+						"Networking dinner."
+					],
+					"Keynotes": [
+						{
+							"Program": "(Dress code: smart casual)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"date":     "Friday 7th, March 2014",
+			"daytitle": "Revisional aesthetic breast surgery",
+			"subtitle": "",
+			"items": [
+				{
+					"hour": "08:00 - 09:15",
+					"desc": [
+						"Optional Instructional Course:",
+						"Practice Management:"
+					],
+					"Keynotes": [
+						{
+							"Program": "How to build and manage your e-reputation",
+							"faculty": "M. González"
+						},
+						{
+							"Program": "How to run a successful aesthetic breast practice ",
+							"faculty": "G. Botti"
+						},
+						{
+							"Program": "Identifying Problematic Patients ",
+							"faculty": "A. Rancati"
+						},
+						{
+							"Program": "3D Imaging: Enhancing the breast consultation ",
+							"faculty": "J. Garcia"
+						},
+						{
+							"Program": "How to enhance your private practice in breast surgery: crisis period new opportunities",
+							"faculty": "C. Estefam"
+						}
+					]
+				},
+				{
+					"hour": "09:30 - 11:00",
+					"desc": [
+						"BREAST ENLARGEMENT"
+					],
+					"Coordinator": "S. Suominen",
+					"Summarizer": "S. McCulley",
+					"Keynotes": [
+						{
+							"Program": "Revising the Deteriorating Breast Augmentation Patient.",
+							"faculty": "G. Botti"
+						},
+						{
+							"Program": "Implant repositioning in cases of bottoming out.",
+							"faculty": "M. Noah"
+						},
+						{
+							"Program": "Management of Rippling in Aesthetic Surgery. ",
+							"faculty": "E. Santamaria"
+						},
+						{
+							"Program": "Recurrent capsular contracture.",
+							"faculty": "C. Angrigiani"
+						},
+						{
+							"Program": "How to choose the right implant according to the patient wishes and anatomical features.",
+							"faculty": "M. Nava"
+						},
+						{
+							"Program": "Use of Asymmetrical Implants for the Correction of Breast Asymmetry.",
+							"faculty": "S. McCulley"
+						},
+						{
+							"Program": "Murphy law in breast augmentation.",
+							"faculty": "M. Noah"
+						}
+					]
+				},
+				{
+					"hour": "11:00 - 11:30",
+					"desc": [
+						"Coffee break"
+					],
+					"Keynotes": [
+					]
+				},
+				{
+					"hour": "11:30 - 13:00",
+					"desc": [
+						"BREAST REDUCTION / MASTOPEXY"
+					],
+					"Coordinator": "C. Angrigiani",
+					"Summarizer":  "J. Farhadi",
+					"Keynotes": [
+						{
+							"Program":"New trends in mastopexy. Scarless mastopexy, myth or reality. ",
+							"faculty":"M. Hamdi"
+						},
+						{
+							"Program":"Composite aesthetic breast reconstruction in the ptotic breast: how to combine implant, mastopexy and fat?",
+							"faculty":"A. Rancati"
+						},
+						{
+							"Program":"Complications after reduction mamoplasty: Tricks to treat suffering nipple areola complex and scar revision. ",
+							"faculty":"C. Garusi"
+						},
+						{
+							"Program":"Mastopexy Augmentation – The Real Requirements for Optimal Patient Outcomes. ",
+							"faculty":"G. Botti"
+						},
+						{
+							"Program":"Loss of projection in mastopexy, how to avoid it.",
+							"faculty":"S. McCulley"
+						},
+						{
+							"Program":"Nipple areola displacement . ",
+							"faculty":"M. Hamdi"
+						}
+					]
+				},
+				{
+					"hour": "13:00 – 14:30",
+					"desc": [
+						"Lunch break"
+					]
+				},
+				{
+					"hour": "14:30 - 16:30",
+					"desc": [
+						"SECONDARY AESTHETIC BREAST SURGERY"
+					],
+					"Coordinator": "S. Suominen",
+					"Summarizer": "M Noah",
+					"Keynotes": [
+						{
+							"Program":"Use of Matrices in revisional aesthetic surgery",
+							"faculty":"J. Farhadi"
+						},
+						{
+							"Program":"What to do when you hear: “Gee, I wish I had gone bigger.” ",
+							"faculty":"E. Santamaria"
+						},
+						{
+							"Program":"Silent rupture in breast implants- When does it happen? ",
+							"faculty":"S. McCulley"
+						},
+						{
+							"Program":"RAFT technique: improving outcomes in secondary breast surgery. ",
+							"faculty":"R. Khouri"
+						},
+						{
+							"Program":"Quality of life after  breast surgery. ",
+							"faculty":"N. Papadopulos"
+						},
+						{
+							"Program":"Polyurethane conical implants: An uplifting augmentation.",
+							"faculty":"G. Georgeu"
+						},
+						{
+							"Program":"Negative-pressure wound therapy: the new device to improve final breast scars.",
+							"faculty":"S.Lopez"
+						}
+					]
+				},
+				{
+					"hour": "16:00",
+					"desc": [
+						"Coffee break"
+					]
+				},
+				{
+					"hour": "16:00 - 17:00",
+					"desc": [
+						"LEARNING FROM THE MASTERS: HOW I SOLVE MY WORST CASE – TRICKS AND TIPS TO TAKE HOME"
+					],
+					"Moderator": "C. Angrigiani, S. McCulley, G. Botti, R. Khouri,M. Noah, S.Pompei and J. Farhadi"
+				},
+				{
+					"hour": "17:00 - 18:30",
+					"desc": [
+						"PROBLEM CASES and FREE PAPERS from the Audience"
+					],
+					"Coordinator": "S. Suominen and J. Farhadi",
+					"Program": "(Please, deliver the presentation to the local staff)"
+				},
+				{
+					"hour": "18:30 - 19:00",
+					"desc": [
+						"REVISIONAL AESTHETIC BREAST SURGERY"
+					],
+					"Keynotes": [
+						{
+							"Program":"Day remarks and potential consensus points.",
+							"faculty":"E. Santamaria"
+						}
+					]
+				},
+				{
+					"hour": "19:00",
+					"desc": [
+						"Adjournment."
+					],
+					"Keynotes" : [
+						{
+							"faculty": "J. Masia"
+						}
+					]
+				}
+			]
+		}
+	]
+}
