@@ -484,6 +484,7 @@ ul.navbar-nav li .dropdown-menu a { padding-top: 13px; padding-bottom: 13px; fon
 
 .contact-form form .contact-error {
 	border-color: #be5254;
+        background-color: #ffbfc2;
 }
 
 .contact-address .map {
