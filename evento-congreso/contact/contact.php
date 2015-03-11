@@ -43,7 +43,7 @@ if ($send) {
 // Create a message
     $message = Swift_Message::newInstance($_POST["subject"])
             ->setFrom(array($_POST["email"]))
-            ->setTo(array('info@webyo.es'))
+            ->setTo(array('didacchaves@me.com'))
             ->setBody("<b>Contacto desde AppCongress:</b> \n\n el/la " . $_POST["email"] . " Con telefono: " . $_POST["phone"] . "\n Envia el siguiente mensaje: \n\n" . $_POST["message"])
     ;
 
