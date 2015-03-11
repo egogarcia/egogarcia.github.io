@@ -15,11 +15,10 @@ if ($_POST["subject"]) {
     $send = false;
     $return .= '"subjectMessage": "false",';
 }
-if (preg_match("/^[0-9]{9}$/", $_POST["phone"])) {
-    $return .= '"phoneMessage": "",';
-} else {
-    $send = false;
-    $return .= '"phoneMessage": "false",';
+if(isset($_POST["phone"])){
+    $phone = $_POST["phone"];
+}else{
+    $phone = "Sin Telefono";
 }
 if ($_POST["message"]) {
     $return .= '"messageMessage": ""';
@@ -44,7 +43,7 @@ if ($send) {
     $message = Swift_Message::newInstance($_POST["subject"])
             ->setFrom(array($_POST["email"]))
             ->setTo(array('info@webyo.es'))
-            ->setBody("<b>Contacto desde AppCongress:</b> \n\n el/la " . $_POST["email"] . " Con telefono: " . $_POST["phone"] . "\n Envia el siguiente mensaje: \n\n" . $_POST["message"])
+            ->setBody("<b>Contacto desde AppCongress:</b> \n\n el/la " . $_POST["email"] . " Con telefono: " . $phone . "\n Envia el siguiente mensaje: \n\n" . $_POST["message"])
     ;
 
 // Send the message
