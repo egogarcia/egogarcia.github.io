@@ -9,7 +9,7 @@ body {
 strong { font-weight: 700; }
 
 a, a:hover, a:focus {
-	color: #be5254;
+	color: #0091b5;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -23,8 +23,8 @@ h1, h2 {
 
 img { max-width: 100%; }
 
-::-moz-selection { background: #be5254; color: #fff; text-shadow: none; }
-::selection { background: #be5254; color: #fff; text-shadow: none; }
+::-moz-selection { background: #0091b5; color: #fff; text-shadow: none; }
+::selection { background: #0091b5; color: #fff; text-shadow: none; }
 
 
 /***** General style, all sections *****/
@@ -73,7 +73,7 @@ ul.navbar-nav {
 }
 
 ul.navbar-nav li a { padding-top: 20px; padding-bottom: 20px; background: #333; color: #fff; }
-ul.navbar-nav li a:hover { background: #333; color: #be5254; }
+ul.navbar-nav li a:hover { background: #333; color: #0091b5; }
 ul.navbar-nav li a:focus { background: #333; color: #fff; outline: 0; }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus { background: #333; }
 
