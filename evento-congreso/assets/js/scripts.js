@@ -170,7 +170,7 @@ jQuery(document).ready(function() {
 	        type: 'POST',
 	        url: 'contact.php',
 	        data: postdata,
-	        dataType: 'json',
+	        dataType: 'json', 
 	        success: function(json) {
                     console.log(json);
 	            if(json.emailMessage != '') {
@@ -185,7 +185,7 @@ jQuery(document).ready(function() {
 	            if(json.messageMessage != '') {
 	                $('.contact-form form textarea').addClass('contact-error');
 	            }
-	            if(json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
+	            if(json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '' && json.phoneMessage == '') {
 	                $('.contact-form form').fadeOut('fast', function() {
 	                    $('.contact-form').append('<p>Gracias por contactar con nosotros! Nos pondremos en contacto con usted muy pronto.</p>');
 	                    // reload background
