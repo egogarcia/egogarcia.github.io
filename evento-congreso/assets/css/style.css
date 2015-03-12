@@ -9,7 +9,7 @@ body {
 strong { font-weight: 700; }
 
 a, a:hover, a:focus {
-	color: #be5254;
+	color: #0091b5;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -23,8 +23,8 @@ h1, h2 {
 
 img { max-width: 100%; }
 
-::-moz-selection { background: #be5254; color: #fff; text-shadow: none; }
-::selection { background: #be5254; color: #fff; text-shadow: none; }
+::-moz-selection { background: #0091b5; color: #fff; text-shadow: none; }
+::selection { background: #0091b5; color: #fff; text-shadow: none; }
 
 
 /***** General style, all sections *****/
@@ -73,7 +73,7 @@ ul.navbar-nav {
 }
 
 ul.navbar-nav li a { padding-top: 20px; padding-bottom: 20px; background: #333; color: #fff; }
-ul.navbar-nav li a:hover { background: #333; color: #be5254; }
+ul.navbar-nav li a:hover { background: #333; color: #0091b5; }
 ul.navbar-nav li a:focus { background: #333; color: #fff; outline: 0; }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus { background: #333; }
 
@@ -92,6 +92,7 @@ ul.navbar-nav li .dropdown-menu a { padding-top: 13px; padding-bottom: 13px; fon
 .navbar-brand {
 	width: 190px;
 	height: 60px;
+        padding: 0 !important;
 	background: url(../img/logo.png) left center no-repeat;
 	text-indent: -99999px;
 }
@@ -164,8 +165,12 @@ ul.navbar-nav li .dropdown-menu a { padding-top: 13px; padding-bottom: 13px; fon
 
 
 /***** How it works *****/
-.how-it-works-container{
-    padding-top: 80px;
+
+
+@media (min-width: 767px){
+    .how-it-works-container{
+    padding-top: 30px;
+}
 }
 
 .how-it-works-video {
@@ -484,6 +489,7 @@ ul.navbar-nav li .dropdown-menu a { padding-top: 13px; padding-bottom: 13px; fon
 
 .contact-form form .contact-error {
 	border-color: #be5254;
+        background-color: #ffbfc2;
 }
 
 .contact-address .map {

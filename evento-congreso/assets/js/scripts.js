@@ -168,22 +168,26 @@ jQuery(document).ready(function() {
 	    var postdata = $('.contact-form form').serialize();
 	    $.ajax({
 	        type: 'POST',
-	        url: 'assets/contact.php',
+	        url: 'contact.php',
 	        data: postdata,
-	        dataType: 'json',
+	        dataType: 'json', 
 	        success: function(json) {
+                    console.log(json);
 	            if(json.emailMessage != '') {
 	                $('.contact-form form .contact-email').addClass('contact-error');
 	            }
 	            if(json.subjectMessage != '') {
 	                $('.contact-form form .contact-subject').addClass('contact-error');
 	            }
+                    if(json.phoneMessage != '') {
+	                $('.contact-form form .contact-phone').addClass('contact-error');
+	            }
 	            if(json.messageMessage != '') {
 	                $('.contact-form form textarea').addClass('contact-error');
 	            }
 	            if(json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
 	                $('.contact-form form').fadeOut('fast', function() {
-	                    $('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
+	                    $('.contact-form').append('<p>Gracias por contactar con nosotros! Nos pondremos en contacto con usted muy pronto.</p>');
 	                    // reload background
 	    				$('.contact-container').backstretch("resize");
 	                });
