@@ -165,8 +165,12 @@ ul.navbar-nav li .dropdown-menu a { padding-top: 13px; padding-bottom: 13px; fon
 
 
 /***** How it works *****/
-.how-it-works-container{
-    padding-top: 80px;
+
+
+@media (min-width: 767px){
+    .how-it-works-container{
+    padding-top: 30px;
+}
 }
 
 .how-it-works-video {
