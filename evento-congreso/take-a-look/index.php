@@ -148,7 +148,7 @@
                         <img src="../assets/img/screenshots/cp3.jpg" alt="Screenshot cp 3" data-at2x="../assets/img/screenshots/cp3.jpg">
                     </div>
                     <div class="col-sm-6 screenshot-box screenshot-box-right wow fadeInUp">
-                        <img src="../assets/img/screenshots/cp1.jpg" alt="Screenshot cp 3" data-at2x="../assets/img/screenshots/cp1.jpg">
+                        <img src="../assets/img/screenshots/cp4.jpg" alt="Screenshot cp 3" data-at2x="../assets/img/screenshots/cp1.jpg">
                     </div>
                 </div>
             </div>
