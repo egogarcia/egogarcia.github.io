@@ -67,31 +67,10 @@
     <body>
 
         <!-- Top menu -->
-        <nav class="navbar navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/" title="SmartCongress - App interactiva para congresos">SmartCongress - App interactiva para congresos para iOS y Android</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="top-navbar-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="scroll-link" href="#features" title="Características">Características</a></li>
-                        <li><a href="take-a-look/" class="" title="Cómo funciona">De un vistazo</a></li>
-                        <li><a class="" href="faq/" title="Faq">Faq</a></li>
-                        <li><a class="" href="price/" title="Precio">Precio</a></li>
-                        <li><a class="" href="about-us/" title="Sobre nosotros">Sobre nosotros</a></li>
-                        <li><a class="" href="contact/" title="Contacto">Contacto</a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php 
+        $index = true;
+        include 'blocks/menu.php';
+        ?>
 
         <!-- Top content -->
         <div class="top-content">
@@ -157,6 +136,13 @@
                             <h3>Q-interactive</h3>
                             <p><b>Interactúa con tu público</b> a través de la App.</p> <p> Despierta a tus asistentes de manera que sean partícipes en las ponencias.</p>
                         </div>
+                        <div class="features-box">
+                            <div class="features-box-icon">
+                                <i class="fa fa-info-circle"></i>
+                            </div>
+                            <h3>Info. General</h3>
+                            <p>nformación adicional totalmente personalizada sobre el evento,  ciudad,  restaurantes y … <b>¡Mucho más!</b></p>
+                        </div>
                     </div>
                     <div class="col-sm-4 features-center wow fadeInDown">
                         <img src="assets/img/iphone-3.png" alt="" title="pantalla inicial app">
@@ -167,7 +153,7 @@
                                 <i class="fa fa-pencil"></i>
                             </div>
                             <h3>Impactante diseño</h3>
-                            <p>Usabilidad y diseño para todos los públicos.</p> <p>Con la posibilidad de personalizarlo al mínimo detalle.</p>
+                            <p>Usabilidad y diseño para todos los públicos.</p> <p>Con la posibilidad de <b>personalizarlo al mínimo detalle</b>.</p>
                         </div>
                         <div class="features-box">
                             <div class="features-box-icon">
@@ -176,61 +162,18 @@
                             <h3>Notificaciones Push</h3>
                             <p>Envía <b>mensajes personalizados</b> que recibirán en su teléfono todos los asistentes. Fideliza tu público.</p>
                         </div>
+                        <div class="features-box">
+                            <div class="features-box-icon">
+                                <i class="fa fa-pencil-square-o"></i>
+                            </div>
+                            <h3>Evaluación</h3>
+                            <p><b>Obtén feedback</b> del público y asistentes, para poder mejorar en próximas ediciones.</p> <p>Podrán valorar fácilmente la conferencia, evento y congreso.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Call to action -->
-        <div class="call-to-action-container section-container section-container-full-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 call-to-action section-description wow fadeIn">
-                        <h2>Descargar ¡Ahora!</h2>
-                        <p>
-                            Demo disponible en la Apple Store y Google Play, 
-                            nunca más podrás organizar un evento, congreso o conferencia sin nuestra Aplicación.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 call-to-action-button wow fadeInUp">
-                        <a class="button-1" href="#" title="Descargar en App Store">
-                            <span class="button-1-left"><i class="fa fa-mobile"></i></span>
-                            <span class="button-1-right">
-                                <span class="button-1-right-top">Disponible en la</span>
-                                <span class="button-1-right-bottom">App Store</span>
-                            </span>
-                        </a>
-                        <a class="button-2" href="#" title="Descargar en Play Store, Android">
-                            <span class="button-2-left"><i class="fa fa-android"></i></span>
-                            <span class="button-2-right">
-                                <span class="button-2-right-top">Descargar para</span>
-                                <span class="button-2-right-bottom">Android</span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-7 footer-copyright">
-                        All rights reserved <a href="http://webyo.es" title="Webyo.es">Webyo.es</a> &copy; <script>document.write('2014 - '+(new Date()).getFullYear())</script>.
-                    </div>
-                    <!--<div class="col-sm-5 footer-social">
-                        <a class="ultm ultm-facebook ultm-32 ultm-square ultm-color-to-gray" href=""></a>
-                        <a class="ultm ultm-twitter ultm-32 ultm-square ultm-color-to-gray" href=""></a>
-                        <a class="ultm ultm-google-plus-1 ultm-32 ultm-square ultm-color-to-gray" href=""></a>
-                    </div>-->
-                </div>
-            </div>
-        </footer>
-
-
+        <?php include 'blocks/footer.php';?>
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
