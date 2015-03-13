@@ -142,7 +142,7 @@
                                 <i class="fa fa-info-circle"></i>
                             </div>
                             <h3>Info. General</h3>
-                            <p>nformación adicional totalmente personalizada sobre el evento,  ciudad,  restaurantes y … <b>¡Mucho más!</b></p>
+                            <p>Información adicional totalmente personalizada sobre el evento,  ciudad,  restaurantes y … <b>¡Mucho más!</b></p>
                         </div>
                     </div>
                     <div class="col-sm-4 features-center wow fadeInDown">
