@@ -65,7 +65,7 @@
     </head>
 
     <body>
-        <script src="assets/js/analyticstracking.js"></script>
+        <script type="text/javascript" src="assets/js/analyticstracking.js"></script>
         <!-- Top menu -->
         <?php 
         $index = true;
