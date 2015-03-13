@@ -64,7 +64,7 @@
     </head>
 
     <body>
-<?php include_once("analyticstracking.php") ?>
+<?php include_once("../assets/analyticstracking.php") ?>
         <!-- Top menu -->
         <?php include '../blocks/menu.php'; ?>
         <!-- FAQ -->
