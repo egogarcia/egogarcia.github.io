@@ -18,7 +18,7 @@ if (isset($index)) {
                     <li><a class="scroll-link" href="#features" title="Características">Características</a></li>
                     <li><a href="take-a-look/" class="" title="Cómo funciona">De un vistazo</a></li>
                     <li><a class="" href="faq/" title="Faq">Faq</a></li>
-                    <li><a class="" href="price/" title="Precio">Precio</a></li>
+                    <!--<li><a class="" href="price/" title="Precio">Precio</a></li>-->
                     <li><a class="" href="about-us/" title="Sobre nosotros">Sobre nosotros</a></li>
                     <li><a class="" href="contact/" title="Contcato">Contacto</a></li>
 
@@ -46,7 +46,7 @@ if (isset($index)) {
                     <li><a class="" href="../index.php" title="Características">Características</a></li>
                     <li><a class="" href="../take-a-look/" title="Cómo funciona">De un vistazo</a></li>
                     <li><a class="" href="../faq/" title="Faq">Faq</a></li>
-                    <li><a class="" href="../price/" title="Precio">Precio</a></li>
+                    <!--<li><a class="" href="../price/" title="Precio">Precio</a></li>-->
                     <li><a class="" href="../about-us/" title="Sobre nosotros">Sobre nosotros</a></li>
                     <li><a class="" href="../contact/" title="Contacto">Contacto</a></li>
 
