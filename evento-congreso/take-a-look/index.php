@@ -86,14 +86,14 @@
                         <h3>Aplicación</h3>
                         <p>Toda la información del evento de manera nativa y <b>compatible con todos los móviles</b>.</p>
                         <h3>Interactiva</h3>
-                        <p>Sistema de <b>notificaciones push</b> podrás interactuar con todo tu público. <br/> Incentiva su participación y obten "feedback".</p>
+                        <p>Sistema de <b>notificaciones a los asistentes</b> podrás interactuar con todo tu público. <br/> Incentiva su participación y obtén "feedback".</p>
 
                     </div>
                     <div class="col-sm-3 how-it-works-description wow fadeInUp">
                         <h3>Website</h3>
                         <p>Portal Web con toda la información de tu evento o congreso.</p>
                         <h3>Administración</h3>
-                        <p>Accede al <a href="http://cp.getsmartconf.com" target="_blank">panel de administración</a> para controlar <b>toda la infomación</b> y características.</p>
+                        <p>Accede al <a href="http://cp.getsmartconf.com" target="_blank">panel de administración</a> para controlar <b>toda la información </b> y características.</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                     <div class="col-sm-12 screenshots section-description wow fadeIn">
                         <h2>Algunas capturas de pantalla de la aplicación</h2>
                         <p>
-                            Interfaz de la aplicacion totalmente configurable para adaptarla al evento o congreso al que esta destinado.
+                            Interfaz de la aplicación totalmente configurable para adaptarla al evento o congreso al que esta destinado.
                         </p>
                     </div>
                 </div>

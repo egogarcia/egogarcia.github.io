@@ -129,7 +129,7 @@
                             <p>
                                 Increíble aplicación: ¿Lo mejor? Interactuar entre los ponentes y nuestros asistentes del congreso.
                                 <br>
-                                <a href="http://bbm.cat">BCN Breast Meeting, Hospital de Sant Paú</a>
+                                <a href="http://bbm.cat"  target="_blank">BBM Barcelona Breast Meeting</a>
                             </p>
                             <div class="testimonial-single-image">
                                 <img src="../assets/img/testimonials/T1.png" alt="" data-at2x="../assets/img/testimonials/T1@2x.png">

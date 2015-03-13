@@ -84,7 +84,7 @@
                             <h1>Impulsa tu <strong>evento</strong> con tu propia <strong>aplicación nativa</strong></h1>
                             <div class="description">
                                 Nunca más podrás <strong>organizar el evento</strong>, conferencia o congreso sin la aplicación <strong>SmartConf.</strong><br/> 
-                                <strong>Fileliza asistentes</strong> interactuando entre ponentes y público.
+                                <strong>Fideliza asistentes</strong> interactuando entre ponentes y público.
                                 <br/><br/>¡Descargate la demo!
                             </div>
                             <div class="top-button">
@@ -117,7 +117,7 @@
                     <div class="col-sm-12 features section-description wow fadeIn">
                         <h2>Características Impresionantes</h2>
                         <p>
-                            Programa, ponentes, información general, Q-interactive, <b>notificaciones push</b> y muchas opciones más para no dejar indiferente a nadie.
+                            Programa, ponentes, información general, Q-interactive, <b>notificaciones a los asistentes</b> y muchas opciones más para no dejar indiferente a nadie.
                         </p>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                             <div class="features-box-icon">
                                 <i class="fa fa-cloud"></i>
                             </div>
-                            <h3>Notificaciones Push</h3>
+                            <h3>Notificaciones a los asistentes</h3>
                             <p>Envía <b>mensajes personalizados</b> que recibirán en su teléfono todos los asistentes. Fideliza tu público.</p>
                         </div>
                         <div class="features-box">

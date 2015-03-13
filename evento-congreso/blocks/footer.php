@@ -5,7 +5,7 @@
             <div class="col-sm-12 call-to-action section-description wow fadeIn">
                 <h2>Descargar ¡Ahora!</h2>
                 <p>
-                    Demo disponible en la <b>Apple Store y Google Play</b>, 
+                    Demo disponible en la <b>App Store y Google Play</b>, 
                     nunca más podrás organizar un evento, congreso o conferencia sin nuestra Aplicación.
                 </p>
             </div>

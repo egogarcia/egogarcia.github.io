@@ -81,7 +81,7 @@
                 <div class="row">
                     <div class="col-sm-8 faq-box faq-box-left wow fadeInLeft">
                         <div class="single-faq">
-                            <h3>Cualquiera puede descargar mi aplicación?</h3>
+                            <h3>¿Cualquiera puede descargar mi aplicación?</h3>
                             <span><i class="fa fa-plus"></i></span>
                             <div class="single-faq-text">
                                 <p>
@@ -90,31 +90,25 @@
                             </div>
                         </div>
                         <div class="single-faq">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do?</h3>
+                            <h3> Cual es el limite de sponsors en la aplicación?</h3>
                             <span><i class="fa fa-plus"></i></span>
                             <div class="single-faq-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                                    En realidad no hay limite de sponsors pero es recomendable no poner mas de 8 imágenes en el slider.
                                 </p>
                             </div>
                         </div>
                         <div class="single-faq">
-                            <h3>Quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut?</h3>
+                            <h3>Hay limite de notificaciones?</h3>
                             <span><i class="fa fa-plus"></i></span>
                             <div class="single-faq-text">
                                 <p>
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
-                                    aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud.
-                                </p>
-                                <p>
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
-                                    aliquip ex ea commodo consequat.
+                                    No hay ningún tipo de limitaciones si el plan elegido cuenta de ellas, puedes enviar las preguntas o notificaciones que quieras a tus asistentes.
                                 </p>
                             </div>
                         </div>
                         <div class="single-faq">
-                            <h3>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</h3>
+                            <h3>Puedo personalizar el diseño para mi evento?</h3>
                             <span><i class="fa fa-plus"></i></span>
                             <div class="single-faq-text">
                                 <p>
