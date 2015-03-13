@@ -65,7 +65,7 @@
     </head>
 
     <body>
-<?php include_once("../assets/analyticstracking.php") ?>
+        <script src="../assets/js/analyticstracking.js"></script>
         <!-- Top menu -->
         <?php include '../blocks/menu.php'; ?>
         <!-- About us -->
