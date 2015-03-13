@@ -95,7 +95,8 @@
                                         <span class="button-1-right-bottom">App Store</span>
                                     </span>
                                 </a>
-                                <a class="button-2" href="#" title="Descargar en Play Store, Android">
+
+                                <a class="button-2" href="https://play.google.com/store/apps/details?id=io.webyo.SmartConf" title="Descargar en Play Store, Android">
                                     <span class="button-2-left"><i class="fa fa-android"></i></span>
                                     <span class="button-2-right">
                                         <span class="button-2-right-top">Descargar para</span>
