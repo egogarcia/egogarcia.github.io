@@ -481,9 +481,9 @@
                     <div class="container">
                         <div class="col-xs-12 col-sm-4 mix all branding">
                             <div id="work-1" class="work">
-                                <a href="" class="bbm" target="_Blank"><img src="images/works/smartConf.jpg" alt="work" /></a>
+                                <a href="" class="smartconf" target="_Blank"><img src="images/works/smartConf.jpg" alt="work" /></a>
                                 <div class="work-info">
-                                    <h6><a href="" class="bbm" target="_Blank">SmartConf.  </a>&nbsp;&nbsp;<!--<a href="https://appsto.re/es/sxOv5.i" target="_Blank"><img height="25" src="images/App_Store.png"></a>-->&nbsp;&nbsp; <a href="https://play.google.com/store/apps/details?id=io.webyo.SmartConf" target="_Blank"><img height="25" src="images/Google-Play.png"></a></h6>
+                                    <h6><a href="" class="bbm" target="_Blank">SmartConf.  </a>&nbsp;&nbsp;<!--<a href="https://appsto.re/es/sxOv5.i" target="_Blank"><img height="25" src="images/App_Store.png"></a>&nbsp;&nbsp;--> <a href="https://play.google.com/store/apps/details?id=io.webyo.SmartConf" target="_Blank"><img height="25" src="images/Google-Play.png"></a></h6>
                                 </div>
                             </div>
                         </div>
@@ -694,9 +694,11 @@
                 var agentID = deviceAgent.match(/(iphone|ipod|ipad)/);
                 if (agentID) {
                     $('.bbm').attr('href', 'https://appsto.re/es/sxOv5.i');
+                    $('.smartconf').attr('href', '#');
                 }else
                  { 
                      $('.bbm').attr('href', 'https://play.google.com/store/apps/details?id=io.webyo.bbm');
+                     $('.smartconf').attr('href', 'https://play.google.com/store/apps/details?id=io.webyo.SmartConf');
                  }
             });
         </script>
