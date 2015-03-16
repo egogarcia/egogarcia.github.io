@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"  />
         <meta http-equiv="X-UA-Compatible" content="IE=edge"  />
         <meta name="description" content="Informacion de la aplicación, prueba del panel de control, caputras de pantalla de la aplicación y del panel de control"  />
-        <meta name="keywords" content="Aplicación, app, ios, android, imagenes, capturas, como funciona, descarga, prueba, panel de control, test"  />
+        <meta name="keywords" content="Aplicación, app, ios, android, De un Vistazo, imagenes, capturas, como funciona, descarga, prueba, panel de control, test"  />
 
         <meta name="apple-mobile-web-app-title" content="smatConf."  />
         <meta name="apple-mobile-web-app-capable" content="yes"  />
@@ -80,7 +80,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-5 how-it-works-video wow fadeInLeft">
-                        <iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://api.dmcloud.net/embed/4e5bf73e94a6f629c900461b/53d001a894a6f62d71d92492?auth=1583929367-0-yldic5xz-0f8be51ac25b76928e159129d56f6d6a&amp;wmode=transparent&amp;autoplay=0"></iframe>
+                        <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://api.dmcloud.net/embed/4e5bf73e94a6f629c900461b/53d001a894a6f62d71d92492?auth=1583929367-0-yldic5xz-0f8be51ac25b76928e159129d56f6d6a&amp;wmode=transparent&amp;autoplay=0"></iframe>-->
                     </div>
                     <div class="col-sm-4 how-it-works-description how-it-works-description-left wow fadeInUp">
                         <h3>Aplicación</h3>

@@ -90,16 +90,16 @@
                             </div>
                         </div>
                         <div class="single-faq">
-                            <h3> Cual es el limite de sponsors en la aplicación?</h3>
+                            <h3>¿Cual es el limite de sponsors en la aplicación?</h3>
                             <span><i class="fa fa-plus"></i></span>
                             <div class="single-faq-text">
                                 <p>
-                                    En realidad no hay limite de sponsors pero es recomendable no poner mas de 8 imágenes en el slider.
+                                    En realidad no hay limite de sponsors pero es recomendable no poner mas de 8 imágenes en el slider, y en el apartado de "more info" puedes patrocinar cualquier restaurante, comercio, bar, etc, de la zona del evento.
                                 </p>
                             </div>
                         </div>
                         <div class="single-faq">
-                            <h3>Hay limite de notificaciones?</h3>
+                            <h3>¿Hay limite de notificaciones?</h3>
                             <span><i class="fa fa-plus"></i></span>
                             <div class="single-faq-text">
                                 <p>
@@ -108,12 +108,11 @@
                             </div>
                         </div>
                         <div class="single-faq">
-                            <h3>Puedo personalizar el diseño para mi evento?</h3>
+                            <h3>¿Puedo personalizar el diseño para mi evento?</h3>
                             <span><i class="fa fa-plus"></i></span>
                             <div class="single-faq-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                                    Si, puedes personalizarlo al mas mínimo detalle, contamos con un estudio de diseño que hará que tu app sea diferente de cualquier app del mercado.
                                 </p>
                             </div>
                         </div>

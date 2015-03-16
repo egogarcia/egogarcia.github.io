@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"  />
         <meta http-equiv="X-UA-Compatible" content="IE=edge"  />
         <meta name="description" content="Personaliza tu evento, congreso o conferencia con una aplicación nativa para Android y iOS, adaptamos y diseñamos la app a medida. Innova añadiendo interacción entre ponentes y público a través de su teléfono móvil"  />
-        <meta name="keywords" content="Aplicación, app, ios, android, congreso, evento, conferencia, interaccion, smartConf, smartConference, ponentes, publico"  />
+        <meta name="keywords" content="Aplicación, app, ios, android, congreso, evento, conferencia, interaccion, smartConf, smartConference, ponentes, publico, 2.0, interactivo"  />
 
         <meta name="apple-mobile-web-app-title" content="SmatConf."  />
         <meta name="apple-mobile-web-app-capable" content="yes"  />
