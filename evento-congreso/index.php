@@ -58,7 +58,7 @@
         <![endif]-->
 
         <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="assets/ico/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
