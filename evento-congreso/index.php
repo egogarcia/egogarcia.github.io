@@ -30,6 +30,8 @@
         <link rel="author" href="https://plus.google.com/107839398563835088830">
         <link rel="publisher" href="https://plus.google.com/107839398563835088830">
         <link rel="canonical" href="http://getsmartconf.com/">
+        
+        <meta name="msvalidate.01" content="758BFE7278BE0283DBF9F55D3D05F22A" />
         <meta name="google-site-verification" content="sg>TJbPRDKLbcKBvhuF-V9_SPK06EdR_fkk2qAsrVfZA" />
 
 
