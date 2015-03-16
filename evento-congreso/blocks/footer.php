@@ -5,21 +5,21 @@
             <div class="col-sm-12 call-to-action section-description wow fadeIn">
                 <h2>Descargar ¡Ahora!</h2>
                 <p>
-                    Demo disponible en la <b>App Store y Google Play</b>, 
+                    Demo disponible en la <b><!--App Store y--> Google Play</b>, 
                     nunca más podrás organizar un evento, congreso o conferencia sin nuestra Aplicación.
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 call-to-action-button wow fadeInUp">
-                <a class="button-1" href="#" title="Descargar en App Store">
+                <!--<a class="button-1" href="#" title="Descargar en App Store">
                     <span class="button-1-left"><i class="fa fa-mobile"></i></span>
                     <span class="button-1-right">
                         <span class="button-1-right-top">Disponible en la</span>
                         <span class="button-1-right-bottom">App Store</span>
                     </span>
-                </a>
-                <a class="button-2" href="#" title="Descargar en Play Store, Android">
+                </a>-->
+                <a class="button-2" href="https://play.google.com/store/apps/details?id=io.webyo.SmartConf" title="Descargar en Play Store, Android">
                     <span class="button-2-left"><i class="fa fa-android"></i></span>
                     <span class="button-2-right">
                         <span class="button-2-right-top">Descargar para</span>

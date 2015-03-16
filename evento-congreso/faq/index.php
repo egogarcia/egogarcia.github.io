@@ -85,7 +85,7 @@
                             <span><i class="fa fa-plus"></i></span>
                             <div class="single-faq-text">
                                 <p>
-                                    Si, pero solo los asistentes a las conferencias o charlas tendrán la contraseña para acceder a los formularios de preguntas para los ponentes.
+                                    Si, pero solo los asistentes a las conferencia, evento, congreso o charlas tendrán la contraseña para acceder a los formularios de preguntas para los ponentes si usted así lo desea.
                                 </p>
                             </div>
                         </div>
