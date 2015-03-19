@@ -23,6 +23,7 @@ h1, h2 {
 
 img { max-width: 100%; }
 
+video { height: 100%; width: 100%;}
 ::-moz-selection { background: #0091b5; color: #fff; text-shadow: none; }
 ::selection { background: #0091b5; color: #fff; text-shadow: none; }
 

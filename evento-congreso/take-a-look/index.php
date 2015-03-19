@@ -20,7 +20,7 @@
         <meta property="og:site_name" content="smatConf.">
         <meta property="og:image" content="http://getsmartconf.com/assets/img/iphone-1@2x.png" />
         <meta property="og:locale" content="es_ES">
-        
+
         <meta itemprop="name" content="smartConf">
         <meta itemprop="description" content="Informacion de la aplicación, prueba del panel de control, caputras de pantalla de la aplicación y del panel de control">
         <meta itemprop="image" content="http://freelancedeveloper.es/assets/img/profile-picture.jpg">
@@ -28,10 +28,10 @@
         <link rel="publisher" href="https://plus.google.com/107839398563835088830">
         <link rel="canonical" href="http://getsmartconf.com/">
         <meta name="google-site-verification" content="sg>TJbPRDKLbcKBvhuF-V9_SPK06EdR_fkk2qAsrVfZA" />
-        
-        
-        
-        
+
+
+
+
         <title>SmartConf. - De un Vistazo</title>
 
         <!-- CSS -->
@@ -80,8 +80,12 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-5 how-it-works-video wow fadeInLeft">
-                        <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://api.dmcloud.net/embed/4e5bf73e94a6f629c900461b/53d001a894a6f62d71d92492?auth=1583929367-0-yldic5xz-0f8be51ac25b76928e159129d56f6d6a&amp;wmode=transparent&amp;autoplay=0"></iframe>-->
-                        <img src="../assets/img/iphone-2.png" alt="" title="pantalla inicial app">
+                        <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://api.dmcloud.net/embed/4e5bf73e94a6f629c900461b/53d001a894a6f62d71d92492?auth=1583929367-0-yldic5xz-0f8be51ac25b76928e159129d56f6d6a&amp;wmode=transparent&amp;autoplay=0"></iframe>-->            <video autoplay controls>
+                           
+                            <source src="../assets/SmartConf.ogv" type="video/ogg">
+                            <img src="../assets/img/iphone-2.png" alt="" title="pantalla inicial app">
+                        </video>
+                        
                     </div>
                     <div class="col-sm-4 how-it-works-description how-it-works-description-left wow fadeInUp">
                         <h3>Aplicación</h3>
@@ -124,7 +128,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Screenshots cpanel -->
         <div class="screenshots-cp-container section-container section-container-full-bg" id="screenshots">
             <div class="container">
@@ -154,7 +158,7 @@
                 </div>
             </div>
         </div>
-        <?php include '../blocks/footer.php';?>
+        <?php include '../blocks/footer.php'; ?>
 
         <!-- Javascript -->
         <script src="../assets/js/jquery-1.11.1.min.js"></script>
@@ -167,9 +171,9 @@
         <script src="../assets/twitter/jquery.tweet.min.js"></script>
         <script src="../assets/js/scripts.js"></script>
         <script>
-                            $('.how-it-works-container').backstretch("../assets/img/backgrounds/1.jpg");
-                            $('.screenshots-cp-container').backstretch("../assets/img/backgrounds/1.jpg");
-                            $('.call-to-action-container').backstretch("../assets/img/backgrounds/2.jpg");
+            $('.how-it-works-container').backstretch("../assets/img/backgrounds/1.jpg");
+            $('.screenshots-cp-container').backstretch("../assets/img/backgrounds/1.jpg");
+            $('.call-to-action-container').backstretch("../assets/img/backgrounds/2.jpg");
         </script>
         <!--[if lt IE 10]>
             <script src="../assets/js/placeholder.js"></script>
