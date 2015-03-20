@@ -80,7 +80,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-5 how-it-works-video wow fadeInLeft">
-                        <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://api.dmcloud.net/embed/4e5bf73e94a6f629c900461b/53d001a894a6f62d71d92492?auth=1583929367-0-yldic5xz-0f8be51ac25b76928e159129d56f6d6a&amp;wmode=transparent&amp;autoplay=0"></iframe>-->            <video autoplay controls poster="../assets/img/poster.png">
+                        <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://api.dmcloud.net/embed/4e5bf73e94a6f629c900461b/53d001a894a6f62d71d92492?auth=1583929367-0-yldic5xz-0f8be51ac25b76928e159129d56f6d6a&amp;wmode=transparent&amp;autoplay=0"></iframe>-->            <video autoplay controls poster="../assets/img/poster.jpg">
                             <source src="../assets/SmartConf.mp4" type="video/mp4">
                             <source src="../assets/SmartConf.ogv" type="video/ogg">
                             <img src="../assets/img/iphone-2.png" alt="" title="pantalla inicial app">
