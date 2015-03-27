@@ -21,8 +21,8 @@
         <meta property="og:site_name" content="SmatConf.">
         <meta property="og:image" content="http://getsmartconf.com/assets/img/iphone-1@2x.png" />
         <meta property="og:locale" content="es_ES">
-
-        <meta name="apple-itunes-app" content="app-id=961971666"/>
+        
+        <meta name="apple-itunes-app" content="app-id=976146343"/>
 
         <meta itemprop="name" content="SmartConf.">
         <meta itemprop="description" content="Personaliza tu evento, congreso o conferencia con una aplicación nativa para Android y iOS, adaptamos y diseñamos la app a medida. Innova añadiendo interacción entre ponentes y público a través de su teléfono móvil">
@@ -106,13 +106,13 @@
                                     <br/><br/>¡Descargate la demo!
                                 </div>
                                 <div class="top-button">
-                                    <!--<a class="button-1" href="https://appsto.re/es/sxOv5.i" title="Descargar en App Store">
+                                    <a class="button-1" href="https://itunes.apple.com/us/app/smartconf-webyo.es/id976146343" title="Descargar en App Store">
                                         <span class="button-1-left"><i class="fa fa-mobile"></i></span>
                                         <span class="button-1-right">
                                             <span class="button-1-right-top">Disponible en la</span>
                                             <span class="button-1-right-bottom">App Store</span>
                                         </span>
-                                    </a>-->
+                                    </a>
 
                                     <a class="button-2" href="https://play.google.com/store/apps/details?id=io.webyo.SmartConf" title="Descargar en Play Store, Android">
                                         <span class="button-2-left"><i class="fa fa-android"></i></span>
