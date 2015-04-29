@@ -1,0 +1,14 @@
+# Block Russian Referrer Spam RewriteEngine on 
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.com/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly.\.ru/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.org/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.info/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*iloveitaly\.ru/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*econom\.co/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*savetubevideo\.com/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*kambasoft\.com/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*buttons\-for\-website\.com/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*semalt\.com/ [NC,OR] 
+RewriteCond %{HTTP_REFERER} ^http://.*darodar\.com/ [NC] 
+RewriteRule (.*) http://%{REMOTE_ADDR}/$ [R=301,L]
+
