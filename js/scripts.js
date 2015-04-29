@@ -3,7 +3,7 @@
 /*-----------------------------------------------------------------------------------*/
 
 /* Starting Animation on Load */
-$('<img/>').attr('src', 'images/background.jpg').load(function() {
+$('<img/>').attr('src', '../images/background.jpg').load(function() {
 	jQuery('#logo').fadeIn(600, function() {
 		jQuery('h1').animate({opacity: '1', 'padding-top': '0'}, 500,function() {
 			jQuery('h2').animate({opacity: '1', 'padding-top': '0'}, 500,function() {
