@@ -1,780 +1,764 @@
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="es" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"  />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"  />
-        <meta name="description" content="Nuestro equipo multidisciplinario ofrece servicios de programación, diseño y Marketing online para aplicaciones Web y móviles"  />
-        <meta name="keywords" content="Programación, Diseño, Marketing online, aplicaciones, Web, Movile, Apps,Agencia,Desarrollo, PHP, Symfony2, Bootstrap, Manresa, Barcelona,  Java, Web, WebApps "  />
 
-        <meta name="apple-mobile-web-app-title" content="WebYo.es"  />
-        <meta name="apple-mobile-web-app-capable" content="yes"  />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="HandheldFriendly" content="True">
-        <meta name="mobile-web-app-capable" content="yes">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"  />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"  />
+  <meta name="description" content="Nuestro equipo multidisciplinario ofrece servicios de programación, diseño y Marketing online para aplicaciones Web y móviles"  />
+  <meta name="keywords" content="Programación, Diseño, Marketing online, aplicaciones, Web, Movile, Apps,Agencia,Desarrollo, PHP, Symfony2, Bootstrap, Manresa, Barcelona,  Java, Web, WebApps "  />
 
-        <meta property="og:title" content="WebYo | Programación, Diseño y Marketing online" />
-        <meta property="og:description" content="Nuestro equipo multidisciplinario ofrece servicios de programación, diseño y marketing online para aplicaciones Web y móviles">
+  <meta name="apple-mobile-web-app-title" content="WebYo.es"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"  />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="HandheldFriendly" content="True">
+  <meta name="mobile-web-app-capable" content="yes">
 
-        <meta property="og:url" content="http://webyo.es" />
-        <meta property="og:site_name" content="WebYo">
-        <meta property="og:image" content="http://webyo.es/images/programacion.jpg" />
-        <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="WebYo | Programación, Diseño y Marketing online" />
+  <meta property="og:description" content="Nuestro equipo multidisciplinario ofrece servicios de programación, diseño y marketing online para aplicaciones Web y móviles">
 
-        <meta itemprop="name" content="WebYo">
-        <meta itemprop="description" content="Nuestro equipo multidisciplinario ofrece servicios de programación, diseño y marketing online para aplicaciones Web y móviles">
-        <meta itemprop="image" content="http://freelancedeveloper.es/assets/img/profile-picture.jpg">
-        <link rel="author" href="https://plus.google.com/107839398563835088830">
-        <link rel="publisher" href="https://plus.google.com/107839398563835088830">
+  <meta property="og:url" content="http://webyo.es" />
+  <meta property="og:site_name" content="WebYo">
+  <meta property="og:image" content="http://webyo.es/images/programacion.jpg" />
+  <meta property="og:locale" content="es_ES">
 
-        <meta name="msvalidate.01" content="758BFE7278BE0283DBF9F55D3D05F22A" />
-        <meta name="google-site-verification" content="c0uFjm14SiRvbFjzA-d6NmVhAXRlKWFasYSaxvAQfqc" />
+  <meta itemprop="name" content="WebYo">
+  <meta itemprop="description" content="Nuestro equipo multidisciplinario ofrece servicios de programación, diseño y marketing online para aplicaciones Web y móviles">
+  <meta itemprop="image" content="http://freelancedeveloper.es/assets/img/profile-picture.jpg">
+  <link rel="author" href="https://plus.google.com/107839398563835088830">
+  <link rel="publisher" href="https://plus.google.com/107839398563835088830">
 
-        <title>WebYo | Programación, Diseño y Marketing online</title>
+  <meta name="msvalidate.01" content="758BFE7278BE0283DBF9F55D3D05F22A" />
+  <meta name="google-site-verification" content="c0uFjm14SiRvbFjzA-d6NmVhAXRlKWFasYSaxvAQfqc" />
 
-        <link rel="shortcut icon" href="images/icons/icon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon-57-precomposed.png">
+  <title>WebYo | Programación, Diseño y Marketing online</title>
 
-        <!-- iPad, retina, portrait -->
-        <link href="images/touch-startup-image/iPadRetina.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-        <!-- iPad, retina, landscape -->
-        <link href="images/touch-startup-image/iPadRetinaLandscape.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-        <!-- iPad, portrait -->
-        <link href="images/touch-startup-image/iPad.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-        <!-- iPad, landscape -->
-        <link href="images/touch-startup-image/iPadLandescape.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-        <!-- iPhone 5 -->
-        <link href="images/touch-startup-image/iPhone5.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-        <!-- iPhone, retina -->
-        <link href="images/touch-startup-image/iPhoneRetina.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-        <!-- iPhone -->
-        <link href="images/touch-startup-image/iPhone.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+  <link rel="shortcut icon" href="images/icons/icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon-57-precomposed.png">
 
-        <!-- STYLESHEETS -->
-        <link rel="stylesheet" href="css/bootstrap.css" />
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/styles.css" />
-        <!-- FONTS 
-        <link href='http://fonts.googleapis.com/css?family=Cabin:400,700,400italic|Merriweather:900' rel='stylesheet' type='text/css'>-->
-        <script src="js/custom.modernizr.js"></script>
-        <!--ADD 2 HOMESCREEN-->
-        <link rel="stylesheet" href="css/add2home.min.css">
-        <script type="text/javascript" src="js/add2home.js" charset="utf-8"></script>
-    </head>
-    <body>
+  <!-- iPad, retina, portrait -->
+  <link href="images/touch-startup-image/iPadRetina.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+  <!-- iPad, retina, landscape -->
+  <link href="images/touch-startup-image/iPadRetinaLandscape.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+  <!-- iPad, portrait -->
+  <link href="images/touch-startup-image/iPad.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+  <!-- iPad, landscape -->
+  <link href="images/touch-startup-image/iPadLandescape.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+  <!-- iPhone 5 -->
+  <link href="images/touch-startup-image/iPhone5.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+  <!-- iPhone, retina -->
+  <link href="images/touch-startup-image/iPhoneRetina.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+  <!-- iPhone -->
+  <link href="images/touch-startup-image/iPhone.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
 
-        <!-- START PAGE -->
-        <div id="page">	
-            <!-- START HEADER -->
-            <header id="header" class="smooth">
-                <!--<video loop="loop" id="pretzel-video" preload="auto" poster="images/preload.jpg" class="video-playing hidden-md hidden-xs" autoplay>
-                        <source src="20141113_132246.mp4" type="video/mp4">
-                        <source src="20141113_132246.webm" type="video/webm">
-                  </video>-->
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="pull-right languages"><!--<a href="cat"><img src="images/cat.png"></a>--> <a href="en"><img src="images/eu.png"></a></div>
-                        <div id="intro" class="text-container">
-                            <div id="logo">
-                                <img src="images/logo.png" alt="logo">
-                            </div>
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- FONTS 
+  <link href='http://fonts.googleapis.com/css?family=Cabin:400,700,400italic|Merriweather:900' rel='stylesheet' type='text/css'>-->
+  <script src="js/custom.modernizr.js"></script>
+  <!--ADD 2 HOMESCREEN-->
+  <link rel="stylesheet" href="css/add2home.min.css">
+  <script type="text/javascript" src="js/add2home.js" charset="utf-8"></script>
 
-                            <h1>Desarrollo, Diseño y Marketing Online</h1>
-                            <h2>Aplicaciones Móviles y Web </h2>
-                            <div id="explore"><a class="scroll" href="#services"><i class="fa fa-angle-down fa fa-4x"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <!-- END HEADER -->
+  <body>
 
-            <!-- START TOP-BAR -->
-            <div id="top-bar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div id="logo-lettering" >
-                                <a class="scroll" href="#header"><img src="images/logo.png" alt="Logo"/></a>
-                            </div>
-                            <!-- the hidden classes of the official release are no accumlative. that's why we used the @TurchenkoAlex ones.  
-                            https://github.com/TurchenkoAlex/bootstrap/tree/3.0.0-wip/dist/css -->
-                            <div id="menu-mobile" class="hidden-md hidden-lg">
-                                <i class="fa fa-align-justify fa fa-2x"></i>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <nav id="top-navigation">
-                                <ul class="list-inline">
-                                    <li><a href="#services">servicios</a></li>
-                                    <li><a href="#useCase">casos de uso</a></li>
-                                    <li><a href="#team">equipo</a></li>
-                                    <li><a href="#contacts">contacto</a></li>
-                                    <li><a href="#studio">oficina</a></li>
-                                    <li><a href="#works">trabajos</a></li>
-                                    <li><a href="/"><!--<a href="cat"><img width="24" height="24" src="images/cat.png"></a>--> <a href="en"><img width="24" height="24" src="images/eu.png"></a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
+    <!-- START PAGE -->
+    <div id="page">	
+      <!-- START HEADER -->
+      <header id="header" class="smooth">
+        <!--<video loop="loop" id="pretzel-video" preload="auto" poster="images/preload.jpg" class="video-playing hidden-md hidden-xs" autoplay>
+                <source src="20141113_132246.mp4" type="video/mp4">
+                <source src="20141113_132246.webm" type="video/webm">
+          </video>-->
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="pull-right languages"><!--<a href="cat"><img src="images/cat.png"></a>--> <a href="en"><img src="images/eu.png"></a></div>
+            <div id="intro" class="text-container">
+              <div id="logo">
+                <img src="images/logo.png" alt="logo">
+              </div>
+
+              <h1>Desarrollo, Diseño y Marketing Online</h1>
+              <h2>Aplicaciones Móviles y Web </h2>
+              <div id="explore"><a class="scroll" href="#services"><i class="fa fa-angle-down fa fa-4x"></i></a></div>
             </div>
-            <!-- END TOP-BAR -->	
+          </div>
+        </div>
+      </header>
+      <!-- END HEADER -->
 
-            <!-- START SERVICES SECTION -->
-            <section id="services">
+      <!-- START TOP-BAR -->
+      <div id="top-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div id="logo-lettering" >
+                <a class="scroll" href="#header"><img src="images/logo.png" alt="Logo"/></a>
+              </div>
+              <!-- the hidden classes of the official release are no accumlative. that's why we used the @TurchenkoAlex ones.  
+              https://github.com/TurchenkoAlex/bootstrap/tree/3.0.0-wip/dist/css -->
+              <div id="menu-mobile" class="hidden-md hidden-lg">
+                <i class="fa fa-align-justify fa fa-2x"></i>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <nav id="top-navigation">
+                <ul class="list-inline">
+                  <li><a href="#services">servicios</a></li>
+                  <li><a href="#useCase">casos de uso</a></li>
+                  <li><a href="#team">equipo</a></li>
+                  <li><a href="#contacts">contacto</a></li>
+                  <li><a href="#studio">oficina</a></li>
+                  <li><a href="#works">trabajos</a></li>
+                  <li><!--<a href="cat"><img width="24" height="24" src="images/cat.png"></a>--> <a href="en"><img width="24" height="24" src="images/eu.png"></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END TOP-BAR -->	
 
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 intro">
-                        <h1>Servicios 365º para tu proyecto</h1>
-                        <p>Gracias a nuestro <a href="#team">equipo y colaboradores</a> ofrecemos todo el servicio necesario para el <strong>lanzamiento y crecimiento de tu proyecto.</strong></p>
-                    </div>
+      <!-- START SERVICES SECTION -->
+      <section id="services">
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 intro">
+            <h1>Servicios 365º para tu proyecto</h1>
+            <p>Gracias a nuestro <a href="#team">equipo y colaboradores</a> ofrecemos todo el servicio necesario para el <strong>lanzamiento y crecimiento de tu proyecto.</strong></p>
+          </div>
+        </div>
+        <div id="services-list" class="row">
+          <div class="container">
+            <div class="col-sm-6 col-md-3">
+              <div id="video" >
+                <i class="fa fa-suitcase fa-5x"></i>	
+                <h3>Gestión de Proyectos</h3>
+                <p>Grandes conocedores de metodologías de gestión de equipos y proyectos como <strong>“Agile” y “Lean”</strong>.</p>
+                <!--<p class="hidden-xs">Estas metodologías son vía de comunicación entre <strong>equipo y negocio</strong> creando un <strong>flujo de comunicación</strong> contínuo.</p>
+                <!--<a href="http://webyo.es/gestion-de-proyectos" alt="más información">Más información...</a>-->
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div id="branding">
+                <i class="fa fa-desktop fa-5x"></i>
+                <h3>Programación</h3>
+                <p><strong>No queremos reinventar la rueda</strong>, por ese motivo estamos a la última en frameworks y tecnologías disponibles para mejorar, agilizar y reducir costes.</p>
+                <!--<p class="hidden-xs"><strong>Desarrollamos software</strong> en lapsos cortos de tiempo para mantener un “feedback” .</p>-->
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div id="web" >
+                <i class="fa fa-pencil fa-5x"></i>
+                <h3>Diseño y Usabilidad</h3>
+                <p>La información nos llega a través de la vista.</p>
+                <p class="hidden-xs"> Aplicamos un diseño visual que nos permita obtener los <strong>mejores resultados</strong>.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div id="illustration" >
+                <i class="fa fa-comments-o fa-5x"></i>
+                <h3>Marketing Online</h3>
+                <p><strong>Conocer y dar a conocer</strong> tiene una gran importancia.</p>
+                <p class="hidden-xs">Nos ponemos en tu piel y en la de tus clientes, desarrollamos la idea y después <strong>medimos su éxito</strong>.</p>
+                <!--<a href="http://webyo.es/marqueting-online" alt="más información">Más información...</a>-->
+              </div>
+            </div>					
+          </div>
+        </div>
+        <hr/>
+        <!--<div class="row">
+                <div class="col-xs-12 col-sm-12 intro">
+                        <h2>Tecnologías</h2>
                 </div>
-                <div id="services-list" class="row">
-                    <div class="container">
-                        <div class="col-sm-6 col-md-3">
-                            <div id="video" >
-                                <i class="fa fa-suitcase fa-5x"></i>	
-                                <h3>Gestión de Proyectos</h3>
-                                <p>Grandes conocedores de metodologías de gestión de equipos y proyectos como <strong>“Agile” y “Lean”</strong>.</p>
-                                <!--<p class="hidden-xs">Estas metodologías son vía de comunicación entre <strong>equipo y negocio</strong> creando un <strong>flujo de comunicación</strong> contínuo.</p>
-                                <!--<a href="http://webyo.es/gestion-de-proyectos" alt="más información">Más información...</a>-->
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <div id="branding">
-                                <i class="fa fa-desktop fa-5x"></i>
-                                <h3>Programación</h3>
-                                <p><strong>No queremos reinventar la rueda</strong>, por ese motivo estamos a la última en frameworks y tecnologías disponibles para mejorar, agilizar y reducir costes.</p>
-                                <!--<p class="hidden-xs"><strong>Desarrollamos software</strong> en lapsos cortos de tiempo para mantener un “feedback” .</p>-->
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <div id="web" >
-                                <i class="fa fa-pencil fa-5x"></i>
-                                <h3>Diseño y Usabilidad</h3>
-                                <p>La información nos llega a través de la vista.</p>
-                                <p class="hidden-xs"> Aplicamos un diseño visual que nos permita obtener los <strong>mejores resultados</strong>.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <div id="illustration" >
-                                <i class="fa fa-comments-o fa-5x"></i>
-                                <h3>Marketing Online</h3>
-                                <p><strong>Conocer y dar a conocer</strong> tiene una gran importancia.</p>
-                                <p class="hidden-xs">Nos ponemos en tu piel y en la de tus clientes, desarrollamos la idea y después <strong>medimos su éxito</strong>.</p>
-                                <!--<a href="http://webyo.es/marqueting-online" alt="más información">Más información...</a>-->
-                            </div>
-                        </div>					
-                    </div>
-                </div>
-                <hr/>
-                <!--<div class="row">
-                        <div class="col-xs-12 col-sm-12 intro">
-                                <h2>Tecnologías</h2>
-                        </div>
-                </div>
-                <div class="container">
-                        <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <a href="https://www.paypal.com/es/webapps/mpp/referral/paypal-business-account2?partner_id=KKMDX4Y3PUXDA" target="_blank" ><img height="50" src="images/pp_partner_v_rgb.png" alt="Paypal">&nbsp; &nbsp; </a>
-                                        <img height="50" src="images/symfony.png" alt="symfony">&nbsp; &nbsp; 
-                                        <img height="50" src="images/doctrine-logo.png" alt="doctrine">&nbsp; &nbsp; 
-                                        <img height="50" src="images/html5.jpg" alt="html5">&nbsp; &nbsp; 
-                                        <img height="50" src="images/j2ee_logo.png" alt="j2ee">&nbsp; &nbsp; 
-                                        <img height="50" src="images/spring-mvc.png" alt="spring">&nbsp; &nbsp; 
-                                        <img height="50" src="images/hibernate_logo.gif" alt="hibernate">&nbsp; &nbsp; 
-                                        <img height="50" src="images/Grails-Logo.jpg" alt="grails">&nbsp; &nbsp; 
-                                </div>
-                        </div>
-                </div>-->		
-                <!--<div class="container">
+        </div>
+        <div class="container">
                 <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <ul id="branding-skills" class="skills-bar">
-                                    <li><span class="expand" data-width="50%"></span><em>Illustrator</em></li>
-                                    <li><span class="expand" data-width="80%"></span><em>Photoshop</em></li>
-                            </ul>
-                            <ul id="web-skills" class="skills-bar">
-                                    <li><span class="expand" data-width="10%"></span><em>HTML 5</em></li>
-                                    <li><span class="expand" data-width="20%"></span><em>CSS 3</em></li>
-                                    <li><span class="expand" data-width="90%"></span><em>jQuery</em></li>
-                            </ul>
-                            <ul id="illustration-skills" class="skills-bar">
-                                    <li><span class="expand" data-width="50%"></span><em>Illustrator</em></li>
-                            </ul>
-                            <ul id="video-skills" class="skills-bar">
-                                    <li><span class="expand" data-width="50%"></span><em>After Effects</em></li>
-                                    <li><span class="expand" data-width="60%"></span><em>Premiere</em></li>
-                                    <li><span class="expand" data-width="30%"></span><em>Final Cut</em></li>
+                                <a href="https://www.paypal.com/es/webapps/mpp/referral/paypal-business-account2?partner_id=KKMDX4Y3PUXDA" target="_blank" ><img height="50" src="images/pp_partner_v_rgb.png" alt="Paypal">&nbsp; &nbsp; </a>
+                                <img height="50" src="images/symfony.png" alt="symfony">&nbsp; &nbsp; 
+                                <img height="50" src="images/doctrine-logo.png" alt="doctrine">&nbsp; &nbsp; 
+                                <img height="50" src="images/html5.jpg" alt="html5">&nbsp; &nbsp; 
+                                <img height="50" src="images/j2ee_logo.png" alt="j2ee">&nbsp; &nbsp; 
+                                <img height="50" src="images/spring-mvc.png" alt="spring">&nbsp; &nbsp; 
+                                <img height="50" src="images/hibernate_logo.gif" alt="hibernate">&nbsp; &nbsp; 
+                                <img height="50" src="images/Grails-Logo.jpg" alt="grails">&nbsp; &nbsp; 
+                        </div>
+                </div>
+        </div>-->		
+        <!--<div class="container">
+        <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <ul id="branding-skills" class="skills-bar">
+                            <li><span class="expand" data-width="50%"></span><em>Illustrator</em></li>
+                            <li><span class="expand" data-width="80%"></span><em>Photoshop</em></li>
+                    </ul>
+                    <ul id="web-skills" class="skills-bar">
+                            <li><span class="expand" data-width="10%"></span><em>HTML 5</em></li>
+                            <li><span class="expand" data-width="20%"></span><em>CSS 3</em></li>
+                            <li><span class="expand" data-width="90%"></span><em>jQuery</em></li>
+                    </ul>
+                    <ul id="illustration-skills" class="skills-bar">
+                            <li><span class="expand" data-width="50%"></span><em>Illustrator</em></li>
+                    </ul>
+                    <ul id="video-skills" class="skills-bar">
+                            <li><span class="expand" data-width="50%"></span><em>After Effects</em></li>
+                            <li><span class="expand" data-width="60%"></span><em>Premiere</em></li>
+                            <li><span class="expand" data-width="30%"></span><em>Final Cut</em></li>
+                    </ul>
+                </div>
+        </div>
+</div>-->
+      </section>
+      <!-- END SERVICES SECTION -->
+
+      <!-- start Casos de uso SECTION -->
+      <section id="useCase">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <h1>Casos de Uso</h1>
+            <p></p>
+          </div>
+        </div>
+        <div id="services-list" class="row">
+          <div class="container">
+            <div class="col-sm-6 col-md-3">
+              <div id="video" >
+                <img class="img-responsive" src="images/shop.jpg"/>    
+                <h3>Smart Shop</h3>
+                <p>Apps que ofrecen una nueva experiencia de usuario y que consiguen fusionar la compra online con la offline.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div id="branding">
+                <img class="img-responsive" src="images/tour.jpg"/>    
+                <h3>Smart Tour</h3>
+                <p>Apps para museos o Apps turísticas que informan a los usuarios sin necesidad de realizar ninguna acción.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div id="web" >
+                <img class="img-responsive" src="images/game.jpg"/>    
+                <h3>City Games</h3>
+                <p>Apps yincana para publicitar marcas o eventos mediante puntos de interés o rutas en la ciudad.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div id="illustration" >
+                <img class="img-responsive"  src="images/congress.jpg"/>    
+                <h3>Eventos</h3>
+                <p>Apps para la captación de público objetivo en ferias de exposición y congresos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END Casos de uso SECTION -->
+
+      <!-- START TEAM SECTION -->
+      <section id="team">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 intro">
+            <h1>Conoce nuestro equipo</h1>
+            <p>Jóvenes, preparados y proactivos</p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="container">
+            <!--<div class="col-md-3"></div>-->
+            <div class="col-xs-6 col-sm-6 col-md-3 member">
+              <div class="member-photo">
+                <div class="image">
+                  <img src="images/team/member1.jpg" alt="Team Member 1">
+                </div>
+                <div class="image-hover">
+                  <img src="images/team/member1-hover.jpg" alt="Team Member 1">
+                </div>
+                <div class="member-hover hidden-xs hidden-sm">
+                  <div class="list-container">
+                    <ul class="list-inline social">
+                      <li><a  href="http://freelancedeveloper.es/" target="_blank"><i class="fa fa-link fa fa-3x"></i></a></li>
+                      <li><a href="http://es.linkedin.com/in/ericgarciaordonez/" target="_blank"><i class="fa fa-linkedin fa fa-3x"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <h5>Eric Garcia</h5>
+              <p class>CTO - <span class="hidden-xs">Analista </span>Programador</p>
+
+              <div class="list-container visible-xs visible-sm">
+                <ul class="list-inline">
+                  <li><a href="http://freelancedeveloper.es/" target="_blank"><i class="fa fa-link fa fa-2x"></i></a></li>
+                  <li><a href="http://es.linkedin.com/in/ericgarciaordonez/" target="_blank"><i class="fa fa-linkedin fa fa-2x"></i></a></li>
+                </ul>
+              </div>	
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3 member">
+              <div class="member-photo">
+                <div class="image">
+                  <img src="images/team/Taandem1.jpg" alt="Team Member 2">
+                </div>
+                <div class="image-hover">
+                  <img src="images/team/Taandem2.jpg" alt="Team Member 2">
+                </div>
+                <div class="member-hover hidden-xs hidden-sm">
+                  <div class="list-container">
+                    <ul class="list-inline social">
+                      <li><a href="http://taandem.com/" target="_blank"><i class="fa fa-link fa fa-3x"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <h5>TÅÅNDEM</h5>
+              <p>Estudio Creativo</p>
+              <div class="list-container visible-xs visible-sm">
+                <ul class="list-inline">
+                  <li><a href="http://taandem.com/" target="_blank"><i class="fa fa-link fa fa-2x"></i></a></li>
+
+                </ul>
+              </div>			
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 member">
+              <div class="member-photo">
+                <div class="image">
+                  <img src="images/team/member2-hover.jpg" alt="Team Member 3">
+                </div>
+                <div class="image-hover">
+                  <img src="images/team/member2-hover.jpg" alt="Team Member 3">
+                </div>
+                <div class="member-hover hidden-xs hidden-sm">
+                  <div class="list-container">
+                    <ul class="list-inline social">
+                      <li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-3x"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <h5>Didac Chaves</h5>
+              <p>Front-end Developer</p>
+              <div class="list-container visible-xs visible-sm">
+                <ul class="list-inline">
+                  <li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-2x"></i></a></li>
+                </ul>
+              </div>				
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 member">
+              <div class="member-photo">
+                <img src="images/team/you.jpg" alt="Team Member 4">
+                <div class="member-hover hidden-xs hidden-sm">
+                  <div class="list-container">
+                    <ul class="list-inline social">
+                      <li><a href="#contacts"><i class="fa-envelope fa fa-3x"></i></a></li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <h5>Buscamos Talento</h5>
+              <p>si quieres unirte <a href="#contacts">contacta con nosotros</p>
+              <div class="list-container visible-xs visible-sm">
+                <ul class="list-inline">
+                  <li><a href="#contacts"><i class="fa-envelope fa fa-3x"></i></a></li>
+                </ul>
+              </div>	
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 testimonials section-description wow fadeIn">
+            <h2>Clientes</h2>
+            <div class="testimonial-active"></div>
+            <div class="testimonial-quote left">&ldquo;</div>
+            <div class="testimonial-quote right">&rdquo;</div>
+            <div class="testimonial-single">
+              <p>
+                WebYo.es es un equipo comprometido, profesional y muy competente. Ha sido un placer contar con su ayuda, destacar que resuelven los imprevistos con gran agilidad. El trato personal inmejorable, seguiré contando con ellos en el futuro.
+                <br>
+                <a href="http://www.rmes.es/"  target="_blank">Reconstructive Microsurgery European School - Universidad Autonoma de Barcelona</a>
+              </p>
+              <div class="testimonial-single-image">
+                <img src="images/testimonials/T1.jpg" alt="" data-at2x="../assets/img/testimonials/T1@2x.png">
+              </div>
+            </div>
+            <div class="testimonial-single">
+              <p>
+                Su equipo de programación superan los retos con proactividad y calidad técnica digna de un grandes profesionales y además el trato con ellos es excelente realizando reuniones semanales en Barcelona.
+                <br>
+                <a href="http://sparkbitpartners.com/">Sparkbit Partners</a>
+              </p>
+              <div class="testimonial-single-image">
+                <img src="images/testimonials/T2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
+              </div>
+            </div>
+            <div class="testimonial-single">
+              <p>
+                WebYo.es es un equipo con grandes Profesionales, meticulosos en su trabajo, que realizan a la perfección. <br/>Siempre entregan todos los trabajos con el tiempo acordado y se preocupan de dar las mejores opciones en cada proyecto.<br/> Des de que les conocí me ha facilitado mucho mi trabajo y cuento con ellos para cualquier proyecto que tenga en mi empresa.
+                <br>
+                <a>agiralt - Google Trusted Photographer</a>
+              </p>
+              <div class="testimonial-single-image">
+                <img src="images/testimonials/T3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END TEAM SECTION -->
+      <!-- START CONTACTS SECTION -->
+      <section id="contacts">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <h1>Contacta con nosotros</h1>
+            <p>Estaremos encantados de escucharte y proponer soluciones</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <div class="contact-info">
+              <div class="row">
+                <div class="col-xs-6 col-sm-4 contact">
+                  <div class="icon">
+                    <a href="mailto:eric@webyo.es"><i class="fa fa-envelope fa fa-4x"></i></a>	
+                  </div>
+                  <p>info@webyo.es</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 contact">
+                  <div class="icon">
+                    <a href="tel:+34656828020"><i class="fa fa-phone fa fa-4x"></i></a>	
+                  </div>
+                  <p>+34 656 828 020</p>
+                  <p>+34 938 341 050</p>
+                </div>
+                <div class="col-xs-3"></div>
+                <div class="col-xs-6 col-sm-4 contact">
+                  <div class="icon">
+                    <a href="http://maps.apple.com/?q=41.738737,1.847137" target="_blank"><i class="fa fa-map-marker fa fa-4x"></i></a>	
+                  </div>
+                  <h5>Palau Firal de Manresa</h5>
+                  <p>Carrer Castelladral 5-7<br/>08243<br/>Manresa, Barcelona</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END CONTACTS SECTION -->
+
+      <!-- START STUDIO SECTION -->
+      <section id="studio">
+        <div class="row">
+          <div class="col-xs-12 intro">
+            <h1>¿Quieres saber más?</h1>
+            <a class="scroll" href="#studio"><i class="fa fa-angle-down fa fa-4x"></i></a>
+
+            <div class="row sub_services">
+              <div class="container">
+                <div class="col-xs-12 col-sm-6">
+                  <h2>Una aplicación para cada ocasión</h2>
+                  <p>Desarrollamos y diseñamos apps nativas “a medida” según las necesidades de nuestro cliente.</p>
+                  <p>Hemos realizado aplicaciones de diferente índole.</p>
+                </div> 
+                <div class="col-xs-12 col-sm-6">
+                  <h2>Un desarrollo varias plataformas</h2>
+                  <p>Realizamos un desarrollo y compilamos para cada plataforma, <strong>Android, iOS o Windows Phone.</strong><br/> Evitando duplicidad y <strong>eliminando costes adicionales</strong> por dispositivo y plataforma.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="studio">
+          <div class="row">
+            <div class="col-xs-12">
+              <div id="swiper" class="swiper-container">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide"><img src="images/studio/studio2.jpg" alt="slider image 2"/></div>
+                  <div class="swiper-slide"><img src="images/studio/studio3.jpg" alt="slider image 3"/></div>
+                  <div class="swiper-slide"><img src="images/studio/studio4.jpg" alt="slider image 4"/></div>
+                  <div class="swiper-slide"><img src="images/studio/studio5.jpg" alt="slider image 5"/></div>
+                  <div class="swiper-slide"><img src="images/studio/studio6.jpg" alt="slider image 6"/></div>
+                  <div class="swiper-slide"><img src="images/studio/studio1.jpg" alt="slider image 1"/></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END STUDIO SECTION -->
+
+      <!-- START WORKS SECTION -->
+      <section id="works">
+
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3 intro">
+            <h1>¿Reconoces alguno de nuestros trabajos?</h1>
+            <p></p>
+          </div>
+        </div>	
+        <!--<div id="w-filter" class="row">
+                <div class="col-xs-12">
+                        <div id="work-filter" class="center-list">
+                            <ul class="list-inline hidden-xs">
+                                <li class="filter active" data-filter="all">all</li>
+                                <li class="filter" data-filter="branding">branding</li>
+                                <li class="filter" data-filter="photography">photography</li>
+                                <li class="filter" data-filter="illustration">illustration</li>
+                                <li class="filter" data-filter="video">video</li>
                             </ul>
                         </div>
                 </div>
         </div>-->
-            </section>
-            <!-- END SERVICES SECTION -->
-
-            <!-- start Casos de uso SECTION -->
-            <section id="useCase">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                        <h1>Casos de Uso</h1>
-                        <p></p>
-                    </div>
+        <div id="work-container" class="row">
+          <div class="container">
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-1" class="work">
+                <a href="" class="smartconf" target="_Blank"><img src="images/works/smartConf.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="" class="smartconf" target="_Blank">SmartConf.  </a>&nbsp;&nbsp<a href="https://appsto.re/es/sxOv5.i" target="_Blank"><img height="25" src="images/App_Store.png"></a>&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=io.webyo.SmartConf" target="_Blank"><img height="25" src="images/Google-Play.png"></a></h6>
                 </div>
-                <div id="services-list" class="row">
-                    <div class="container">
-                        <div class="col-sm-6 col-md-3">
-                            <div id="video" >
-                                <img class="img-responsive" src="images/shop.jpg"/>    
-                                <h3>Smart Shop</h3>
-                                <p>Apps que ofrecen una nueva experiencia de usuario y que consiguen fusionar la compra online con la offline.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <div id="branding">
-                                <img class="img-responsive" src="images/tour.jpg"/>    
-                                <h3>Smart Tour</h3>
-                                <p>Apps para museos o Apps turísticas que informan a los usuarios sin necesidad de realizar ninguna acción.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <div id="web" >
-                                <img class="img-responsive" src="images/game.jpg"/>    
-                                <h3>City Games</h3>
-                                <p>Apps yincana para publicitar marcas o eventos mediante puntos de interés o rutas en la ciudad.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <div id="illustration" >
-                                <img class="img-responsive"  src="images/congress.jpg"/>    
-                                <h3>Eventos</h3>
-                                <p>Apps para la captación de público objetivo en ferias de exposición y congresos.</p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-1" class="work">
+                <a href="" class="bbm" target="_Blank"><img src="images/works/bbm.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="" class="bbm" target="_Blank">BBM Barcelona  </a>&nbsp;&nbsp;<a href="https://appsto.re/es/sxOv5.i" target="_Blank"><img height="25" src="images/App_Store.png"></a>&nbsp;&nbsp; <a href="https://play.google.com/store/apps/details?id=io.webyo.bbm" target="_Blank"><img height="25" src="images/Google-Play.png"></a></h6>
                 </div>
-            </section>
-            <!-- END Casos de uso SECTION -->
-
-            <!-- START TEAM SECTION -->
-            <section id="team">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 intro">
-                        <h1>Conoce nuestro equipo</h1>
-                        <p>Jóvenes, preparados y proactivos</p>
-                    </div>
+              </div>
+            </div>          
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-2" class="work">
+                <a href="http://www.get-my-guide.com/" target="_Blank"><img src="images/works/visitum.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="http://www.get-my-guide.com/" target="_Blank">Visitum - enjoy your trip!</a></h6>
                 </div>
+              </div>
+            </div>
 
-
-                <div class="row">
-                    <div class="container">
-                        <!--<div class="col-md-3"></div>-->
-                        <div class="col-xs-6 col-sm-6 col-md-3 member">
-                            <div class="member-photo">
-                                <div class="image">
-                                    <img src="images/team/member1.jpg" alt="Team Member 1">
-                                </div>
-                                <div class="image-hover">
-                                    <img src="images/team/member1-hover.jpg" alt="Team Member 1">
-                                </div>
-                                <div class="member-hover hidden-xs hidden-sm">
-                                    <div class="list-container">
-                                        <ul class="list-inline social">
-                                            <li><a  href="http://freelancedeveloper.es/" target="_blank"><i class="fa fa-link fa fa-3x"></i></a></li>
-                                            <li><a href="http://es.linkedin.com/in/ericgarciaordonez/" target="_blank"><i class="fa fa-linkedin fa fa-3x"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5>Eric Garcia</h5>
-                            <p class>CTO - <span class="hidden-xs">Analista </span>Programador</p>
-
-                            <div class="list-container visible-xs visible-sm">
-                                <ul class="list-inline">
-                                    <li><a href="http://freelancedeveloper.es/" target="_blank"><i class="fa fa-link fa fa-2x"></i></a></li>
-                                    <li><a href="http://es.linkedin.com/in/ericgarciaordonez/" target="_blank"><i class="fa fa-linkedin fa fa-2x"></i></a></li>
-                                </ul>
-                            </div>	
-                        </div>
-
-                        <div class="col-xs-6 col-sm-6 col-md-3 member">
-                            <div class="member-photo">
-                                <div class="image">
-                                    <img src="images/team/Taandem1.jpg" alt="Team Member 2">
-                                </div>
-                                <div class="image-hover">
-                                    <img src="images/team/Taandem2.jpg" alt="Team Member 2">
-                                </div>
-                                <div class="member-hover hidden-xs hidden-sm">
-                                    <div class="list-container">
-                                        <ul class="list-inline social">
-                                            <li><a href="http://taandem.com/" target="_blank"><i class="fa fa-link fa fa-3x"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5>TÅÅNDEM</h5>
-                            <p>Estudio Creativo</p>
-                            <div class="list-container visible-xs visible-sm">
-                                <ul class="list-inline">
-                                    <li><a href="http://taandem.com/" target="_blank"><i class="fa fa-link fa fa-2x"></i></a></li>
-
-                                </ul>
-                            </div>			
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-3 member">
-                            <div class="member-photo">
-                                <div class="image">
-                                    <img src="images/team/member2-hover.jpg" alt="Team Member 3">
-                                </div>
-                                <div class="image-hover">
-                                    <img src="images/team/member2-hover.jpg" alt="Team Member 3">
-                                </div>
-                                <div class="member-hover hidden-xs hidden-sm">
-                                    <div class="list-container">
-                                        <ul class="list-inline social">
-                                            <li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-3x"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5>Didac Chaves</h5>
-                            <p>Front-end Developer</p>
-                            <div class="list-container visible-xs visible-sm">
-                                <ul class="list-inline">
-                                    <li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-2x"></i></a></li>
-                                </ul>
-                            </div>				
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-md-3 member">
-                            <div class="member-photo">
-                                <img src="images/team/you.jpg" alt="Team Member 4">
-                                <div class="member-hover hidden-xs hidden-sm">
-                                    <div class="list-container">
-                                        <ul class="list-inline social">
-                                            <li><a href="#contacts"><i class="fa-envelope fa fa-3x"></i></a></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5>Buscamos Talento</h5>
-                            <p>si quieres unirte <a href="#contacts">contacta con nosotros</p>
-                            <div class="list-container visible-xs visible-sm">
-                                <ul class="list-inline">
-                                    <li><a  href="#contacts"><i class="fa-envelope fa fa-3x"></i></a></li>
-                                </ul>
-                            </div>	
-                        </div>
-                    </div>
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-3" class="work">
+                <a href="http://trackoneservice.com/" target="_Blank"><img src="images/works/trackone.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="http://trackoneservice.com/" target="_Blank">Track One Service</a></h6>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 testimonials section-description wow fadeIn">
-                        <h2>Clientes</h2>
-                        <div class="testimonial-active"></div>
-                        <div class="testimonial-quote left">&ldquo;</div>
-                        <div class="testimonial-quote right">&rdquo;</div>
-                        <div class="testimonial-single">
-                            <p>
-                                Increíble aplicación: ¿Lo mejor? Interactuar entre los ponentes y nuestros asistentes del congreso.
-                                <br>
-                                <a href="http://bbm.cat"  target="_blank">BBM Barcelona Breast Meeting</a>
-                            </p>
-                            <div class="testimonial-single-image">
-                                <img src="../assets/img/testimonials/T1.png" alt="" data-at2x="../assets/img/testimonials/T1@2x.png">
-                            </div>
-                        </div>
-                        <div class="testimonial-single">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
-                                ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
-                                incididunt ut labore et.
-                                <br>
-                                <a href="">Jane Jonsson, blog.jane.com</a>
-                            </p>
-                            <div class="testimonial-single-image">
-                                <img src="../assets/img/testimonials/2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
-                            </div>
-                        </div>
-                        <div class="testimonial-single">
-                            <p>
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-                                lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, 
-                                quis nostrud exerci tation ullamcorper suscipit lobortis nisl.
-                                <br>
-                                <a href="">John Doe, johndoe.com</a>
-                            </p>
-                            <div class="testimonial-single-image">
-                                <img src="../assets/img/testimonials/3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
-                            </div>
-                        </div>
-                        <div class="testimonial-single">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
-                                ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
-                                incididunt ut labore et.
-                                <br>
-                                <a href="">Jane Jonsson, blog.jane.com</a>
-                            </p>
-                            <div class="testimonial-single-image">
-                                <img src="../assets/img/testimonials/2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-4" class="work">
+                <a href="http://segway.webyo.es" target="_Blank"><img src="images/works/segwaygreentour.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="http://segway.webyo.es" target="_Blank">Segway Green Tour</a></h6>
                 </div>
-            </section>
-            <!-- END TEAM SECTION -->
-            <!-- START CONTACTS SECTION -->
-            <section id="contacts">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-                        <h1>Contacta con nosotros</h1>
-                        <p>Estaremos encantados de escucharte y proponer soluciones</p>
-                    </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-5" class="work">
+                <a href="http://upsoci.webyo.es/" target="_Blank"><img src="images/works/upsoci.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="http://upsoci.webyo.es/" target="_Blank">World Awaking</a></h6>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-                        <div class="contact-info">
-                            <div class="row">
-                                <div class="col-xs-6 col-sm-4 contact">
-                                    <div class="icon">
-                                        <a href="mailto:eric@webyo.es"><i class="fa fa-envelope fa fa-4x"></i></a>	
-                                    </div>
-                                    <p>info@webyo.es</p>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 contact">
-                                    <div class="icon">
-                                        <a href="tel:+34656828020"><i class="fa fa-phone fa fa-4x"></i></a>	
-                                    </div>
-                                    <p>+34 656 828 020</p>
-                                    <p>+34 938 341 050</p>
-                                </div>
-                                <div class="col-xs-3"></div>
-                                <div class="col-xs-6 col-sm-4 contact">
-                                    <div class="icon">
-                                        <a href="http://maps.apple.com/?q=41.738737,1.847137" target="_blank"><i class="fa fa-map-marker fa fa-4x"></i></a>	
-                                    </div>
-                                    <h5>Palau Firal de Manresa</h5>
-                                    <p>Carrer Castelladral 5-7<br/>08243<br/>Manresa, Barcelona</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-6" class="work">
+                <a href="http://www.yourcoded.com/" target="_Blank"><img src="images/works/yourcoded.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="http://www.yourcoded.com/" target="_Blank">Yourcoded</a></h6>
                 </div>
-            </section>
-            <!-- END CONTACTS SECTION -->
-
-            <!-- START STUDIO SECTION -->
-            <section id="studio">
-                <div class="row">
-                    <div class="col-xs-12 intro">
-                        <h1>¿Quieres saber más?</h1>
-                        <a class="scroll" href="#studio"><i class="fa fa-angle-down fa fa-4x"></i></a>
-
-                        <div class="row sub_services">
-                            <div class="container">
-                                <div class="col-xs-12 col-sm-6">
-                                    <h2>Una aplicación para cada ocasión</h2>
-                                    <p>Desarrollamos y diseñamos apps nativas “a medida” según las necesidades de nuestro cliente.</p>
-                                    <p>Hemos realizado aplicaciones de diferente índole.</p>
-                                </div> 
-                                <div class="col-xs-12 col-sm-6">
-                                    <h2>Un desarrollo varias plataformas</h2>
-                                    <p>Realizamos un desarrollo y compilamos para cada plataforma, <strong>Android, iOS o Windows Phone.</strong><br/> Evitando duplicidad y <strong>eliminando costes adicionales</strong> por dispositivo y plataforma.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-7" class="work">
+                <a href="http://webyo.es/getmeadvice/" target="_Blank"><img src="images/works/getmeadvice.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="http://webyo.es/getmeadvice/" target="_Blank">Get Me Advice</a></h6>
                 </div>
-                <div class="studio">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div id="swiper" class="swiper-container">
-                                <div class="swiper-wrapper">
-
-                                    <div class="swiper-slide"><img src="images/studio/studio2.jpg" alt="slider image 2"/></div>
-                                    <div class="swiper-slide"><img src="images/studio/studio3.jpg" alt="slider image 3"/></div>
-                                    <div class="swiper-slide"><img src="images/studio/studio4.jpg" alt="slider image 4"/></div>
-                                    <div class="swiper-slide"><img src="images/studio/studio5.jpg" alt="slider image 5"/></div>
-                                    <div class="swiper-slide"><img src="images/studio/studio6.jpg" alt="slider image 6"/></div>
-                                    <div class="swiper-slide"><img src="images/studio/studio1.jpg" alt="slider image 1"/></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-8" class="work">
+                <a href="http://www.indracompany.com/en/soluciones-y-servicios/solucion/document-management/1620/summary" target="_Blank"><img src="images/works/indra.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="http://www.indracompany.com/en/soluciones-y-servicios/solucion/document-management/1620/summary" target="_Blank">Indra bmb - Gestió documental</a></h6>
                 </div>
-            </section>
-            <!-- END STUDIO SECTION -->
-
-            <!-- START WORKS SECTION -->
-            <section id="works">
-
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 intro">
-                        <h1>¿Reconoces alguno de nuestros trabajos?</h1>
-                        <p></p>
-                    </div>
-                </div>	
-                <!--<div id="w-filter" class="row">
-                        <div class="col-xs-12">
-                                <div id="work-filter" class="center-list">
-                                    <ul class="list-inline hidden-xs">
-                                        <li class="filter active" data-filter="all">all</li>
-                                        <li class="filter" data-filter="branding">branding</li>
-                                        <li class="filter" data-filter="photography">photography</li>
-                                        <li class="filter" data-filter="illustration">illustration</li>
-                                        <li class="filter" data-filter="video">video</li>
-                                    </ul>
-                                </div>
-                        </div>
-                </div>-->
-                <div id="work-container" class="row">
-                    <div class="container">
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-1" class="work">
-                                <a href="" class="smartconf" target="_Blank"><img src="images/works/smartConf.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="" class="smartconf" target="_Blank">SmartConf.  </a>&nbsp;&nbsp<a href="https://appsto.re/es/sxOv5.i" target="_Blank"><img height="25" src="images/App_Store.png"></a>&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=io.webyo.SmartConf" target="_Blank"><img height="25" src="images/Google-Play.png"></a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-1" class="work">
-                                <a href="" class="bbm" target="_Blank"><img src="images/works/bbm.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="" class="bbm" target="_Blank">BBM Barcelona  </a>&nbsp;&nbsp;<a href="https://appsto.re/es/sxOv5.i" target="_Blank"><img height="25" src="images/App_Store.png"></a>&nbsp;&nbsp; <a href="https://play.google.com/store/apps/details?id=io.webyo.bbm" target="_Blank"><img height="25" src="images/Google-Play.png"></a></h6>
-                                </div>
-                            </div>
-                        </div>          
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-2" class="work">
-                                <a href="http://www.get-my-guide.com/" target="_Blank"><img src="images/works/visitum.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="http://www.get-my-guide.com/" target="_Blank">Visitum - enjoy your trip!</a></h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-3" class="work">
-                                <a href="http://trackoneservice.com/" target="_Blank"><img src="images/works/trackone.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="http://trackoneservice.com/" target="_Blank">Track One Service</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-4" class="work">
-                                <a href="http://segway.webyo.es" target="_Blank"><img src="images/works/segwaygreentour.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="http://segway.webyo.es" target="_Blank">Segway Green Tour</a></h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-5" class="work">
-                                <a href="http://upsoci.webyo.es/" target="_Blank"><img src="images/works/upsoci.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="http://upsoci.webyo.es/" target="_Blank">World Awaking</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-6" class="work">
-                                <a href="http://www.yourcoded.com/" target="_Blank"><img src="images/works/yourcoded.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="http://www.yourcoded.com/" target="_Blank">Yourcoded</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-7" class="work">
-                                <a href="http://webyo.es/getmeadvice/" target="_Blank"><img src="images/works/getmeadvice.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="http://webyo.es/getmeadvice/" target="_Blank">Get Me Advice</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-8" class="work">
-                                <a href="http://www.indracompany.com/en/soluciones-y-servicios/solucion/document-management/1620/summary" target="_Blank"><img src="images/works/indra.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="http://www.indracompany.com/en/soluciones-y-servicios/solucion/document-management/1620/summary" target="_Blank">Indra bmb - Gestió documental</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-9" class="work">
-                                <a href="http://webyo.es/paypost/" target="_Blank"><img src="images/works/paypost.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="http://webyo.es/paypost/" target="_Blank">PayPost</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-offset-4 col-xs-12 col-sm-4 mix all branding">
-                            <div id="work-9" class="work">
-                                <a href="#"><img src="images/works/bit4services.jpg" alt="work" /></a>
-                                <div class="work-info">
-                                    <h6><a href="#">bit4services</a></h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 mix all branding">
+              <div id="work-9" class="work">
+                <a href="http://webyo.es/paypost/" target="_Blank"><img src="images/works/paypost.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="http://webyo.es/paypost/" target="_Blank">PayPost</a></h6>
                 </div>
-            </section>
-            <!-- END WORKS SECTION -->
-
-            <!-- START end SECTION -->
-            <section id="end">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-                        <hr/>
-
-                    </div>
+              </div>
+            </div>
+            <div class="col-sm-offset-4 col-xs-12 col-sm-4 mix all branding">
+              <div id="work-9" class="work">
+                <a href="#"><img src="images/works/bit4services.jpg" alt="work" /></a>
+                <div class="work-info">
+                  <h6><a href="#">bit4services</a></h6>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-                        <div class="contact-info">
-                            <div class="row">
-                                <div class="col-xs-6 col-sm-4 contact">
-                                    <div class="icon">
-                                        <a href="mailto:eric@webyo.es"><i class="fa fa-envelope fa fa-4x"></i></a>	
-                                    </div>
-                                    <p>info@webyo.es</p>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 contact">
-                                    <div class="icon">
-                                        <a href="tel:+34656828020"><i class="fa fa-phone fa fa-4x"></i></a>	
-                                    </div>
-                                    <p>+34 656 828 020</p>
-                                </div>
-                                <div class="col-xs-3"></div>
-                                <div class="col-xs-6 col-sm-4 contact">
-                                    <div class="icon">
-                                        <a href="http://maps.apple.com/?q=41.738737,1.847137" target="_blank"><i class="fa fa-map-marker fa fa-4x"></i></a>	
-                                    </div>
-                                    <h5>Palau Firal de Manresa</h5>
-                                    <p>Carrer Castelladral 5-7<br/>08243<br/>Manresa, Barcelona</p>
-                                </div>
+              </div>
+            </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- END end SECTION -->
-
-            <!-- START FOOTER -->
-            <footer>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-                        <hr/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-                        <p id="copyrights">Designed by Webyo.es ®. All rights reserved.</p>
-                    </div>
-                </div>
-            </footer>
-            <!-- END FOOTER -->
+          </div>
         </div>
-        <!-- END PAGE -->
+      </section>
+      <!-- END WORKS SECTION -->
 
-        <!-- Bootstrap Scripts -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+      <!-- START end SECTION -->
+      <section id="end">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <hr/>
 
-        <!-- Jquery Scripts-->
-        <script src="js/jquery.mixitup.min.js"></script>
-        <script src="js/jquery.easing.js"></script>
-        <script src="js/jquery.slimbox2.js"></script>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <div class="contact-info">
+              <div class="row">
+                <div class="col-xs-6 col-sm-4 contact">
+                  <div class="icon">
+                    <a href="mailto:eric@webyo.es"><i class="fa fa-envelope fa fa-4x"></i></a>	
+                  </div>
+                  <p>info@webyo.es</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 contact">
+                  <div class="icon">
+                    <a href="tel:+34656828020"><i class="fa fa-phone fa fa-4x"></i></a>	
+                  </div>
+                  <p>+34 656 828 020</p>
+                </div>
+                <div class="col-xs-3"></div>
+                <div class="col-xs-6 col-sm-4 contact">
+                  <div class="icon">
+                    <a href="http://maps.apple.com/?q=41.738737,1.847137" target="_blank"><i class="fa fa-map-marker fa fa-4x"></i></a>	
+                  </div>
+                  <h5>Palau Firal de Manresa</h5>
+                  <p>Carrer Castelladral 5-7<br/>08243<br/>Manresa, Barcelona</p>
+                </div>
 
-        <!-- Swiper Plugin -->
-        <script  src="js/idangerous.swiper-1.9.3.js"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END end SECTION -->
 
-        <!-- Specific Scripts -->
-        <script src="js/scripts.js"></script>
-        <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-        <script src="js/respond.min.js"></script>
-        <script src="js/wow.min.js"></script>
+      <!-- START FOOTER -->
+      <footer>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <hr/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <p id="copyrights">Designed by Webyo.es ®. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <!-- END FOOTER -->
+    </div>
+    <!-- END PAGE -->
 
-        <script type="text/javascript">
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    <!-- Bootstrap Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-            ga('create', 'UA-40669300-1', 'webyo.es');
-            ga('send', 'pageview');
+    <!-- Jquery Scripts-->
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.slimbox2.js"></script>
 
-        </script>
-        <script type="text/javascript">
-            window.$zopim || (function (d, s) {
-                var z = $zopim = function (c) {
-                    z._.push(c)
-                }, $ = z.s =
-                        d.createElement(s), e = d.getElementsByTagName(s)[0];
-                z.set = function (o) {
-                    z.set.
-                            _.push(o)
-                };
-                z._ = [];
-                z.set._ = [];
-                $.async = !0;
-                $.setAttribute('charset', 'utf-8');
-                $.src = '//v2.zopim.com/?1oL9DJmerk5FTeUqmRsjUS0RvIvHrEgh';
-                z.t = +new Date;
-                $.
-                        type = 'text/javascript';
-                e.parentNode.insertBefore($, e)
-            })(document, 'script');
-        </script>
-        <script type="text/javascript">
-            $(document).ready(function ($) {
-                var deviceAgent = navigator.userAgent.toLowerCase();
-                var agentID = deviceAgent.match(/(iphone|ipod|ipad)/);
-                if (agentID) {
-                    $('.bbm').attr('href', 'https://appsto.re/es/sxOv5.i');
-                    $('.smartconf').attr('href', '#');
-                } else
-                {
-                    $('.bbm').attr('href', 'https://play.google.com/store/apps/details?id=io.webyo.bbm');
-                    $('.smartconf').attr('href', 'https://play.google.com/store/apps/details?id=io.webyo.SmartConf');
-                }
-            });
-            new WOW().init();
-            /*
-             Testimonials
-             */
-            $('.testimonial-active').html('<p>' + $('.testimonial-single:first p').html() + '</p>');
-            $('.testimonial-single:first .testimonial-single-image img').css('opacity', '1');
+    <!-- Swiper Plugin -->
+    <script  src="js/idangerous.swiper-1.9.3.js"></script>
 
-            $('.testimonial-single-image img').on('click', function () {
-                $('.testimonial-single-image img').css('opacity', '0.5');
-                $(this).css('opacity', '1');
-                var new_testimonial_text = $(this).parent('.testimonial-single-image').siblings('p').html();
-                $('.testimonial-active p').fadeOut(300, function () {
-                    $(this).html(new_testimonial_text);
-                    $(this).fadeIn(400);
-                });
-            });
-        </script>
-        <!--End of Zopim Live Chat Script-->
-    </body>
+    <!-- Specific Scripts -->
+    <script src="js/scripts.js"></script>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="js/respond.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script type="text/javascript">
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-40669300-1', 'webyo.es');
+      ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+      window.$zopim || (function (d, s) {
+        var z = $zopim = function (c) {
+          z._.push(c)
+        }, $ = z.s =
+                d.createElement(s), e = d.getElementsByTagName(s)[0];
+        z.set = function (o) {
+          z.set.
+                  _.push(o)
+        };
+        z._ = [];
+        z.set._ = [];
+        $.async = !0;
+        $.setAttribute('charset', 'utf-8');
+        $.src = '//v2.zopim.com/?1oL9DJmerk5FTeUqmRsjUS0RvIvHrEgh';
+        z.t = +new Date;
+        $.
+                type = 'text/javascript';
+        e.parentNode.insertBefore($, e)
+      })(document, 'script');
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+        var deviceAgent = navigator.userAgent.toLowerCase();
+        var agentID = deviceAgent.match(/(iphone|ipod|ipad)/);
+        if (agentID) {
+          $('.bbm').attr('href', 'https://appsto.re/es/sxOv5.i');
+          $('.smartconf').attr('href', '#');
+        } else
+        {
+          $('.bbm').attr('href', 'https://play.google.com/store/apps/details?id=io.webyo.bbm');
+          $('.smartconf').attr('href', 'https://play.google.com/store/apps/details?id=io.webyo.SmartConf');
+        }
+      });
+      new WOW().init();
+      /*
+       Testimonials
+       */
+      $('.testimonial-active').html('<p>' + $('.testimonial-single:first p').html() + '</p>');
+      $('.testimonial-single:first .testimonial-single-image img').css('opacity', '1');
+
+      $('.testimonial-single-image img').on('click', function () {
+        $('.testimonial-single-image img').css('opacity', '0.5');
+        $(this).css('opacity', '1');
+        var new_testimonial_text = $(this).parent('.testimonial-single-image').siblings('p').html();
+        $('.testimonial-active p').fadeOut(300, function () {
+          $(this).html(new_testimonial_text);
+          $(this).fadeIn(400);
+        });
+      });
+    </script>
+    <!--End of Zopim Live Chat Script-->
+  </body>
 </html>
