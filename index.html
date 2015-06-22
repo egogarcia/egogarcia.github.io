@@ -471,7 +471,7 @@
                   <a href="http://www.rmes.es/"  target="_blank">Reconstructive Microsurgery European School - Universidad Autonoma de <strong>Barcelona</strong></a>
                 </p>
                 <div class="testimonial-single-image">
-                  <img src="images/testimonials/T1.jpg" alt="" data-at2x="../assets/img/testimonials/T1@2x.png">
+                  <img id="t1" src="images/testimonials/T1.jpg" alt="" data-at2x="../assets/img/testimonials/T1@2x.png">
                 </div>
               </div>
               <div class="testimonial-single">
@@ -481,7 +481,7 @@
                   <a href="http://sparkbitpartners.com/">Sparkbit Partners</a>
                 </p>
                 <div class="testimonial-single-image">
-                  <img src="images/testimonials/T2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
+                  <img id="t2" src="images/testimonials/T2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
                 </div>
               </div>
               <div class="testimonial-single">
@@ -491,7 +491,7 @@
                   <a>agiralt - Google Trusted Photographer</a>
                 </p>
                 <div class="testimonial-single-image">
-                  <img src="images/testimonials/T3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
+                  <img id="t3" src="images/testimonials/T3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
                 </div>
               </div>
             </div>
@@ -749,18 +749,35 @@
       /*
        Testimonials
        */
-      $('.testimonial-active').html('<p>' + $('.testimonial-single:first p').html() + '</p>');
-      $('.testimonial-single:first .testimonial-single-image img').css('opacity', '1');
-
-      $('.testimonial-single-image img').on('click', function () {
+      function slideTestimonials(obj) {
         $('.testimonial-single-image img').css('opacity', '0.5');
-        $(this).css('opacity', '1');
-        var new_testimonial_text = $(this).parent('.testimonial-single-image').siblings('p').html();
+        $(obj).css('opacity', '1');
+        var new_testimonial_text = $(obj).parent('.testimonial-single-image').siblings('p').html();
         $('.testimonial-active p').fadeOut(300, function () {
           $(this).html(new_testimonial_text);
           $(this).fadeIn(400);
         });
+      }
+      $('.testimonial-active').html('<p>' + $('.testimonial-single:first p').html() + '</p>');
+      $('.testimonial-single:first .testimonial-single-image img').css('opacity', '1');
+
+      $('.testimonial-single-image img').on('click', function () {
+        slideTestimonials("#" + $(this).attr('id'));
       });
+      var testimonials = ["t1", "t2", "t3"];
+      var contador = 0;
+
+      window.onload = function () {
+        cambiarImagen();
+      };
+      cambiarImagen = function () {
+        if (contador === testimonials.length) {
+          contador = 0;
+        }
+        slideTestimonials("#" + testimonials[contador]);
+        contador++;
+        setTimeout(cambiarImagen, 10000);
+      }
     </script>
     <!--End of Zopim Live Chat Script-->
   </body>
