@@ -475,3 +475,11 @@ footer hr{margin:0; margin-bottom:2em;border-bottom:1px solid #cccccc;}
   #project-top-bar{height:auto;}
 
 }
+
+
+@media (max-width:768px){
+	.container-sercvices-img{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
