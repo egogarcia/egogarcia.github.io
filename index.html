@@ -67,6 +67,7 @@
 		<!--ADD 2 HOMESCREEN-->
 		<link rel="stylesheet" href="css/add2home.min.css">
 		<script type="text/javascript" src="js/add2home.js" charset="utf-8"></script>
+		<script>var v1 = "info";var v2 = "@";var v3 = "webyo.es";var mail = v1 + v2 + v3;</script>
 	</head>
 	<body>
 		<div class="ssk-sticky ssk-left ssk-center ssk-lg">
@@ -444,9 +445,9 @@
 							<div class="row">
 								<div class="col-xs-6 col-sm-4 contact">
 									<div class="icon">
-										<a href="mailto:eric@webyo.es"><i class="fa fa-envelope fa fa-4x"></i></a>	
+										<script>document.write("<a href='mailto:"+mail+"'><i class='fa fa-envelope fa fa-4x'></i></a>");</script>	
 									</div>
-									<p>info@webyo.es</p>
+									<p><script>document.write(mail);</script></p>
 								</div>
 								<div class="col-xs-6 col-sm-4 contact">
 									<div class="icon">
@@ -709,9 +710,9 @@
 							<div class="row">
 								<div class="col-xs-6 col-sm-4 contact">
 									<div class="icon">
-										<a href="mailto:eric@webyo.es"><i class="fa fa-envelope fa fa-4x"></i></a>	
+										<script>document.write("<a href='mailto:"+mail+"'><i class='fa fa-envelope fa fa-4x'></i></a>");</script>
 									</div>
-									<p>info@webyo.es</p>
+									<p><script>document.write(mail);</script></p>
 								</div>
 								<div class="col-xs-6 col-sm-4 contact">
 									<div class="icon">
@@ -857,7 +858,9 @@
 				slideTestimonials("#" + testimonials[contador]);
 				contador++;
 				setTimeout(cambiarImagen, 10000);
-			}
+			};
+			
+			document.write("<a href=" + "mail" + "to:" + string4 + ">" + string4 + "</a>");
 		</script>
 		<!--End of Zopim Live Chat Script-->
 	</body>
