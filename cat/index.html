@@ -68,7 +68,10 @@
         <!--ADD 2 HOMESCREEN-->
         <link rel="stylesheet" href="../css/add2home.min.css">
         <script type="text/javascript" src="../js/add2home.js" charset="utf-8"></script>
-		<script>var v1 = "info";var v2 = "@";var v3 = "webyo.es";var mail = v1 + v2 + v3;</script>
+		<script>var v1 = "info";
+			var v2 = "@";
+			var v3 = "webyo.es";
+			var mail = v1 + v2 + v3;</script>
     </head>
     <body>
 
@@ -350,7 +353,7 @@
                                 </ul>
                             </div>				
                         </div>
-						<div class="col-xs-6 col-sm-6 col-md-3 member">
+						<!--<div class="col-xs-6 col-sm-6 col-md-3 member">
 							<div class="member-photo">
 								<div class="image">
 									<img src="../images/team/CarlosGude.png" alt="Programador freelance Backend">
@@ -361,7 +364,7 @@
 								<div class="member-hover hidden-xs hidden-sm">
 									<div class="list-container">
 										<ul class="list-inline social">
-											<!--<li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-3x"></i></a></li>-->
+											<li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-3x"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -370,10 +373,10 @@
 							<p>Programador Backend</p>
 							<div class="list-container visible-xs visible-sm">
 								<ul class="list-inline">
-									<!--<li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-2x"></i></a></li>-->
+									<li><a href="http://es.linkedin.com/pub/didac-chaves-roca/54/593/255" target="_blank"><i class="fa fa-linkedin fa fa-2x"></i></a></li>
 								</ul>
 							</div>				
-						</div>
+						</div>-->
                         <div class="col-xs-6 col-sm-6 col-md-3 member">
                             <div class="member-photo">
                                 <div class="image">
@@ -394,11 +397,30 @@
                             <p>Estudi Creatiu</p>
                             <div class="list-container visible-xs visible-sm">
                                 <ul class="list-inline">
-                                    <li><a href="../http://taandem.com/" target="_blank"><i class="fa fa-link fa fa-2x"></i></a></li>
+                                    <li><a href="http://taandem.com/" target="_blank"><i class="fa fa-link fa fa-2x"></i></a></li>
 
                                 </ul>
                             </div>			
                         </div>
+						<div class="col-xs-6 col-sm-6 col-md-3 member">
+							<div class="member-photo">
+								<img src="../images/team/you.jpg" alt="Buscamos talento">
+								<div class="member-hover hidden-xs hidden-sm">
+									<div class="list-container">
+										<ul class="list-inline social">
+											<li><a href="#contacts"><i class="fa-envelope fa fa-3x"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<h5>Busquem Talent</h5>
+							<p>Si vol unir-se <a href="#contacts">Contacta amb nosaltres</a></p>
+							<div class="list-container visible-xs visible-sm">
+								<ul class="list-inline">
+									<li><a href="#contacts"><i class="fa-envelope fa fa-3x"></i></a></li>
+								</ul>
+							</div>	
+						</div>
                     </div>
                 </div>
             </section>
@@ -417,7 +439,7 @@
                             <div class="row">
                                 <div class="col-xs-6 col-sm-4 contact">
                                     <div class="icon">
-                                        <script>document.write("<a href='mailto:"+mail+"'><i class='fa fa-envelope fa fa-4x'></i></a>");</script>	
+                                        <script>document.write("<a href='mailto:" + mail + "'><i class='fa fa-envelope fa fa-4x'></i></a>");</script>	
                                     </div>
                                     <p><script>document.write(mail);</script></p>
                                 </div>
@@ -670,7 +692,7 @@
                             <div class="row">
                                 <div class="col-xs-6 col-sm-4 contact">
                                     <div class="icon">
-                                        <script>document.write("<a href='mailto:"+mail+"'><i class='fa fa-envelope fa fa-4x'></i></a>");</script>	
+                                        <script>document.write("<a href='mailto:" + mail + "'><i class='fa fa-envelope fa fa-4x'></i></a>");</script>	
                                     </div>
                                     <p><script>document.write(mail);</script></p>
                                 </div>
@@ -730,26 +752,26 @@
 
 		<script src="../js/social-share-kit.min"></script>
 		<script type="text/javascript">
-			SocialShareKit.init();
+										SocialShareKit.init();
 		</script>
         <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
         <script src="../js/respond.min.js"></script>
 
         <script type="text/javascript">
-			(function (i, s, o, g, r, a, m) {
-				i['GoogleAnalyticsObject'] = r;
-				i[r] = i[r] || function () {
-					(i[r].q = i[r].q || []).push(arguments)
-				}, i[r].l = 1 * new Date();
-				a = s.createElement(o),
-						m = s.getElementsByTagName(o)[0];
-				a.async = 1;
-				a.src = g;
-				m.parentNode.insertBefore(a, m)
-			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+										(function (i, s, o, g, r, a, m) {
+											i['GoogleAnalyticsObject'] = r;
+											i[r] = i[r] || function () {
+												(i[r].q = i[r].q || []).push(arguments)
+											}, i[r].l = 1 * new Date();
+											a = s.createElement(o),
+													m = s.getElementsByTagName(o)[0];
+											a.async = 1;
+											a.src = g;
+											m.parentNode.insertBefore(a, m)
+										})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-			ga('create', 'UA-40669300-1', 'webyo.es');
-			ga('send', 'pageview');
+										ga('create', 'UA-40669300-1', 'webyo.es');
+										ga('send', 'pageview');
 
         </script>
         <script type="text/javascript">
