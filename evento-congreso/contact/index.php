@@ -61,6 +61,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+		<script>var v1 = "info";var v2 = "@";var v3 = "webyo.es";var mail = v1 + v2 + v3;</script>
 
     </head>
 
@@ -106,7 +107,7 @@
                         <h3>Detalles de Contacto</h3>
                         <p><i class="fa fa-map-marker"></i>Palau Firal de Manresa<br>Carrer Castelladral 5-7, 08243, Manresa, Barcelona</p>
                         <p><i class="fa fa-phone"></i>Phone: +34 656 828 020</p>
-                        <p><i class="fa fa-envelope"></i>Email: <a href="">info@webyo.es</a></p>
+						<script>document.write(' <p><i class="fa fa-envelope"></i>Email: <a href="mailto:'+mail+'"> '+mail+'</a></p>');</script>
                     </div>
                 </div>
             </div>
