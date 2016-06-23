@@ -36,7 +36,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-7 footer-copyright">
-                All rights reserved <a href="http://webyo.es" title="Webyo.es">Webyo.es</a> &copy; <script>document.write('2014 - ' + (new Date()).getFullYear())</script>.
+                Developed by <a href="https://gooapps.es/" title="gooapps.es">Goo Apps S.L.</a> All rights reserved. &copy; <script>document.write('2014 - ' + (new Date()).getFullYear())</script>.
             </div>
             <!--<div class="col-sm-5 footer-social">
                 <a class="ultm ultm-facebook ultm-32 ultm-square ultm-color-to-gray" href=""></a>
